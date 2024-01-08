@@ -1,0 +1,2088 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ProjectU/Level Creation
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63893
+Successfully changed project path to: D:/ProjectU/Level Creation
+D:/ProjectU/Level Creation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8980] Host "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 2490632490 [EditorId] 2490632490 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V51Q468) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8980] Host "[IP] 192.168.1.40 [Port] 0 [Flags] 2 [Guid] 2490632490 [EditorId] 2490632490 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V51Q468) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path D:/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProjectU/Level Creation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'D:/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005340 seconds.
+- Loaded All Assemblies, in  0.478 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.453 seconds
+Domain Reload Profiling: 930ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1572ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (520ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (57.3 KB). Loaded Objects now: 4184.
+Memory consumption went from 138.3 MB to 138.3 MB.
+Total: 4.600900 ms (FindLiveObjects: 0.419500 ms CreateObjectMapping: 0.123700 ms MarkObjects: 3.895100 ms  DeleteObjects: 0.160700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/WebHeaderCollection.cs: 9ec673d890734accf48fdc69c6e73b4c -> 
+  custom:scripting/monoscript/fileName/IFileSystem.cs: d0a5668d9c43d0a16eec8fa2a37aa20c -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: af2f8b65a736cbc2c6197311f8f8caf3 -> 
+  custom:scripting/monoscript/fileName/DiagnosticsPayload.cs: 1ebb9cbc2393fe85aea7fcb0b196e8e6 -> 
+  custom:scripting/monoscript/fileName/IService.cs: afa2330a6d32be2e7a659227e3bf813e -> 
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 1460aaba4240ef35322cb9c198487990 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeExceptions.cs: 8d717c8797566529cf594f9aab3c0409 -> 
+  custom:scripting/monoscript/fileName/IDiagnosticsComponentProvider.cs: dbeac349f8c5591a0ab13c5e6354061e -> 
+  custom:scripting/monoscript/fileName/INetworkHandler.cs: ff71e4526a605d13f8a248b2fb248467 -> 
+  custom:scripting/monoscript/fileName/Factories.Gen.cs: c9550e2a227c017a16a3e473be870754 -> 
+  custom:scripting/monoscript/fileName/CoreRegistration.cs: afa90de4a402b0848ad8b60755b1ca20 -> 
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: 79896f5d7f4686775371eee2c8881849 -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 85ed700e21fd471cc38c626cebe01d52 -> 
+  custom:scripting/monoscript/fileName/CloudCodeApiRequests.cs: b30053c2138de40609369a7da25d9b7c -> 
+  custom:scripting/monoscript/fileName/WebRequestException.cs: 8f71d19fe8e6461e910f7c70d945e342 -> 
+  custom:scripting/monoscript/fileName/IServiceRegistry.cs: 27b0be3a7d5fbabc2f8cff0f28316b4a -> 
+  custom:scripting/monoscript/fileName/ListIdProviderResponse.cs: 24d3cd8484902e66655a7c7adada04dc -> 
+  custom:scripting/monoscript/fileName/UpdateIdProviderRequest.cs: 90dca144cff885691d127e212281d94c -> 
+  custom:scripting/monoscript/fileName/SerializableProjectConfiguration.cs: 8d2aa3b56842beb1ee3e05f5a4e2f3c4 -> 
+  custom:scripting/monoscript/fileName/IVivox.cs: 6d92ea4b822d1fa7e4b8787c59760673 -> 
+  custom:scripting/monoscript/fileName/UnityCreateAddressRequest.cs: 231eb736f0a651a8ee21e6aa579173ae -> 
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: 8ef9a9f407b8b94b2b5fad9d24e61f79 -> 
+  custom:scripting/monoscript/fileName/UnityListOrganizationFavoriteProjects200Response.cs: 2acfbc626d621e368ef9190462157b7a -> 
+  custom:scripting/monoscript/fileName/IAuthenticationMetrics.cs: 6636a4c47815b677d1c99e55126851a2 -> 
+  custom:scripting/monoscript/fileName/ErrorStatus.cs: f13a789af72a01cd8032989472c3919c -> 
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: f57afa30d8024722188e7d7755100885 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/IServiceComponent.cs: 56d2b4986149318278267c2a2e499b7e -> 
+  custom:scripting/monoscript/fileName/IPlayerId.cs: 8ec284f91dceb8f1818908be17c609b0 -> 
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 6af6c9e9382fef881c020ab184e6f7f5 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
+  custom:scripting/monoscript/fileName/AuthenticationErrorResponse.cs: 76f05213252f5363e53adf0a1ec22027 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CommonErrorCodes.cs: 75f302fd69f29841b35f2306c97082ed -> 
+  custom:scripting/monoscript/fileName/AuthenticationIdentifier.cs: 6374db9872b89ce7919b9e96916b7540 -> 
+  custom:scripting/monoscript/fileName/AccessToken.cs: e7ce0a8acab470a7b99191c4ddcad1b8 -> 
+  custom:scripting/monoscript/fileName/IChannelTokenProvider.cs: d41d74d962184eab5928b0b3bdda1ee9 -> 
+  custom:scripting/monoscript/fileName/PlayerNamesApi.cs: ed0cc90b3fc5171261d879532c722c4c -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceRegistry.cs: 0265fd85a62bd33c32f256257ebc576f -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.External.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountIdentifier.cs: 609c541b251f3cd6dac437fd895ed501 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: e13fa04a97fb675842c94586fc602871 -> 
+  custom:scripting/monoscript/fileName/ISubscriptionEvents.cs: 8ef361ac8f367253900e9953ac10bfad -> 
+  custom:scripting/monoscript/fileName/RunModuleArguments.cs: b0246fe196d5d21137368fd0544417b1 -> 
+  custom:scripting/monoscript/fileName/ProgressBar.Gen.cs: 09dcf9975c3de3bc94763c35db49d364 -> 
+  custom:scripting/monoscript/fileName/AuthToken.cs: 0fba7e8eb1ec8b699f274cdc956451b2 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 7e6bd1727985204e3b64e1946e589b1c -> 
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: 260d5f85663ac58b2a7e9553c453bc3e -> 
+  custom:scripting/monoscript/fileName/PayloadData.cs: e3d6613b3be4d75e8e319c55b73202c8 -> 
+  custom:scripting/monoscript/fileName/EngineStateHelper.cs: fc3af0e3861170c1844ed988613ec634 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountEditorService.cs: 222e8258b7a745a4502c530fdb5a53b9 -> 
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/UnlinkRequest.cs: 0f5e5b017856c9dd86dffeb71e8c4d5a -> 
+  custom:scripting/monoscript/fileName/EnvironmentProvider.cs: e6441984086d3ec4f02dd82b6dec6df1 -> 
+  custom:scripting/monoscript/fileName/PackageInitializationInfo.cs: 82c881c6d5f9d1b5f2eba332919bcd1c -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: 57a57e6a345dbd536e91c348b70943a9 -> 
+  custom:scripting/monoscript/fileName/NetworkConfiguration.cs: e2bae49c2fc410abb400f06d057a575f -> 
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0575b62021687a93a7c01ce7b86e9645 -> 
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: d57c2dcace740834acd59fdfbc5023b8 -> 
+  custom:scripting/monoscript/fileName/DisabledDiagnostics.cs: dca147f0ee6a8cbd3c40d0fb15b26062 -> 
+  custom:scripting/monoscript/fileName/LockedServiceRegistry.cs: ea77a1a45ffb4a9bcd250cb8233d16f9 -> 
+  custom:scripting/monoscript/fileName/JsonHelper.cs: 0b5759f67f92e2eb09febb2082aca955 -> 
+  custom:scripting/monoscript/fileName/ResponseHandler.cs: 90c835e3c7f27aa26b7e8fb12b9ba8c0 -> 
+  custom:scripting/monoscript/fileName/ChunkedRequestStream.cs: e1ab87746a8e5fb30d193ec5ffc3feff -> 
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: 52e0d612ab032e4d22e9558b90396b99 -> 
+  custom:scripting/monoscript/fileName/RunScript400ResponseOneOf.cs: 8566284c8be2a697d64f91f53ce5197e -> 
+  custom:scripting/monoscript/fileName/ProfileEventArgs.cs: 1bd9f2f8f4e6a6917d01c1dcd6c8b351 -> 
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: 9e0e6b5a64d0f65936f3d131216d7e07 -> 
+  custom:scripting/monoscript/fileName/MetricsFactory.cs: ff8596a1ccea2041a0c0cfe2841c8f74 -> 
+  custom:scripting/monoscript/fileName/HttpListenerRequest.cs: 695e4ceb2ee5e15138d78b550b02abff -> 
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: c6039ac84d85ab3926aa94de163a9f7d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsClient.cs: 9c80a43488077f46562fa053df484911 -> 
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 2007f972d3a73eeb86dfe05e849c7f69 -> 
+  custom:scripting/monoscript/fileName/ExternalUserIdProperty.cs: e9524414c13dc2d0db279d48f3b164ab -> 
+  custom:scripting/monoscript/fileName/ReadOnlyObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: e140ede12a96f68f30062138385171c3 -> 
+  custom:scripting/monoscript/fileName/DisabledMetrics.cs: bbb9bc05cfe10f1818b0676306a0b1b1 -> 
+  custom:scripting/monoscript/fileName/CoreLogger.cs: 1639b74467b5a585128e7c7cefe73635 -> 
+  custom:scripting/monoscript/fileName/LinkWithAppleGameCenterRequest.cs: e0f7a0b7c8e104323b604274601d0766 -> 
+  custom:scripting/monoscript/fileName/CloseEventArgs.cs: 8e509637dae81a58a9b8b0eafe4db92d -> 
+  custom:scripting/monoscript/fileName/Environments.cs: 8edd577354349a066a7545f9433d7b49 -> 
+  custom:scripting/monoscript/fileName/AuthenticationExceptionHandler.cs: 1e494c22c604eb7b12380bc88616e91a -> 
+  custom:scripting/monoscript/fileName/UnsubscribeRequest.cs: 31ddee4627f37c9647eecf2cc407bda0 -> 
+  custom:scripting/monoscript/fileName/CacheExtensions.cs: f511fe0b9e1f588fd9d29383042c655c -> 
+  custom:scripting/monoscript/fileName/Ext.cs: 7b6a526a0e28691fad8a9202ae5c44fe -> 
+  custom:scripting/monoscript/fileName/DisabledMetricsFactory.cs: 7be501bd0f16d76131ffa436d7274447 -> 
+  custom:scripting/monoscript/fileName/User.cs: aa51edb813ed08e13a853606ff677e2f -> 
+  custom:scripting/monoscript/fileName/UnityAnalyticsIdentifier.cs: 40be8e11923159cf7c61c72c1a1b26dd -> 
+  custom:scripting/monoscript/fileName/SettingsCommonHeaderUiHelper.cs: 394582b395d6aebbb1e6e49abf6a1645 -> 
+  custom:scripting/monoscript/fileName/IEditorAnalyticsEventRegistrant.cs: c4a0f7089b5b21ceafb7834c915d762f -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: 15ae6787065f4af65778e981f418a60b -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.CodeLink.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/AsyncOperationBase.cs: adfca800027e0922d59797ee493a2672 -> 
+  custom:scripting/monoscript/fileName/IJsonSerializer.cs: 952e0b7cbb25051b8e0e85eda2a653c8 -> 
+  custom:scripting/monoscript/fileName/WebSocketSessionManager.cs: b7953813035a8a3a375d8ed2967cd365 -> 
+  custom:scripting/monoscript/fileName/HttpClientResponse.cs: 14191c39b66d03316f3b5121fe2855c4 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedEvent.cs: efe4e7e159b94963c650fb293df0f9ff -> 
+  custom:scripting/monoscript/fileName/IProfile.cs: 7bf226ffe53754da20516fbf8b709e9b -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: dfa66c8d56a3b164a7407feb2b226d6c -> 
+  custom:scripting/monoscript/fileName/SignInPanel.cs: bac0318ce35e37bed3a2cc8137452435 -> 
+  custom:scripting/monoscript/fileName/UnityUserOrganizationsV1OrganizationsInner.cs: 440e6e939c241944b318429e561d5df2 -> 
+  custom:scripting/monoscript/fileName/PathUtils.Gen.cs: 5ddc0068a1cf521fafc42781cf03a3a9 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceRegistry.cs: 4894c70fd515017ae46efb4f44f8b3e2 -> 
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 8c94fe642e98309082411f46db89106b -> 
+  custom:scripting/monoscript/fileName/ProfileComponent.cs: cea63e4f3546337287ea1c855ba2ff37 -> 
+  custom:scripting/monoscript/fileName/HttpServer.cs: a0d70929ae0c30e6f15bdf1a1e5d573b -> 
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: cf0aec5984468cf0d37b103ac4851e17 -> 
+  custom:scripting/monoscript/fileName/AsyncOpRetry.cs: 966d746bbeec1b1d195ade6df39b23f9 -> 
+  custom:scripting/monoscript/fileName/RequestFailedException.cs: a9eaec06c59248353e0ced5cdc95723f -> 
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: ce229ef3b7461ff17e2c1af0695a6657 -> 
+  custom:scripting/monoscript/fileName/SaveAssets.cs: 898e86402580d75dc56c5f25b325a28e -> 
+  custom:scripting/monoscript/fileName/IUserRoleRequest.cs: ccc5b229323b6e9c080254df6d4b51cb -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseResponse.cs: dfe943b72b80d79a10d425248df1e550 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeExtensions.cs: 63e3c71f0d430a351e6159f69f0a0682 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsErrorResponse.cs: 625aaa6e8381f311785ef14fd6a7f90f -> 
+  custom:scripting/monoscript/fileName/XmlLinkedModelsExtensions.cs: 9e8a2b9216079ba87ebfd084960b4ac0 -> 
+  custom:scripting/monoscript/fileName/CloudProjectIdProvider.cs: 2378bcc3b5bebbc672c1dacaff88b964 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 95287f65338ca0073ad04002a16eaaf7 -> 
+  custom:scripting/monoscript/fileName/IdProviderKeys.cs: 8479f7af99bd32669ce1b1cd06785a24 -> 
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/UnityThreadUtils.cs: 6f10d79f183f36877232e308ffa4d195 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: b4ad1ecc5243212c5967125ad5e41b1f -> 
+  custom:scripting/monoscript/fileName/Notifications.Gen.cs: 0b77852ac67d3ab84f489a2ddbdf8168 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceRemoteConfiguration.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/UnityUploadIconV1201Response.cs: a7cab146027c2f1549f57a603ca22560 -> 
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 7bb7bb5b955671820101b322f0a7bf3d -> 
+  custom:scripting/monoscript/fileName/TokenExchangeErrorResponse.cs: f6ae53171c98a8fffae49d38e43b1ec2 -> 
+  custom:scripting/monoscript/fileName/HttpListenerPrefix.cs: 9ad6c5f8bdd2370cec7e33d5c674b481 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsApi.cs: d5d1f45bf03abd7dd2f469acfd3b5bcb -> 
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 3e8c4ea8debfda8013fed860ac233d22 -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminNetworkClient.cs: 5dda6f84d83676b008ddf31b51deb70d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsOptionsExtensions.cs: 1e2776231b4e06a0e9b293a3623d643e -> 
+  custom:scripting/monoscript/fileName/DisabledDiagnosticsFactory.cs: 92ef54fd2e9d3765db37c6ce29121dc7 -> 
+  custom:scripting/monoscript/fileName/IServerEnvironmentId.cs: fff64b157cd649d3d948016718fba14e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/BaseJwt.cs: 7e0494ab7ba3fec8428b5c217bce6e56 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSaveSystem.cs: 931610e413c03621f898c65e36f44fc6 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsExceptionHandler.cs: 6ea791fbfb7786b788d8d7d02654adff -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: f134606300316994850c28a68d0cb5a3 -> 
+  custom:scripting/monoscript/fileName/ComponentRegistry.cs: 2fefa8b1f349de188d35295b3042e694 -> 
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 269228dd067bbedc3c05baa15189195c -> 
+  custom:scripting/monoscript/fileName/ProjectStateRequest.cs: 6ba5b48af1466d2a4dbb6e908352d7c6 -> 
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 49f46fd2a65ea674a218eead75f27aac -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectPopupWindow.cs: 03988f1b5263bdfb55c00f001c224465 -> 
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: c8902186ab2f4e6471b5dd147afb01b6 -> 
+  custom:scripting/monoscript/fileName/ApiUtils.cs: 756c6ce1277e83c5eaba7d078dea9753 -> 
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: d742a4910e302777daa1ccb9c8e92cb9 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentSaveSystem.cs: 8319bf770542e6764e5512ea06d2b015 -> 
+  custom:scripting/monoscript/fileName/OrganizationProvider.cs: f2089b4351294d4815b134a51aba3d17 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: c4d5b523d1f73ac4ebcbb338088b1600 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsClientFactory.cs: 325dec75592389c16ac743f438f24960 -> 
+  custom:scripting/monoscript/fileName/ConfigurationCollectionHelper.cs: cb4dac2b34c76624ca64d0ad91214a93 -> 
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: a49740b6efbb934f55475cc70b864a4c -> 
+  custom:scripting/monoscript/fileName/DictionaryExtensions.cs: d37b3043b5339f13af7295850374111a -> 
+  custom:scripting/monoscript/fileName/AsyncOperationExtensions.cs: 1fabcad386c6a3966bbd7925c1ec32e2 -> 
+  custom:scripting/monoscript/fileName/BaseApiClient.cs: 7d79f6c50a3b41d3c546444e0e8f24be -> 
+  custom:scripting/monoscript/fileName/ProjectUnlinkBuildWarning.cs: c52465de41a758f7a3babb293254b52b -> 
+  custom:scripting/monoscript/fileName/IProjectStateHelper.cs: 3adea7eb7ff850864d22d07f530e0111 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.BYOI.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/ICloudProjectId.cs: 60ddc28b5a3880441601b503b311a533 -> 
+  custom:scripting/monoscript/fileName/TypeAlreadyRegisteredException.Gen.cs: f78f490406edcce398401642789c4f0d -> 
+  custom:scripting/monoscript/fileName/IAuthenticationEditorService.cs: 58e2d84aa3051f0695e248211048c819 -> 
+  custom:scripting/monoscript/fileName/IAsyncOperationAwaiter.cs: 4e390262389eabe5476a62852a905252 -> 
+  custom:scripting/monoscript/fileName/ProjectStateHelper.cs: a377430869822a008fcaab13302eb7b2 -> 
+  custom:scripting/monoscript/fileName/HttpRequestEventArgs.cs: c03c56170530687530832ccdb1d37b3d -> 
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1589212d1638ae91a029ea3ddf9999f2 -> 
+  custom:scripting/monoscript/fileName/UnityGetUserGuestProjects200Response.cs: 101aa8e271472b02f3ae37c6ca9da3cb -> 
+  custom:scripting/monoscript/fileName/IHttpClient.cs: 14e697ac190b27a69c1cc2e1f086eaf3 -> 
+  custom:scripting/monoscript/fileName/ICopyable.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: f0ccbe91654279794a85bf6f1c034716 -> 
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: 9f3487f03a783b35518405572f20ac9e -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestClient.cs: 171ccf79c76240837e46a8b79f973b6e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/IdProviderNames.cs: db80400c41aaf95d50509b8170aaab35 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: a8a18a90f46aa63848e1e45d8d7ff9af -> 
+  custom:scripting/monoscript/fileName/AbstractRuntimeServices.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 04a46044def089f0abcdafdd281e3646 -> 
+  custom:scripting/monoscript/fileName/CookieException.cs: b13e48c66ff20a5635024a3d74b40dbb -> 
+  custom:scripting/monoscript/fileName/SignInCodeInfo.cs: 5021c05477899faf20d892f4cf059942 -> 
+  custom:scripting/monoscript/fileName/NetworkCredential.cs: 903af78ee54833c80004215b7b26e6fc -> 
+  custom:scripting/monoscript/fileName/IMetrics.cs: cc4d6b26e54335130aeffb94ca489467 -> 
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: c62567a3d71fd74636bc783de5162474 -> 
+  custom:scripting/monoscript/fileName/EnvironmentInfo.cs: 78a754ae7b45de5c0f5a2d3aef9c92f6 -> 
+  custom:scripting/monoscript/fileName/ApiResponse.cs: 0178253e68aead753e309ceab16a5b51 -> 
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: c9488671ae9b14523680d0c19097baa0 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentService.cs: d28a6fb640eb356196b9c1017c7a0d37 -> 
+  custom:scripting/monoscript/fileName/UnlinkResponse.cs: 5c3d6fd0bc8ad5a2b96081560c4e2afd -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsException.cs: f345195172d5e267745a144c3f1e950e -> 
+  custom:scripting/monoscript/fileName/MemoryConfigurationLoader.cs: e1621a8e05504bfbe89a438b0282bf97 -> 
+  custom:scripting/monoscript/fileName/StreamingAssetsConfigurationLoader.cs: 2f115cec9bfe6872856ee4ad61eb2c3f -> 
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 08c2f2b90ef64df631d46389f0e22c8e -> 
+  custom:scripting/monoscript/fileName/SteamConfig.cs: bbd1cc7973d283bd45536d92d8a56d59 -> 
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: 1569e3f1dad91a9b01cba66ab6aa30b0 -> 
+  custom:scripting/monoscript/fileName/TokenExchangeRequest.cs: 84521e3f40e65f84d2324450cf06365e -> 
+  custom:scripting/monoscript/fileName/LinkOptions.cs: d980be51f14aa6893b870934669980d0 -> 
+  custom:scripting/monoscript/fileName/SignInWithOculusRequest.cs: 957099aa63a576a63c27a2432f359cc1 -> 
+  custom:scripting/monoscript/fileName/MessageReceivedEvent.cs: eceb4f74ca50b72fbca06879fb44dcde -> 
+  custom:scripting/monoscript/fileName/EndPointManager.cs: ec7dcb5be55c3c8cea12f937795a6bfc -> 
+  custom:scripting/monoscript/fileName/EnvironmentChangedParameters.cs: 0ad6f60cc0b0e0ea02aed10221f7c8a8 -> 
+  custom:scripting/monoscript/fileName/WireMessage.cs: f0d852fb210288c0f8b562a7c14ef304 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: fe1392f9b135da83e13fe8a5e5f39fc2 -> 
+  custom:scripting/monoscript/fileName/StagingTokenExchangeUrls.cs: 7ddebca8557e1d6e23849e5e07df2296 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 5d7f70d142c9ac67864ec14950523d62 -> 
+  custom:scripting/monoscript/fileName/CoreDiagnostics.cs: 041dd565425b56b2b823902ba53cfe54 -> 
+  custom:scripting/monoscript/fileName/DeserializationSettings.cs: f61bf143c9b3d3d5ac393d71dbf9adf4 -> 
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 5d7b9646eb14a39b6d3d5bab19d266ff -> 
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: c1bf5aeb760cc5eae584ea3944d6531b -> 
+  custom:scripting/monoscript/fileName/NotificationBar.cs: 0daf459fa0c4269b16bcc20cd072c021 -> 
+  custom:scripting/monoscript/fileName/UpdateNameRequest.cs: 7868adfcb83c183cb1a65b23e9ff1c1f -> 
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: 99333406d92d10003984b4d1920de2f9 -> 
+  custom:scripting/monoscript/fileName/IProjectConfiguration.cs: 9794b060b4360e9cc39456a13bf716cc -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectContentUI.cs: ea393b5b63051e326686665efb7ed1d2 -> 
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: c785d5e40f8d66b7ef7ba04ee7c324e0 -> 
+  custom:scripting/monoscript/fileName/CodeLinkInfoRequest.cs: 339ebe0dca40b55f92e751b1738593a4 -> 
+  custom:scripting/monoscript/fileName/IDiagnosticsFactory.cs: 8a3a37fd862b7581b4621716ed14b18e -> 
+  custom:scripting/monoscript/fileName/SubscribeResult.cs: 2804b7f4bdb6cb9df286f24f38e8ef68 -> 
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: 353d1126ca2d2063d5bdbd06806ffc08 -> 
+  custom:scripting/monoscript/fileName/HashExceptions.cs: 0c04f84e29310842caf31699037c2a6f -> 
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: d6cbe54be2898ed2c96c2e79572c2e08 -> 
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: 4f4065aeafda2af0ec272a3c228e27b2 -> 
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/IServiceFlagRequest.cs: b3a0a6e65e5600f2006d43595e9e07b1 -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 8039fc4ecf68b3e966e1f4822789e7fa -> 
+  custom:scripting/monoscript/fileName/UnityStyles.cs: e3f6ca40bb9f9c0fdc9402be5329fc1c -> 
+  custom:scripting/monoscript/fileName/IActionScheduler.cs: e5388884c9a263c0b7f149f53626af31 -> 
+  custom:scripting/monoscript/fileName/DiagnosticsFactory.cs: 3828493052568497f2ccdc68dea8b14c -> 
+  custom:scripting/monoscript/fileName/CloudCodeServiceProvider.cs: e90c1181f21953c0cf1b6e43383b5744 -> 
+  custom:scripting/monoscript/fileName/HistoryTab.cs: d57f000c65fde42a2228c7a105a836e5 -> 
+  custom:scripting/monoscript/fileName/ConfigurationEntry.cs: c1ed8586c7c9df05d945744b24303784 -> 
+  custom:scripting/monoscript/fileName/SerializerSettings.cs: 7a7577f480a32058e9496b2ffedf7472 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedProperty.cs: 29784440eed3b7889f0bfe76633cc000 -> 
+  custom:scripting/monoscript/fileName/UnityUserOrganizationsV1.cs: 73dafadd41de13ace6058db610522dcd -> 
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 3d07a3d1241e204b5420d71f1137eba4 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 5256205b5cf0570b6f698c7abe518f5a -> 
+  custom:scripting/monoscript/fileName/ShowWindow.cs: a6bb1d20733c178256b38974418d7450 -> 
+  custom:scripting/monoscript/fileName/TaskAsyncOperation.cs: deaa3dfd455420a1f0dece4fa000e9b1 -> 
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 5cec3e66b09e0dbe1f805953c5c64af9 -> 
+  custom:scripting/monoscript/fileName/Singleton.Gen.cs: 66c389d1e92bc70efd18b5d3b46f6bca -> 
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: a4999d46054383b4cef03a3dac804cd0 -> 
+  custom:scripting/monoscript/fileName/FileSystem.cs: ab92d4d8629b2af54c3a35102bd12cc4 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedMember.cs: 83ebbc44b07d4de0b62121c7811a18b1 -> 
+  custom:scripting/monoscript/fileName/AuthenticationMetrics.cs: db3eebb192edec43745ac2610c6eee30 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/SubscriptionChannel.cs: ed280b4b2b28d187dfd1a9634953f928 -> 
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 19e9c54aff6ffc68d60fe11f80578947 -> 
+  custom:scripting/monoscript/fileName/UnityServicesExtensions.cs: f9ffd95f7e2a880622783a2a6570e5ae -> 
+  custom:scripting/monoscript/fileName/OrganizationHandler.cs: 8e4686813d139f7c9962131a6d917980 -> 
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 75b93dbc5ef307111f0647f735640420 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationService.cs: 31b1f8ca01e97ab63ffa37f9fac410be -> 
+  custom:scripting/monoscript/fileName/LinkResponse.cs: 72d0f4cdb2fd8b9de864adef4a668391 -> 
+  custom:scripting/monoscript/fileName/JsonWebToken.cs: 576840f242d675d41e4a3e0094ff62a5 -> 
+  custom:scripting/monoscript/fileName/UnityTransferProjectRequest.cs: 160aa9e78d67107dbad79b2602ea5baf -> 
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 1721ad72d074757364587c71b49d9382 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceIdentifier.cs: a0ceaf826ce6fd5a1bb279e1579a965f -> 
+  custom:scripting/monoscript/fileName/HttpConnection.cs: 606bfae8427368ee8f4f4a5a2452a9f4 -> 
+  custom:scripting/monoscript/fileName/ConfigurationBuilder.cs: bd1d62f2bf3afb62754531eee8a4e204 -> 
+  custom:scripting/monoscript/fileName/OfflineUiHelper.cs: 74f5179e6468b11d72cd60998e0c725b -> 
+  custom:scripting/monoscript/fileName/PingRequest.cs: 94a6676ebd5db34cb8cf6b1b45cb2c3c -> 
+  custom:scripting/monoscript/fileName/EnvironmentView.cs: eacb7d766ee45d9a07ea107dc0c80ac6 -> 
+  custom:scripting/monoscript/fileName/AccessTokens.cs: 7f3bd47a4ee3b608248d36969879b607 -> 
+  custom:scripting/monoscript/fileName/Unsubscribe.cs: cf2c7025be5f7f898c51675fd8bee866 -> 
+  custom:scripting/monoscript/fileName/ChunkStream.cs: c6f4628472ab81bfd1c00dfee5f972cd -> 
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 5e4e082aa5b21c13b80eb237fe94d00b -> 
+  custom:scripting/monoscript/fileName/CloudCodeSettingsProvider.cs: 35c081e594e8adc34ce4094a8fb90419 -> 
+  custom:scripting/monoscript/fileName/Images.cs: fbdd1e600315d249327f3effde045c9d -> 
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: b544f18e6532ba53bbd1b691fa5cd571 -> 
+  custom:scripting/monoscript/fileName/ConcurrentDictSubscriptionRepository.cs: ac9bb950174fa243a517454e58dd25e7 -> 
+  custom:scripting/monoscript/fileName/AsyncOperationAwaiter.cs: ddd9d932eca2ff6dc550c174a68fdc5b -> 
+  custom:scripting/monoscript/fileName/HttpOptions.cs: 99f08410c8743651b2a8fdf6d32f10c4 -> 
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1700c042de8c16a5c0f6851d66df802a -> 
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 3cabcd81911a2500dcd9e2b6ffae3f00 -> 
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 4b3c1ae4c44d88205aef26229acfe022 -> 
+  custom:scripting/monoscript/fileName/WebSocketContext.cs: a3b61c189ab304e3e86a04102a9b6f50 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: bbc50b5c00a8c3144702cee665e61374 -> 
+  custom:scripting/monoscript/fileName/UnityServicesInitializer.cs: fa9a608355e48120534d684af5f04612 -> 
+  custom:scripting/monoscript/fileName/LinkWithExternalTokenRequest.cs: 61c423aaf4de4e3ac498b3de2256f9ff -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestSender.cs: efa7f9e2c98b7025231b997019c6e6cb -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationWithAddressV1.cs: 0255bc6178742cff2a423de9eb51e6a2 -> 
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 9241430734576b6454278a078113af4a -> 
+  custom:scripting/monoscript/fileName/PlayerAccountServiceInternal.cs: c5a61bec22849ac7e0c4d0d9bf307d98 -> 
+  custom:scripting/monoscript/fileName/EditorExample.cs: 5156b6c6967c9ff1dc962c0c2cebec80 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:scripting/monoscript/fileName/ActionSchedulerCleaner.cs: 1750f9737ba65c8b5f441e824f90784f -> 
+  custom:scripting/monoscript/fileName/ProjectConfiguration.cs: b6a00bb7bd3df2a451321f73e7cb7141 -> 
+  custom:scripting/monoscript/fileName/ThreadHelper.cs: f586b96ffafb66c899c0de14e65d9af0 -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 9fe61e763da506601651f6c451cecb0a -> 
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: eed38c75772f626c4d4a8e134774df1d -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsProvider.cs: 05b37aad70370d94336d7fc60906bf31 -> 
+  custom:scripting/monoscript/fileName/ICache.cs: b7e7e60b1aff49487213315bdd7dc2c0 -> 
+  custom:scripting/monoscript/fileName/MetricsPayload.cs: 7c52008966f8257f75f11aab3a038abe -> 
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: 8c1b35961a2f11b3260e58163808ae41 -> 
+  custom:scripting/monoscript/fileName/HttpVersion.cs: 92b8edcca9eb7a53b7a7ba2a581b699e -> 
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 9ce81cedb8e568c6b7b646aa6263645b -> 
+  custom:scripting/monoscript/fileName/Sync.Gen.cs: ac834b133bcd24c6292144f8ec2fc479 -> 
+  custom:scripting/monoscript/fileName/ToolConstants.cs: 3b0d2490617bc7f94a0bdab65a399e1d -> 
+  custom:scripting/monoscript/fileName/Cookie.cs: e92760320850ad50ce59e74e7e7e118c -> 
+  custom:scripting/monoscript/fileName/UnityCreateOrganizationRequest.cs: 4cf5c8730ffaa3c5888d236ebc6475fc -> 
+  custom:scripting/monoscript/fileName/EnvironmentConfigProvider.cs: cadac2235852654a9596b0eac1628eac -> 
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: be35dd49dddd53fc840b9febf21b4d0d -> 
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 125c914b11f28208c041a27437fdb238 -> 
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: 3290c4c0cd248666e01a08ee6d621249 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceSettingsProvider.cs: 2cb6ae4d961883e67f3e282b18d40d94 -> 
+  custom:scripting/monoscript/fileName/DisabledCachePersister.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UsernameInfo.cs: 92ca3bb98d1a95bf68826fac029e33b2 -> 
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 59d6887e4803f8a44ffaa0409470e410 -> 
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 10fcc6b6d43dd5ed36c43c6f7b5906c4 -> 
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 56bcf92a3678f6ad6215cae2e4914cfd -> 
+  custom:scripting/monoscript/fileName/NewtonsoftSerializer.cs: 455e87e74f7c4ce7bdb201550b0ccccf -> 
+  custom:scripting/monoscript/fileName/AbstractOpenAPISchema.cs: 4c96fa5e2670746d6ef16c9d02321248 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CoreRegistryInitializer.cs: e34ea8cde280e241aa2682bcb33aae4f -> 
+  custom:scripting/monoscript/fileName/AuthenticationService.cs: 9103bf36a2fa89f143ef4038aa46681a -> 
+  custom:scripting/monoscript/fileName/RunModule422ResponseOneOf.cs: 03b652583496626f6424c09d43795f04 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentProvider.cs: 3109b26c8523241ba567e094603484cc -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 5c2b7bf07ddd2284efc64b09ef0f1f72 -> 
+  custom:scripting/monoscript/fileName/AccessTokenErrorUiHelper.cs: 398831acfad9119e6105671c7f2d98b3 -> 
+  custom:scripting/monoscript/fileName/IdentityIOneOf.cs: 29de1876e6381d1376e3875f63eb04e7 -> 
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 7bb13fcc8d8cbd392e00f7232841f086 -> 
+  custom:scripting/monoscript/fileName/LockedPackageRegistry.cs: 99e3472ea654b46f01a9dea3a90719dd -> 
+  custom:scripting/monoscript/fileName/HttpResponse.cs: 1e42f38b2e81f79527ce1f7dc3b5a498 -> 
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 9fabc7cc73fcfc50b8a3307c6aa6ec4d -> 
+  custom:scripting/monoscript/fileName/JsonObjectConverter.cs: 806b524481be4d2fc965cf8c9a02003e -> 
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 8c3c78bb7e82ac5008f8a2b8a0d68cff -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuildInjectorWithPlayerProcessor.cs: bfe4c2bc0cd0ee036e60e1bfa30dda8a -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestHelpers.cs: b603af1b4f84ed9458af61d335aa1c47 -> 
+  custom:scripting/monoscript/fileName/SignInWithSteamRequest.cs: 06488fadd4dcc724b8ffee3eabfbb74d -> 
+  custom:scripting/monoscript/fileName/LockedComponentRegistry.cs: ff7d4cf11049af0d186f2bffab21c5d3 -> 
+  custom:scripting/monoscript/fileName/IServiceFactory.Gen.cs: 5696ff4e8140aef57b36c4052f3bfc23 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: 068a172cb549ad77d9873d721698bd0d -> 
+  custom:scripting/monoscript/fileName/IdToken.cs: 09f3a195b38a097e948ca718629054d5 -> 
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 087837d8f73228f1a817d0de82c77260 -> 
+  custom:scripting/monoscript/fileName/IUserRoleHandler.cs: 33c258d1966d18e84a25c5d4701ea0a4 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentAnalytics.cs: c2ab3518cf2897a2ac4cf87258f13731 -> 
+  custom:scripting/monoscript/fileName/ReadBufferState.cs: 8b62278fe5d7b6bc8e709ffae007a4b4 -> 
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 7b2d1d2c12ab43d9d244e35197127919 -> 
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: 44dc318377de644a2594da095dc52ebc -> 
+  custom:scripting/monoscript/fileName/OpenAPIDateConverter.cs: a9a61217f5eb07483c8d3b54bbc3c853 -> 
+  custom:scripting/monoscript/fileName/LoggedOutUiHelper.cs: ded703f4d077a86b901d24f648f694ca -> 
+  custom:scripting/monoscript/fileName/DownloadPlasticExeWindow.cs: 2cf8d71648f8d0a7527ca76d9f6b13ef -> 
+  custom:scripting/monoscript/fileName/CloudCodeService.cs: d42dd5d058e92b32fcd83de6c7b174a7 -> 
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: a30c7c1ba746c6d277a5aedd3057d15e -> 
+  custom:scripting/monoscript/fileName/IDeserializable.cs: e406a452fbf7dbc3ced36cff3880fba9 -> 
+  custom:scripting/monoscript/fileName/CollectionBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MinimumBinaryHeap.cs: 58e2f67451a6dd12649c5819616167df -> 
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: e2c1e3f8f4e14a62e4363fe6259adbc2 -> 
+  custom:scripting/monoscript/fileName/Diagnostics.cs: 310215ddbef3d1759d3801a8f9ab01fa -> 
+  custom:scripting/monoscript/fileName/ParseArguments.cs: ae915d9f5fe287ced40627c9ca8bfafd -> 
+  custom:scripting/monoscript/fileName/ExternalLink.cs: db32d0b66b06e7ca36597bed41619207 -> 
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 7585e1c7111b6b900784e6d1c9454258 -> 
+  custom:scripting/monoscript/fileName/ModelBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ExceptionHelper.cs: 074ec3a4464566a6e9a1f4db3dfb905f -> 
+  custom:scripting/monoscript/fileName/DependencyNotFoundException.Gen.cs: b85b8fa51199029c7dffa67f92fbcb8c -> 
+  custom:scripting/monoscript/fileName/MergedObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 15f68712baaea535af36d9e0333c0a6e -> 
+  custom:scripting/monoscript/fileName/WireExceptions.cs: 7062a3840ea500c6463800f64f4340c7 -> 
+  custom:scripting/monoscript/fileName/AuthenticationTopMenu.cs: 9f71b566a5319c437d2334bdc1d62870 -> 
+  custom:scripting/monoscript/fileName/IInitializablePackageV2.cs: aa06fccc5712784ca17e5e7b41810911 -> 
+  custom:scripting/monoscript/fileName/AuthenticationNetworkClient.cs: 03de7749d9d501955d18d6a6716d33e0 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: fb71b961ab7c924511a6b0e8680b60ee -> 
+  custom:scripting/monoscript/fileName/StatusCodePolicyConfig.cs: 623bf1222b38a745629b285d46fc953b -> 
+  custom:scripting/monoscript/fileName/IAuthenticationNetworkClient.cs: af8aa88762b234b64c685d0921cf3250 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectProjectSettingsUi.cs: 07a51e74c57a4053931e01d14a91288e -> 
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 43bdd7aa5bf1aa039a5b572c119c38d0 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 04b4ce6556541af6541e1f1c2ea97052 -> 
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 48a62ad3f817c0269ea7fc4a53799594 -> 
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 5bad8d3f76a3fcb41a94637e37c11ab0 -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseDetails.cs: 33c70629134632ba13eac6d037ba9cfd -> 
+  custom:scripting/monoscript/fileName/ParentWindow.cs: d6aa079e592e01701c5baa3ab98898bc -> 
+  custom:scripting/monoscript/fileName/OperationParams.cs: 3312c7a4424a66ffbf2f88f056f329aa -> 
+  custom:scripting/monoscript/fileName/IProjectInfo.cs: 2c81b6190195adf1450efd9b8f54de95 -> 
+  custom:scripting/monoscript/fileName/StreamingAssetsUtils.cs: 4a501e19e96ab989552681f7cfe95d3b -> 
+  custom:scripting/monoscript/fileName/AdminApiHeaders.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ErrorEventArgs.cs: 221e230d06ac49232b3a42e520f5e0c4 -> 
+  custom:scripting/monoscript/fileName/TokenProvider.cs: c468f4c2282dc27aa90e7e62019c98d0 -> 
+  custom:scripting/monoscript/fileName/PackageInfoNameComparer.cs: ea0f38f3a3ddb0faa351ccba3098624f -> 
+  custom:scripting/monoscript/fileName/UnityThreadUtilsInternal.cs: db907031b91c05c00109dd0308888529 -> 
+  custom:scripting/monoscript/fileName/IBrowserUtils.cs: 853495efd7e1b5a70805e51aec3e9226 -> 
+  custom:scripting/monoscript/fileName/HttpListenerResponse.cs: 37e72ad6a9083eff3bf3167426c900b4 -> 
+  custom:scripting/monoscript/fileName/HttpClient.cs: dc29cafb5cb8d3d5dc8bffc9e322b78b -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestHelper.cs: 2e5cbc5c38937ccdc5de3700aaa6f529 -> 
+  custom:scripting/monoscript/fileName/CloudCodeInitializer.cs: e65a98eff5c5630ec3db974a71594883 -> 
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: 6e8957c0ed7609303e68389067e72d72 -> 
+  custom:scripting/monoscript/fileName/HttpHeaderInfo.cs: f7db7e6ce9753efde3d62f81bc95a063 -> 
+  custom:scripting/monoscript/fileName/CloudCodeIOneOf.cs: 2dd47f38a0deab3248493457a421d79b -> 
+  custom:scripting/monoscript/fileName/EndPointListener.cs: b3d228deb0985ab293183b149f8d9285 -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorServiceInternal.cs: aaa3f524b48c1551d4758f999dcca411 -> 
+  custom:scripting/monoscript/fileName/HttpListenerWebSocketContext.cs: c49a30af7ce9c0b7c4d7584e3049a498 -> 
+  custom:scripting/monoscript/fileName/Utilities.cs: 3b7f3ca8a797f5aa000bca2637e43e42 -> 
+  custom:scripting/monoscript/fileName/Client.cs: 109ae89a2db24eb9b728f29b9cbeb445 -> 
+  custom:scripting/monoscript/fileName/RetryPolicy.cs: ca301aac2da8bb6a28dba1c3cbcada93 -> 
+  custom:scripting/monoscript/fileName/GenerateSignInCodeRequest.cs: e818f692ab11651f000e46b49e30a806 -> 
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: b75efdf5909b501e06cacd9c66f75981 -> 
+  custom:scripting/monoscript/fileName/AvatarImages.cs: 3aa8c25a350843151ec4070c820c411a -> 
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/UnityPatchProjectV1Request.cs: c6a39576d362d5719b8c0057b54f465b -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 7d5385bf780ae84e648a8b49f8fe0825 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationExceptionHandler.cs: a5a827897245ef0664917e622072fb94 -> 
+  custom:scripting/monoscript/fileName/InvocationErrorResponseDetails.cs: 1de687e6d99deaf5d22b5327c220a427 -> 
+  custom:scripting/monoscript/fileName/IAnalyticsSender.cs: 27ac0f3c61390701fdd3b82b17bedf22 -> 
+  custom:scripting/monoscript/fileName/AssetStatus.cs: e017010009bdb28bcb0d7d8ef05e7dd9 -> 
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 3f5ed9fe5a1bca512014ae1600ee1666 -> 
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: d3be34a3134d3fe80ef6b14d0d519128 -> 
+  custom:scripting/monoscript/fileName/HttpListenerAsyncResult.cs: d7bb712b713a9643cbaf3f016a442a19 -> 
+  custom:scripting/monoscript/fileName/UriHelper.cs: 5693437e96f9b2541b50594b4077e2f1 -> 
+  custom:scripting/monoscript/fileName/ServicesCreationException.cs: 40142800771fcc1f5855193d741c129e -> 
+  custom:scripting/monoscript/fileName/UserRoleHandler.cs: a42f5e4f9979e28831240d76ea709864 -> 
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 73f3c859f1b5092ad362c09e23b3a922 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentFetcher.cs: 4324c744baa655843f8a2db18e322b79 -> 
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: f22d79858ba8f66f3182a7150707169f -> 
+  custom:scripting/monoscript/fileName/ITokenExchangeUrls.cs: f529e59149e9ccc31fc5b827b34c33db -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.PlayerNames.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/CodeLinkInfoResponse.cs: f42814b0d3e8b943e22c128e599697da -> 
+  custom:scripting/monoscript/fileName/IEnvironmentValidator.cs: bdc1089a446560e3518f7ac97786d874 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 40644aa022c4bbfe306cd8de59a1bae6 -> 
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 8492ec26f01fc248d3eb3c2f5b3b6c0f -> 
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: 6bd59fcbfeafe06987a54631991d755b -> 
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 702fdb8d0a3b4bfcb9ba109e71325cad -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsPackageInitializer.cs: 0aa273791167a3c61ca4dbddee86ffe7 -> 
+  custom:scripting/monoscript/fileName/UnityUserGuestProjectV1.cs: 58ac7a8966d050da82ebd9946d7ad9a7 -> 
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
+  custom:scripting/monoscript/fileName/ITelemetryPayload.cs: 5c76f6f6a7e7464e6b1a068207b03ef0 -> 
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceManager.cs: a0785e56309d635081364818f2bc7bed -> 
+  custom:scripting/monoscript/fileName/ReadOnlyHttpRequest.cs: 8ed1e96527aeaf3049f26baaeff0902d -> 
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 4a0608de635b0d82868d57923d68eff7 -> 
+  custom:scripting/monoscript/fileName/UnityPlayerAccountSettings.cs: 551cf47427967de94d87a6b04fcae5a1 -> 
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 30c3a785b4c2607e2ae9aad693d5f604 -> 
+  custom:scripting/monoscript/fileName/IdProvider.cs: 49213a4cdd38d4ac4c21545c7141b8cd -> 
+  custom:scripting/monoscript/fileName/UpdatePasswordRequest.cs: c3e07ff5663bd6613440bb9ff3d74c5c -> 
+  custom:scripting/monoscript/fileName/Chunk.cs: 6a66223a858c37cac555005eb414f283 -> 
+  custom:scripting/monoscript/fileName/IdProviderOptions.cs: 2237ecb3f519b0161181bd3bf31fe9ea -> 
+  custom:scripting/monoscript/fileName/IsolatedJsonConvert.cs: 99286d917aaf90776c1018ab0b759287 -> 
+  custom:scripting/monoscript/fileName/MappedObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IUserIdentifierProvider.cs: dc5eeac839d4cf332ea648a7fdcd39d6 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: 17142d220a0a50a3f3d184c4718a0da7 -> 
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: 69c1b7249af35f35848ae707bd5e7113 -> 
+  custom:scripting/monoscript/fileName/UnityGetOrganizationMembers200Response.cs: 2a3745ba3cf60a91cc07f675b5cfe7f0 -> 
+  custom:scripting/monoscript/fileName/SignInOptions.cs: 3dfcf5fdd65ccf1bb05a3e4c3cb52e74 -> 
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: f8db8e637ded2d5e935a953a13b85ebe -> 
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 8d377b020cd4efc9739abf6e8e730437 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CloudEnvironmentConfigProvider.cs: 0d9357504beb82cf1f27ae6c7b6ddec2 -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: 2e606eb01a6e6a567f3de9a0379ed3ae -> 
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: 82eab21603f4efc696334ee80641c2c9 -> 
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: 3de70beba9f4447205d50241d95b066a -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: 15ae6787065f4af65778e981f418a60b -> 
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/IServerAccessToken.cs: 5dfd5eddfcd0cafe1db05f4c334820f7 -> 
+  custom:scripting/monoscript/fileName/BasicErrorResponse.cs: 9357a5416d7d76bfc42b62b0339bd9ca -> 
+  custom:scripting/monoscript/fileName/AuthenticationException.cs: 775db05fab80900d1212050035caf081 -> 
+  custom:scripting/monoscript/fileName/ActionScheduler.cs: 26f8b078a6af33e9402a5cc996644a79 -> 
+  custom:scripting/monoscript/fileName/ProjectInfo.cs: d289d5cd3d7bbcf9a82d73b4aa756d36 -> 
+  custom:scripting/monoscript/fileName/SignInWithCodeRequest.cs: 7bf44437e8b421175d4f702d049e1a42 -> 
+  custom:scripting/monoscript/fileName/SubscriptionTokenResponse.cs: 01fffafca805dac0ded7e4b50404c220 -> 
+  custom:scripting/monoscript/fileName/UnityCreateProjectRequest.cs: 553b660d315929e3419e6a209f9bb6ab -> 
+  custom:scripting/monoscript/fileName/RunScript400Response.cs: 811916a0f119535dcd08a9d093efff91 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: b6f5ad03828f3d0b6465c52959e1ee5e -> 
+  custom:scripting/monoscript/fileName/IAuthenticationAdminNetworkClient.cs: a08c9abb22f07232b2d3b329d0c23e91 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSettingsProvider.cs: 237263cbc2f115c0b90b2c3fc83a1110 -> 
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/WebSocketBehavior.cs: f284026a45cbf3cd4215c2ffedb1cd34 -> 
+  custom:scripting/monoscript/fileName/UnityUpdateOrganizationRequest.cs: c81a99780bba7daac8cc2c5dac469fe1 -> 
+  custom:scripting/monoscript/fileName/Metric.cs: 38b96fe3c7f9144ab95fdd6dcd3d8cbf -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c57de230d90beac7b586f10b9c7c6cb5 -> 
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: 46dde8f7856048792ad2e75490bb8c5e -> 
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: f039cd7fb6b53e16030c9431c0e3a656 -> 
+  custom:scripting/monoscript/fileName/UnityAdsIdentifier.cs: 6666e4d931c1a681dcee861ce8dc56a2 -> 
+  custom:scripting/monoscript/fileName/RetryPolicyConfig.cs: 48dc0b2850e71439e7b516a0a61ca492 -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: d4c16fd6aad8161eda7d99fd74cbb08e -> 
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: 897fb5fb66de4298630458ed4a966790 -> 
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: f391d9a00dc9e202cee4d4ebcf6d21c0 -> 
+  custom:scripting/monoscript/fileName/MessageEventArgs.cs: b381848b28954876be382416f98e2090 -> 528473bbcee3623fe954627c6bfadd2e
+  custom:scripting/monoscript/fileName/EnvironmentValidator.cs: 08b5a9dc48dd22c719e1975ef1db1683 -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuilder.cs: 3a77bc00f860533701242ca98886ca86 -> 
+  custom:scripting/monoscript/fileName/IAccessTokens.cs: 3e3094814f4dba04dfbc3053655e6598 -> 
+  custom:scripting/monoscript/fileName/UnityEnvironmentV1.cs: 1eea8ffdfb5010d89d3ba557b2d50eab -> 
+  custom:scripting/monoscript/fileName/AuthenticationApiClient.cs: 2cc37a8bf9374ef76d2364c0e211cdbf -> 
+  custom:scripting/monoscript/fileName/UtcTimeProvider.cs: 34e00235b689057dfe7c5f53347158ea -> 
+  custom:scripting/monoscript/fileName/UserRoleRequestUiHelper.cs: a99a899edbebc06ce30ec51f79ff566a -> 
+  custom:scripting/monoscript/fileName/ServiceCollection.Gen.cs: ee70a277f1bc1e6641d018ca44380804 -> 
+  custom:scripting/monoscript/fileName/OculusConfig.cs: 4fa906ecdd5ca17f3543698999715035 -> 
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
+  custom:scripting/monoscript/fileName/HttpStreamAsyncResult.cs: c6eafafc093b159371f2f736660adbaf -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: 03ca55081079b8fc452d8bd4d604d8d1 -> 
+  custom:scripting/monoscript/fileName/HttpListener.cs: c5f4f6e9e9fe63f77afe3aa2c9088567 -> 
+  custom:scripting/monoscript/fileName/ClientSslConfiguration.cs: efbd6751eb6cfc9a88d708563045da0a -> 
+  custom:scripting/monoscript/fileName/PlayerNameComponent.cs: 616524ede11d4f33e8b32eb57711208b -> 
+  custom:scripting/monoscript/fileName/QueryStringCollection.cs: 038e7c211245900ea0436c9f104c73b2 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 0a8afde180a876655ad16caa14493409 -> 
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 7953272c37f4a828a3d1096e7479f346 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: 36016664f0c3fb942bdfe59d2e95d7de -> 
+  custom:scripting/monoscript/fileName/GatewayTokens.cs: 53270745929a7034c3268a07c13af48c -> 
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/SystemEnvironmentPathUtils.Gen.cs: 9f60a7d4b8edfd5e67c66c89eee984df -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: ab04ae5e0cafb93ebf5c96148bb52df0 -> 
+  custom:scripting/monoscript/fileName/UnityEvents.cs: 93e3e01e1fc330c62462aa41b286117b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: a9e5e467234133af999283610b6e84e6 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsApiInternal.cs: ddda38a23193b92419a4176f3ffd04a7 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsElement.cs: 5b1395a2175ac0d73823a2634fef8924 -> 
+  custom:scripting/monoscript/fileName/RunModule422Response.cs: 5433a321c02ebc0d0c0dbb7fa6c60c1a -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticData.cs: 0fc6f3bf04cc7c89fce9a2c7c7ab285b -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseRequest.cs: 993b8dd7982f49e957b62a9a07de6ccb -> 
+  custom:scripting/monoscript/fileName/AuthenticationCache.cs: db62ddb3d660d03cbc330ce7e63333bf -> 
+  custom:scripting/monoscript/fileName/IWebSocketSession.cs: 4bc16cf426037bc4b899bb88059f0261 -> 
+  custom:scripting/monoscript/fileName/EnvironmentServiceRegistry.cs: 87c6dee4ea55850e884c48687d120061 -> 
+  custom:scripting/monoscript/fileName/AccessTokensSingleton.cs: ed21a5edcf5821a4e4c3f640d88a8890 -> 
+  custom:scripting/monoscript/fileName/ConstructorNotFoundException.Gen.cs: d5eeea08ebee99ae8f097d0f6c2b88b0 -> 
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 33b36e7b03910960966036894ec90c7c -> 
+  custom:scripting/monoscript/fileName/AuthenticationChallenge.cs: 5bbf8a1770fb95532d3ba76d3655bf0e -> 
+  custom:scripting/monoscript/fileName/IoUtils.cs: 407719a7637f4a4931cf4ba6f0c431e9 -> 
+  custom:scripting/monoscript/fileName/PlayerInfoResponse.cs: 7091c573bda774a29831316b5a3262da -> 
+  custom:scripting/monoscript/fileName/SaveAction.cs: 27c387bb58f3a69b0c9ff60d2209e18f -> 
+  custom:scripting/monoscript/fileName/TagKeys.cs: 8d04446a1607acebe6b7c0e00a856d18 -> 
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 3bedd8010c31a7b520fc04c0955e3f17 -> 
+  custom:scripting/monoscript/fileName/MetricsHandler.cs: 16fbc9d05cd308d58a4cb300087a14ec -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceHost.cs: cb11ec4cf20ebf4cab5372f006d0c784 -> 
+  custom:scripting/monoscript/fileName/LogData.cs: 37091904d8f0192f718506569a7efcf3 -> 
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 210366dab3631628227b9406f87a9b7f -> 
+  custom:scripting/monoscript/fileName/XmlLinkedMethod.cs: 0832a872e8f410f9dbd4e4797775d14c -> 
+  custom:scripting/monoscript/fileName/MethodNotFoundException.Gen.cs: 0dccde8d1181b58956dff819eeec312c -> 
+  custom:scripting/monoscript/fileName/SignInWithExternalTokenRequest.cs: 933831e25b9ab6f0c7b50393e3efd13d -> 
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ff731c8aacf4a537dc74c7cf9eaeaed0 -> 
+  custom:scripting/monoscript/fileName/DrawDialogIcon.cs: 2a1cc28b64afd474736eb8a39b842af8 -> 
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: e05748a99799f26304c1bbafd90f703b -> 
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 698aba075b19a52a056d67a7b809d179 -> 
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: e53b1ca5561894aaeff930afb696d001 -> 
+  custom:scripting/monoscript/fileName/SubscribeRequest.cs: 80d734c4992804ef07d87a5d769efca6 -> 
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: ec62666c0ca1649dd33cc6bc6834c6f7 -> 
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 6c887e722e951c2964523825cad70c4c -> 
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 316e5ea62e66b20fd6e687a6b9e5958e -> 
+  custom:scripting/monoscript/fileName/CachedPayload.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ITimeProvider.cs: ddd25bd8e3c8be311aae000881753524 -> 
+  custom:scripting/monoscript/fileName/IJwtDecoder.cs: 3a95ca7907a61e805e59af6219546685 -> 
+  custom:scripting/monoscript/fileName/CloudCodeEditorGameService.cs: 253fd57b1d6eea38b5abe0dccaffaf23 -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponse.cs: f57b5d707fe389a23e0ef34c19c4e476 -> 
+  custom:scripting/monoscript/fileName/PlayerIdComponent.cs: 245335b122408666ab23433f05124501 -> 
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 0d99e7514c6a33cda8314deed8f34bc5 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationAdminClient.cs: dd3bd69da7b023dd8c81266be3f38afd -> 
+  custom:scripting/monoscript/fileName/IProjectEditorDrawerFactory.cs: 18c5020e4a357b0471f706a6144cefa8 -> 
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 3629fdff9f054b2013702f5b131b2c47 -> 
+  custom:scripting/monoscript/fileName/MissingComponent.cs: 6fcd30b84d1ca630662778f50cedadd3 -> 
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: 77462b1904ad8f6fee2f8da4523d59fe -> 
+  custom:scripting/monoscript/fileName/Transient.Gen.cs: fb508b42c100a2c07b866a44f9ab3ed0 -> 
+  custom:scripting/monoscript/fileName/Responses.cs: ce8a587e98a8b5448237508bd3773589 -> 
+  custom:scripting/monoscript/fileName/CorePackageRegistry.cs: 3f8b8a1a754bcbf32e1631fc6067b47f -> 
+  custom:scripting/monoscript/fileName/CloudCode.deprecated.cs: a4bd074c3e01cba588b5957881bf362d -> 
+  custom:scripting/monoscript/fileName/Detail.cs: 953e1f571ffb3df953e2da9da0e20459 -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationV1.cs: 202fa32fa70a6d9b0b74b5c00b1b741c -> 
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: 87f69636be8bd1a264ec4eac1bffa701 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsProvider.cs: 57a71491b92571e0738c385166d69374 -> 
+  custom:scripting/monoscript/fileName/IQosResults.cs: b6881487c0f26ab46e2124c1d0e04307 -> 
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: ca276d65e7cd77c5c99d9f119ffdb215 -> 
+  custom:scripting/monoscript/fileName/TabButton.cs: 757146b89ed597b1d75c77241e5d5f63 -> 
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 60773d78646dc188d4b2caca77f20b17 -> 
+  custom:scripting/monoscript/fileName/IAccessTokenObserver.cs: b63bda9cbc64f15f0d3427f52571574c -> 
+  custom:scripting/monoscript/fileName/RunModal.cs: c83ee2ef642c5d8b8dfd32f033bfc438 -> 
+  custom:scripting/monoscript/fileName/IInstallationId.cs: f04e3188def2f4af24969a3d446782a7 -> 
+  custom:scripting/monoscript/fileName/RunScriptResponse.cs: 84a537f264adce7c5dbe22cba3a5ea28 -> 
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 55028f4aef24d6227589aaa95582b2ff -> 
+  custom:scripting/monoscript/fileName/IExternalUserId.cs: e86cbc4ee2ec705a01d2d8184f1aa316 -> 
+  custom:scripting/monoscript/fileName/Identity.cs: 2640f586bfcf9285892659a9f70878c1 -> 
+  custom:scripting/monoscript/fileName/AssetUtils.cs: f2faf7ad4b4b5b06d49e576afa8ccb42 -> 
+  custom:scripting/monoscript/fileName/InvocationErrorResponse.cs: 3c324d804bc8d79c58faf719cb02cccc -> 
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 04ffae2a9e5a4c32a119f93144f558d2 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceAnalyticsSender.cs: 16523e3d16356ae30addab5eaf4685a1 -> 
+  custom:scripting/monoscript/fileName/EnvironmentIdComponent.cs: 78e2c5c1c372ba12a0cd62129f564266 -> 
+  custom:scripting/monoscript/fileName/FindTool.cs: 2f9d82566cfb01fb68fc30111fb47624 -> 
+  custom:scripting/monoscript/fileName/BatchMessagesUtil.cs: 8ad963e28401c823babe96b754a768c9 -> 
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: cefccf1e13b7bcf15e3c9f2dd4cd2fc8 -> 
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: b955b378d261fdcbd6272fe8711d1e4f -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsEditor.cs: a957405097defdb9901105c5240fcac2 -> 
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 812472213e516c8053ec016784212aff -> 
+  custom:scripting/monoscript/fileName/IGenesisTokenProvider.cs: 50bfadb838bad71e7f4f13ffd5046639 -> 
+  custom:scripting/monoscript/fileName/Subscription.cs: edbb6df9fabf1163fa21c55aff4042d4 -> 
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 28d3e288ea1cf459fc3cca96347c70bf -> 92be01d6bc40011647c1fd4950fd61ac
+  custom:scripting/monoscript/fileName/ConnectResult.cs: 7338310c26cf6008160faea5871f95d5 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentId.cs: 26e3448d664cf5b5e38101bfbead1ab4 -> 
+  custom:scripting/monoscript/fileName/Push.cs: 4d986cd7eda4e2090fd17f6706ef8326 -> 
+  custom:scripting/monoscript/fileName/IDiagnostics.cs: 57266d83136060880a8bc854151a2f08 -> 
+  custom:scripting/monoscript/fileName/IUnityServices.cs: abc5b758eed1a2c05dfbb253b9cdf1d6 -> 
+  custom:scripting/monoscript/fileName/TelemetrySender.cs: 00928578ce46ae3da857d3d4ea626399 -> 
+  custom:scripting/monoscript/fileName/HttpListenerContext.cs: e949ba85d35be623f0e2292d29cc98b0 -> 
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SessionTokenComponent.cs: 848c4b939917c1ea9cdbfbdb84502080 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 0fe23b7cca9336b31a27790c714de652 -> 
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: 3fa407d29597803190dd374d88ed170d -> 
+  custom:scripting/monoscript/fileName/InitializationOptions.cs: a3b098c01b711d197eb5be831c1fe3cb -> 
+  custom:scripting/monoscript/fileName/AuthenticationPackageInitializer.cs: a27d296699afa0fb86730c702633be0c -> 
+  custom:scripting/monoscript/fileName/PlasticQuestionAlert.cs: 822b3ee0570c5b12e5690df1874da369 -> 
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: c58c26552f95f108a8d9610eaf001fbc -> 
+  custom:scripting/monoscript/fileName/ApiConfiguration.cs: 93b9d3a154a066b218838bce56ab52ef -> 
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: ccfb08b895a719829a3302b7c4d26a5d -> 
+  custom:scripting/monoscript/fileName/ResponseDeserializationException.cs: a74d75633434a9e560898fbc0c24523d -> 
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: 21c806d59a337a83fcab56230df298f8 -> 
+  custom:scripting/monoscript/fileName/ConnectRequest.cs: 9d8b1bc759663103ee8c68765298e727 -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminClientManager.cs: 42f19b750641a1bec4304433b128a9d2 -> 
+  custom:scripting/monoscript/fileName/IScopedServiceProvider.Gen.cs: a3e3117c2208173e411da686f8072dfc -> 
+  custom:scripting/monoscript/fileName/PackageRegistry.cs: 084618e5fb4441b39eee335cbd095e50 -> 
+  custom:scripting/monoscript/fileName/AuthenticationExtensions.cs: 5f32c775217f6226c59bc30a889f96fc -> 
+  custom:scripting/monoscript/fileName/XmlLinkedAssembly.cs: 997f803bab31374df714b0d6f004c82e -> 
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 6866476ee3db529747ee7a560b4298d4 -> 
+  custom:scripting/monoscript/fileName/ApiRequestPathBuilder.cs: 1d485eb48ac34b38a0c7ae2a3f2918ee -> 
+  custom:scripting/monoscript/fileName/IdProviderResponse.cs: 1ffce30252e1799b812e9515c5e2162e -> 
+  custom:scripting/monoscript/fileName/WireServiceProvider.cs: de8d0c08ba34bf23b29a60355afd4a4d -> 
+  custom:scripting/monoscript/fileName/SignInWithAppleGameCenterRequest.cs: bf5e53eec533a47bf68ac4b24c859ebe -> 
+  custom:scripting/monoscript/fileName/IEnvironments.cs: c0584c08a0bd557b383eebd7f6ddb36a -> 
+  custom:scripting/monoscript/fileName/DefaultApiRequests.cs: 0c40f474d191c79755786a315c4d3837 -> 
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 386b03e27c951c5f1d63daf7aae486ca -> 
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 29770348599c8d5473b78d72e5741b40 -> 
+  custom:scripting/monoscript/fileName/NetworkHandler.cs: 31714251feae50ccd176b841dbb4f84e -> 
+  custom:scripting/monoscript/fileName/CoreMetrics.cs: ba96eafc8557f10e49a5a2dab28be8c2 -> 
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 9c91c6c91f20e6d013a753f32343b327 -> 
+  custom:scripting/monoscript/fileName/PlatformSupportUiHelper.cs: c2fb091feeb92fc6d04201e72415cd6f -> 
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: 8b9d539af9f7e269bac4e3d79e9ffab8 -> 
+  custom:scripting/monoscript/fileName/CommandManager.cs: ab1c0ec3b83395eb173333cc7705c10a -> 
+  custom:scripting/monoscript/fileName/SessionTokenRequest.cs: e551110361ae2242296355e5b4792233 -> 
+  custom:scripting/monoscript/fileName/HttpBase.cs: d0198ca3c3839eec17c409a3b9a43a72 -> 
+  custom:scripting/monoscript/fileName/IConfigurationProvider.cs: af9003c2ff2e581cf6d2023a9420f4ca -> 
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 96208057b904410715a8df295ba4f8f4 -> 
+  custom:scripting/monoscript/fileName/IMetricsFactory.cs: fde5d2b8b6a1babbe7e5508a35a60c95 -> 
+  custom:scripting/monoscript/fileName/GenerateCodeResponse.cs: c9de36e937d50b48b49fe23f5b73dab0 -> 
+  custom:scripting/monoscript/fileName/AppleGameCenterConfig.cs: 3fc356fc865be691659b07b088a01464 -> 
+  custom:scripting/monoscript/fileName/ChannelToken.cs: 749f097d0aecdba9e5864aa66e7c548d -> 
+  custom:scripting/monoscript/fileName/CommandID.cs: 61d42dcb5cbd38a88116d0d0042b4056 -> 
+  custom:scripting/monoscript/fileName/IsResolved.cs: 9de9e3ff6e27370b261e01506de8b191 -> 
+  custom:scripting/monoscript/fileName/SettingsUtils.cs: 1786d4712156319820f2e77b6b75c753 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectUiConstants.cs: 1d3bd9a52471c7a484b82396440177cc -> 
+  custom:scripting/monoscript/fileName/ValidationErrorBody.cs: ff4ea4112ff8dbb64cb491709634c040 -> 
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: 30974ea30517fbfd1b93153f6c849a76 -> 
+  custom:scripting/monoscript/fileName/ServiceFlagRequest.cs: 81cbfe44ade2ec4f46d5579d02db90c8 -> 
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: eea34924da79ad7254f3e141a891c78d -> 
+  custom:scripting/monoscript/fileName/HttpRequest.cs: 3508ab991551d932212a8756f1c3b863 -> 
+  custom:scripting/monoscript/fileName/ValidationResult.cs: 12d4a9b1790e80408d1518f479a1a01f -> 
+  custom:scripting/monoscript/fileName/Diagnostic.cs: 503142f1f611f7271fbef4493b0ca75d -> 
+  custom:scripting/monoscript/fileName/HttpListenerPrefixCollection.cs: 5e6d557b97701fc1742981a5be6e225f -> 
+  custom:scripting/monoscript/fileName/IAuthenticationSettings.cs: 664eebda2433df53de4e77c436d403f6 -> 
+  custom:scripting/monoscript/fileName/HttpServiceConfig.cs: a19e8b39679e0da2413fb1719624f1f2 -> 
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: b042f06133312d3bfed176231d97d77c -> 
+  custom:scripting/monoscript/fileName/EditorValueTracker.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceFlagEnabler.cs: ed4b01161596daf6c007c5cb985797df -> 
+  custom:scripting/monoscript/fileName/UnityProjectV1.cs: 33ee54c3546ae8cbce557ab2aca1756e -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuilderHelper.cs: f79e2dec68c2a8a55186a3fd4274546b -> 
+  custom:scripting/monoscript/fileName/ProjectState.cs: 5da9c4bc1768108d8af5cc6cbfdc9de1 -> 
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: cf716a8d336c8113475a9ca67a799ec1 -> 
+  custom:scripting/monoscript/fileName/UnityServicesInternal.cs: 5ea85354f5b78172e34fac25411fe7cf -> 
+  custom:scripting/monoscript/fileName/PreserveDependencyAttribute.cs: 7b33b3b969409f6a38fb0affb51f2db7 -> 
+  custom:scripting/monoscript/fileName/IUnityThreadUtils.cs: 09e8ec6b5955782b75f75b287fbd41f1 -> 
+  custom:scripting/monoscript/fileName/ExponentialBackOffRetryPolicy.cs: 51ccc73866dbb9c2cd00659c0688b549 -> 
+  custom:scripting/monoscript/fileName/ValidationErrorResponse.cs: 7d498620e218ea7d08c6acc5721d419d -> 
+  custom:scripting/monoscript/fileName/RunScriptArguments.cs: 14128d9ba707dba082d34c11d474d304 -> 
+  custom:scripting/monoscript/fileName/IConfigurationLoader.cs: 2906069c8520611bdd1356369b0a29f4 -> 
+  custom:scripting/monoscript/fileName/IWire.cs: 30c1d87985bae6279501282a5e19ad84 -> 
+  custom:scripting/monoscript/fileName/PlayerInfo.cs: fe010831bf2eea394cc23e762c8b1ca9 -> 
+  custom:scripting/monoscript/fileName/HttpUtilities.cs: ccb29552bcf392fd78f8c10c82be7f1f -> 
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 96f2b67ec620b83e35d13f11877e1ac1 -> 
+  custom:scripting/monoscript/fileName/UnityGetEnvironments200Response.cs: 337f99d16b0b96efb2206d69acad4db0 -> 
+  custom:scripting/monoscript/fileName/UnityListProjects200Response.cs: 428e859b4396ae3112aa4ecacae32fbf -> 
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 402d5663f3675e9324c129274b0c00f2 -> 
+  custom:scripting/monoscript/fileName/HttpUtility.cs: 06a7b1431cfcb1d650b802a7c042c48d -> 
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: f258b0cf85078a7435d001e522d5e8e3 -> 
+  custom:scripting/monoscript/fileName/CorePackageInitializer.cs: 829d217bce271cb9c1fa63d564b476ec -> 
+  custom:scripting/monoscript/fileName/IPlayerName.cs: ba66ec6098d77e1400c48b4442573e06 -> 
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 872fcb89b813d64606e680211dede528 -> 
+  custom:scripting/monoscript/fileName/OperatePackageVersionConfigProvider.cs: 67b4bf8d5d449d0353b963ad0e103a72 -> 
+  custom:scripting/monoscript/fileName/EnvironmentNotFoundException.cs: 8f8ecf9219a7a93736afa67d923d561a -> 
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: fc48261878ef7e4b956e7172f5803aee -> 
+  custom:scripting/monoscript/fileName/IEnvironmentsApi.cs: 10309d62b29707db950e5d0457e82d84 -> 
+  custom:scripting/monoscript/fileName/AuthenticationErrorCodes.cs: d35b659cb68ad1aa80617a2680988fe5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeInitializeOrderSorter.cs: 398a0f081d411379f31bc2eb52bbbd21 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: 5fc1be06a74c9c81fa2ac48c398d9be3 -> 
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 1029ffd567bc0e646e6b119719dcb2ff -> 
+  custom:scripting/monoscript/fileName/UserRoleRequest.cs: ec15cd6950c1f795ee59736c71998788 -> 
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 662b1714c0fce36da72bbfe60201987a -> 
+  custom:scripting/monoscript/fileName/SearchLocks.cs: f40ae73b301d84efae1a6385552c43ff -> 
+  custom:scripting/monoscript/fileName/UnityConstants.cs: 0c04c1eb6edefcf789dce2e0ce87bda9 -> 
+  custom:scripting/monoscript/fileName/IApiClient.cs: ab8bee823793f486a21c09059465c539 -> 
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 4a3dbc5ded94087064afd97407f26631 -> 
+  custom:scripting/monoscript/fileName/TokenExchange.cs: bbd1ed03e8e3970b0887123f043469e1 -> 
+  custom:scripting/monoscript/fileName/HttpRequestExtensions.cs: 35b1178ed1fd55cb1029b0abb50d01fc -> 
+  custom:scripting/monoscript/fileName/IdProviderRegistry.cs: f5d455ad317e9aeccad9932dd9666130 -> 
+  custom:scripting/monoscript/fileName/ApiRequestOptions.cs: 9a118c2bc1ecd9fc1d354a37ab0a64e4 -> 
+  custom:scripting/monoscript/fileName/UnityGetUserPermissions200Response.cs: 7fdf29503cc5301312d984f2af06eb45 -> 
+  custom:scripting/monoscript/fileName/BackoffStrategy.cs: 32c3ef9b4af98620a93e5c82ba2327d5 -> 
+  custom:scripting/monoscript/fileName/EnvironmentIdentifier.cs: 39ee00a0ac13884055f18f6371bacd6d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsConstants.cs: 24e9760363ef695978ba684e5d610a82 -> 
+  custom:scripting/monoscript/fileName/CircularDependencyException.cs: d18ff671dcc1259992ffc320a2699238 -> 
+  custom:scripting/monoscript/fileName/IReadOnlyObservable.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AutoLogin.cs: cac363a2d5471994de278e71f937b032 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: 9f63395e1ea590dbbab4d59cd0032ac4 -> 
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: d2f114a8e8e4167f7762d835a83b2f55 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectPopupUI.cs: e3fb92bd3ee82c9407053c4d3860bb4f -> 
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: 2cabf22eb95430074b6c730a84e03493 -> 
+  custom:scripting/monoscript/fileName/TelemetryConfig.cs: 34986dd8a09f1cdee5ec6f840e0360ec -> 
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 3dd2507693e56dac75ee7783f598cbb9 -> 
+  custom:scripting/monoscript/fileName/AccessTokenComponent.cs: d4d4c661bc66fd2b56646e47d869d7cb -> 
+  custom:scripting/monoscript/fileName/CloudEnvironmentConfigProvider.Gen.cs: 5a0c9bc3528e508605862cace6052ab9 -> 
+  custom:scripting/monoscript/fileName/WebSocketFrame.cs: 368e30db4f4d181d88cc629b6e1f9672 -> 
+  custom:scripting/monoscript/fileName/ScheduledInvocationComparer.cs: 83106d0c8c6b049feeaa7bc89351f333 -> 
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 20e85a96a5926a180bb53a2abca68aa4 -> 
+  custom:scripting/monoscript/fileName/ExternalUserId.cs: 838ec18be418bafff07b93f14174c00c -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminClient.cs: 530dbc976b0a511266667fec46709199 -> 
+  custom:scripting/monoscript/fileName/LinkFileGenerator.cs: 51b5323d52299fec9236d04721b91f22 -> 
+  custom:scripting/monoscript/fileName/ExternalIdentity.cs: e65ed5083b38f434db0732cf65b27f0d -> 
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 111849f67dfbfea65ad2a9298ad1654d -> 
+  custom:scripting/monoscript/fileName/DefaultApi.cs: 1d4ada5f7be42c3459105e8a4ff7befa -> 
+  custom:scripting/monoscript/fileName/TelemetryUtils.cs: d398f29a6d6023dcca33df6296fb5095 -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorAnalytics.cs: d815f95387a4ffed4472fec2c8db79af -> 
+  custom:scripting/monoscript/fileName/EnvironmentAnalytics.cs: df86ce352df40dfa102b41458fb9f770 -> 
+  custom:scripting/monoscript/fileName/WebSocketException.cs: edcd3fa0b9a7ec8763c45351c868a994 -> 
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: d032d69e8060311c06b88286e8f22ddd -> 
+  custom:scripting/monoscript/fileName/ServiceRegistry.cs: 9f2f77edf09fc4d5ffdc5ae250d852d2 -> 
+  custom:scripting/monoscript/fileName/EnvironmentAnalyticsSender.cs: 8bcdd72c4f4f7ba6fed9617ecb7e992f -> 
+  custom:scripting/monoscript/fileName/ReadOnlyHttpResponse.cs: cb67b795f50400334c6da0e8ef76361d -> 
+  custom:scripting/monoscript/fileName/ScheduledInvocation.cs: 6dd46403260fc3e01309ae7e636c0e8a -> 
+  custom:scripting/monoscript/fileName/UnityProjectNotLinkedException.cs: fffb6126e50500c8c570125732d06308 -> 
+  custom:scripting/monoscript/fileName/CookieCollection.cs: 11c5ce8fb7bc8bb2ab0fc03f2602ca3b -> 
+  custom:scripting/monoscript/fileName/LinkWithSteamRequest.cs: be69ace4f698ae4fd64bfe0d6df06705 -> 
+  custom:scripting/monoscript/fileName/Error.cs: d23f2105b39d563ffe3df04b62877a7d -> 
+  custom:scripting/monoscript/fileName/IPlayerAccountService.cs: 6c6700fe321ef49076fb1c9df0aa1a53 -> 
+  custom:scripting/monoscript/fileName/LinkWithOculusRequest.cs: 0097546a65d45b69945f7cde6df6f6f6 -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 9b0019b6df6bb14eb3a2dbafa53fb54b -> 
+  custom:scripting/monoscript/fileName/ServicesInitializationException.cs: 905c414eaf6bb9e99e87b7be57e80385 -> 
+  custom:scripting/monoscript/fileName/DateTimeWrapper.cs: 1718203501f270a020e6b6f60ad1f61a -> 
+  custom:scripting/monoscript/fileName/PingResult.cs: e2b48c05b94838e02e431e521b9474b7 -> 
+  custom:scripting/monoscript/fileName/CoreRegistry.cs: f8cefd7d8b5109f3c61c0ba5ed06a2ed -> 
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 0227d7ff4d5687932d10967a945a9b06 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: b46a1fd5a0233571c444c3fa97be0fb3 -> 
+  custom:scripting/monoscript/fileName/ProductionTokenExchangeUrls.cs: d51f7b5f35d9e0171f3c69e63ce67736 -> 
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/InvalidJwtException.cs: 44c6d327479bc7179514ecd464e65b5b -> 
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 920e8e381bfc94da8bb69d336dda57ca -> 
+  custom:scripting/monoscript/fileName/IProjectStateRequest.cs: 27b27df4e3b68078a5908d7df6fce95f -> 
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: a87e0364d14866c369ad50d669bdfa85 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceEnabler.cs: 9ba91e68464ed1031653bae083d9cbd8 -> 
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: b1721e471183956468462f6b64901640 -> 
+  custom:scripting/monoscript/fileName/AssetsPath.cs: e0e986124adc46d913f0683c34b88c9f -> 
+  custom:scripting/monoscript/fileName/MetaPath.cs: 417a84eb354831f828a6752b26c8592d -> 
+  custom:scripting/monoscript/fileName/AuthenticationWebRequestUtils.cs: ccbc2518c41f11c6950ec9367145e63d -> 
+  custom:scripting/monoscript/fileName/AuthenticationResponse.cs: 37acbaa43f939ab6f3d5d88f07a6a588 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedType.cs: 879123e42892f87010bef78e341312d0 -> 
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: dbacf67c37819fd95562fe169e706732 -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettings.cs: 647b269b730301254a80170cfe4643c8 -> 
+  custom:scripting/monoscript/fileName/HttpBasicIdentity.cs: 2d55f63864e47e6b0d9179b3630d5794 -> 
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: 7d1a2de81910b5990e71a0bfff26fdca -> 
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 24eef0792e3802809607a7f9d04b8f1d -> 
+  custom:scripting/monoscript/fileName/EnvironmentService.cs: 22bbc46856bf7062678eb8e6e54cf9a2 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceDashboardHelper.cs: ea8538090dcae2327f4c15e2ca056258 -> 
+  custom:scripting/monoscript/fileName/Command.cs: 45258c0f6b3b1d66ef953aec47e0d4cf -> 
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: 0b123406cadd651e9adc01c85fab5124 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.UsernamePassword.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/JwtDecoder.cs: 36240864bf4572a6304d2e9743fbf8d6 -> 
+  custom:scripting/monoscript/fileName/DeserializationException.cs: 7fca25bb80da1379de6583358da51038 -> 
+  custom:scripting/monoscript/fileName/StatusBar.cs: 392933116703b8e69a96dc0b873bf6f1 -> 
+  custom:scripting/monoscript/fileName/Models.cs: 4371e7ade6834e42bf19e294e843cde2 -> 
+  custom:scripting/monoscript/fileName/IsCurrent.cs: dd4e907908609852af07850d28334551 -> 
+  custom:scripting/monoscript/fileName/IdProviderCustomSettingsElement.cs: a830fa6a32d1235546e4f1ce1444a14b -> 
+  custom:scripting/monoscript/fileName/IApiAccessor.cs: eaf638af3f88c56eba1f2e7971ff620a -> 
+  custom:scripting/monoscript/fileName/JsonObject.cs: 78fbc085be5f5e740539f8b80ee8c6ff -> 
+  custom:scripting/monoscript/fileName/ApplyRevertChangeTracker.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AccessTokenExtraClaims.cs: 3553b8c5038ae1b47b855d63b5fa3f50 -> 
+  custom:scripting/monoscript/fileName/CreateIdProviderRequest.cs: e2061cfc81eaadab048d08158b09db81 -> 
+  custom:scripting/monoscript/fileName/CollectionExtensions.Gen.cs: aff9dee80b4292d09c09f3acd69a3289 -> 
+  custom:scripting/monoscript/fileName/TelemetryConfigKeys.cs: a7ad418808e89631b768f5591eaf63b6 -> 
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: ba336e4117e1b7ee28e4c17197bc3d0e -> 
+  custom:scripting/monoscript/fileName/IComponentRegistry.cs: 31dc7d917392108590a76b6f7b8e718f -> 
+  custom:scripting/monoscript/fileName/UsernamePasswordRequest.cs: 7e5780922b805971261793e5a1167fa3 -> 
+  custom:scripting/monoscript/fileName/IEditorGameService.cs: faa7656610bf6f8463e95c403d6c6e6c -> 
+  custom:scripting/monoscript/fileName/HttpDigestIdentity.cs: ee6705ed80bf5387988acdf013d61bf9 -> 
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: a90b3e388d3e1316fa104d4c9a03e2d1 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationCache.cs: 4d9ca89ba7e066e3a44a508b8eb66162 -> 
+  custom:scripting/monoscript/fileName/HttpException.cs: 6ebafe55504c5d3623def5ffdfba9939 -> 
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 1c13cf7a9498073806920e71757dfeda -> 
+  custom:scripting/monoscript/fileName/ClientInfo.cs: 8bea7a6905ff2d4df3d13f724824089e -> 
+  custom:scripting/monoscript/fileName/IPackageRegistry.cs: 7ed9d4b5a0ae537ff629f057cfa10e76 -> 
+  custom:scripting/monoscript/fileName/Multimap.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/WebRequest.cs: 79c4b584cc33bcac064057434cba8d30 -> 
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 57c33f76c527a5aba4d269245ffff188 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSettings.cs: e2b98ee836b42374bfa16506e47055ce -> 
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/WebSocket.cs: 1a9044a27a563027f4d0bc83f3582947 -> 
+  custom:scripting/monoscript/fileName/ResponseStream.cs: 534effc52e6c1b92ac06938cf2845570 -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: fcffc3165b047f54ed6ccafa4c8760dd -> 
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: c8fc484ce140049ff31ebc2c6cbebf28 -> 
+  custom:scripting/monoscript/fileName/IAnalyticsStandardEventComponent.cs: cf50b12809cbeb8dcfefaee612a9c090 -> 
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 18737889e95cd4088e8dfd4153fa8f40 -> 
+  custom:scripting/monoscript/fileName/IUnityWebRequestSender.cs: d9b4989e6dc6b90425bccd7306f59d0e -> 
+  custom:scripting/monoscript/fileName/DiagnosticsHandler.cs: 20c8b61d3e3e35194f4a9104f0435070 -> 
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: 81e6708d2b8fa199354e53f85db731a8 -> 
+  custom:scripting/monoscript/fileName/ServiceProvider.Gen.cs: fb28411e62c1911933783faa92ae27e4 -> 
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: bef3a31deb1fe794a90f767d16e4c868 -> 
+  custom:scripting/monoscript/fileName/TelemetryHandler.cs: 9485de402cf5fc3f5849fa4194bac5bd -> 
+  custom:scripting/monoscript/fileName/IChannel.cs: db8ed6536767d05dc3fe7251f4a4dcd3 -> 
+  custom:scripting/monoscript/fileName/IAsyncOperation.cs: f56289e88c7dcb628d7e5619c74e7538 -> 
+  custom:scripting/monoscript/fileName/CloudCodeRateLimitedException.cs: 0032ba0953788f374ea86b0f3f1adcf0 -> 
+  custom:scripting/monoscript/fileName/XmlLinkerModel.cs: d4c2817476b9b278a7b7808d61032596 -> 
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 281e1e05168d6a30be1d8d2f6200bef8 -> 
+  custom:scripting/monoscript/fileName/CodeLinkConfirmResponse.cs: b976c5903ee9629c4342ec286e462614 -> 
+  custom:scripting/monoscript/fileName/SignInResponse.cs: 58e2a52227b6e8e4b12586b59f28ce25 -> 
+  custom:scripting/monoscript/fileName/Player.cs: f9aa1d60167779cb609507b4121ab171 -> 
+  custom:scripting/monoscript/fileName/ApiException.cs: 02aa5ba039e149716ee5e83594a81068 -> 
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e5121cec860a6d1097cc809217b3d8fe -> 
+  custom:scripting/monoscript/fileName/EnvironmentServiceExtensions.cs: ac6a6c148393eb9a5f8fb75c98af0cdb -> 
+  custom:scripting/monoscript/fileName/IOrganizationHandler.cs: f8b346f72bb06934d5f47a4eb5bf2f52 -> 
+  custom:scripting/monoscript/fileName/Metrics.cs: ff969a3864869c6435b83c963d65cf34 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: a5f2abd8875e7a6afbc171fabfbae81f -> 
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 47dc767626bbd94d66707af31ddc5eb6 -> 
+  custom:scripting/monoscript/fileName/IVivoxTokenProviderInternal.cs: 8f6eac73831e2d88349c636e0c8277cf -> 
+  custom:scripting/monoscript/fileName/XmlLinkedField.cs: 58331cd1e1b9bc9099ae07f125c40794 -> 
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 2560eadaf6a13a74a46a4a207cd5a8b6 -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: 0921a62a588ab864253743d1f07afb5a -> 
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: d87f46f9fb97181a2f51490ea2e1efc3 -> 
+  custom:scripting/monoscript/fileName/IRetryPolicy.cs: 415b0eb656ee55b9a4daa9db657033c7 -> 
+  custom:scripting/monoscript/fileName/Publication.cs: 8584d3f95a753832a2297d339e40d3cb -> 
+  custom:scripting/monoscript/fileName/SubscriptionEventCallbacks.cs: 1f56b6cbcd839b867d8d827543f9bb59 -> 
+  custom:scripting/monoscript/fileName/InstallationId.cs: 5a83a3939f92e5bc55c8a90ccbe27d51 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: c8f6be9dab1e6f8d71e0c63c29679186 -> 
+  custom:scripting/monoscript/fileName/CloudCodeApi.cs: b6ad0900aeb294f3f4c3363090c11b8d -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestUtils.cs: f709ddaaeb44d62e1a53fe224983d54c -> 
+  custom:scripting/monoscript/fileName/FactoryUtils.cs: a362e0d1d8669d12721d8991317d81e6 -> 
+  custom:scripting/monoscript/fileName/DependencyTree.cs: 0bd2915409b5c0af8089da1663502e47 -> 
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 722de7d6e07a79981d750438e6febb8f -> 
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: 3c402eae57d73cc54863f3f6a13096ae -> 
+  custom:scripting/monoscript/fileName/WebSocketServer.cs: 2c846abea0f54d1f9e9e7a9fa2f4912e -> 
+  custom:scripting/monoscript/fileName/FileCachePersister.cs: 11e7c2e3490747e4f4381c78d3ff9512 -> 
+  custom:scripting/monoscript/fileName/AsyncOperation.cs: f23cc551eab7049146420a4196093425 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 9387215e0dc23a2ff26ebec61d0d9f7d -> 
+  custom:scripting/monoscript/fileName/CodeChallengeGenerator.cs: c1cbbc45173840c0311c73c8d8061303 -> 
+  custom:scripting/monoscript/fileName/RequestStream.cs: 4e38e4c6078810dc75812f2c7c694572 -> 
+  custom:scripting/monoscript/fileName/ICachePersister.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/StandaloneBrowserUtils.cs: 37fbe853d847990876bc55459b4afabd -> 
+  custom:scripting/monoscript/fileName/OpenIDConfig.cs: 5e9110ecc925180f61cbf9ac58b68d6f -> 
+  custom:scripting/monoscript/fileName/ServiceInstallationListener.cs: 4f550d886426ad05d9cb021f02f3b5c8 -> 
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: d599d6efdee28305661bc0cf6683858a -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsElement.cs: 8d3a16bad4c3a41a27e6331bc8afa6bc -> 
+  custom:scripting/monoscript/fileName/IdProviderElement.cs: 6536e40194fb7c282e118e312f164d27 -> 
+  custom:scripting/monoscript/fileName/UnityAddressV1.cs: 4d4ba30b341c7e72810f3c36b5914fa5 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountService.cs: c965904e21cfc4eaef768e4a06448dc4 -> 
+  custom:scripting/monoscript/fileName/IGatewayTokens.cs: af8d58613a9fd459a444ee8b327072b0 -> 
+  custom:scripting/monoscript/fileName/ConfigurationUtils.cs: e57894058b136700ef3ea680c0b15031 -> 
+  custom:scripting/monoscript/fileName/HttpListenerException.cs: 7e01a211a67d8bff18ed62b622fd18f7 -> 
+  custom:scripting/monoscript/fileName/PackageConfig.cs: 6c65665380cc70d71f22e981e56d92cf -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsErrorCodes.cs: 43b8194c378f655c352ca1eef4f8e9d8 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: 87b74e0d80cf59010f55e2baaeb6679d -> 
+  custom:scripting/monoscript/fileName/IInitializablePackage.cs: 7a2afaa327b6f2c8c3b73c00855d936d -> 
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 08d26df1ab6c3a7628addc5e54e50b08 -> 
+  custom:scripting/monoscript/fileName/ServerSslConfiguration.cs: 2555ac0af72c276ccb5cc188831dd3c3 -> 
+  custom:scripting/monoscript/fileName/AnalyticsOptionsExtensions.cs: 61b53e23187fa8065622d09b0f304596 -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationMemberV1.cs: 29203c4e087d3ba2203081bd2717405e -> 
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 874cd65cce0384fef4b60e71fb08a429 -> 
+  custom:scripting/monoscript/fileName/UnityServices.cs: 53288f4d4ff1211eb125ba005d646505 -> 
+  custom:scripting/monoscript/fileName/CloudCode.cs: 9407581678adf9712b2ad0d4d76dbade -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: f578bf9cf78d5f56704a18cd36c88f9f -> 
+  custom:scripting/monoscript/fileName/IAccessToken.cs: 359704d6f9862ce7f7142f3c9f3827a0 -> 
+  custom:scripting/monoscript/fileName/VisualElementHelper.cs: 0b84949c228ae121ca9bc47ce2ce3ccc -> 
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 1e1255b803bf7cbc935bb804bf0dbe7b -> 
+  custom:scripting/monoscript/fileName/TcpListenerWebSocketContext.cs: 540be559d7627c672b28a73c6796be37 -> 
+  custom:scripting/monoscript/fileName/CloudCodeException.cs: 9734cbe9f380184d0e942394ee079325 -> 
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: c64561980f26020cc3206ae8b1047268 -> 
+  custom:scripting/monoscript/fileName/ConfirmSignInCodeRequest.cs: 344f0c7918f5f3330e8a52917584f5c1 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSelector.cs: c98b9a09bbd4b5a80fea1f579cd65362 -> 
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 30cd71d0b3ee4b2689cde689908d301e -> 
+  custom:scripting/monoscript/fileName/IAnalyticsUserId.cs: c2cc7c28fd557b3f55cdf068b0502818 -> 
+  custom:scripting/monoscript/fileName/IMessageReceivedEvent.cs: 250e26c1f82b8653cae4034c40e103bf -> 
+  custom:scripting/monoscript/fileName/JsonHelpers.cs: 31dc36ee768acf9c93de81f2411f5ee2 -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceHost`1.cs: cb11ec4cf20ebf4cab5372f006d0c784 -> 
+  custom:scripting/monoscript/fileName/UnityCreateEnvironmentRequest.cs: a9b0f13e8545f9920554463818374956 -> 
+  custom:scripting/monoscript/fileName/DefaultCdnConfiguredEndpoint.cs: 624837102d8bef2a2323b0b82727af95 -> 
+  custom:scripting/monoscript/fileName/Reply.cs: 5f2ebb8186a73da01bafd0e23f181be6 -> 
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: fc467478941f610919bc69526ba2c215 -> 
+  custom:scripting/monoscript/fileName/RunModuleResponse.cs: 920d49b9a11202f51ad65c1d1015c18c -> 
+  custom:scripting/monoscript/fileName/ServiceFlagEndpoint.cs: 95ebbb4e72d70a377056cbf3d7a7020c -> 
+  custom:scripting/monoscript/fileName/GUISpace.cs: 8f50176adb72cb92a80e5c8eb8b79a13 -> 
+  custom:scripting/monoscript/fileName/INetworkConfiguration.cs: afb334c9e4c5cb335369ca0285868e02 -> 
+  custom:scripting/monoscript/fileName/EventBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Scope.Gen.cs: 409412ebac5387d01283cada94af8d59 -> 
+  custom:scripting/monoscript/fileName/IApiConfiguration.cs: b353a4de4e3358ad7f085e6203139418 -> 
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 7bfc83e917c9b0b5aa423bb947ce2a38 -> 
+  custom:scripting/monoscript/fileName/BrowserUtils.cs: 6bc48370d7304756ca4f09b02d6cf80c -> 
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 4c95e39c8dd4cfa1bca106097fdb6524 -> 
+  custom:scripting/monoscript/fileName/UnsubscribeResult.cs: 6400b146f52de2fdcabae4f87c668311 -> 
+  custom:scripting/monoscript/fileName/SliderToggleUiHelper.cs: 297bb968c6a98e033483e5885bc5e941 -> 
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: d09e0b5c7a9af5874530e17ef23025f0 -> 
+  custom:scripting/monoscript/fileName/GenesisTokenProvider.cs: d987e55d05af32d01fe6f177ed2b74ce -> 
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: af2b76c693935deee55cfcaed2aa7568 -> 
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: a602c9e59e7db185e3a0d68d986e6fef -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorService.cs: d501aef43505f0a38b4d655d6776d06e -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsHelper.cs: a467d230cb8a062800440b1a6f1137cd -> 
+  custom:scripting/monoscript/fileName/ITelemetryEvent.cs: 1eb711296be42c74b8bf8ddc50c8fddc -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71727.948872 seconds.
+  path: Assets/Prefabs/UpDownDoor.prefab
+  artifactKey: Guid(6ac2fc4aca147564da0faa5e69f555d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UpDownDoor.prefab using Guid(6ac2fc4aca147564da0faa5e69f555d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b0132afbf6e62b97196f05731d3124') in 0.489597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.717263 seconds.
+  path: Assets/Prefabs/1door/1Room_1.prefab
+  artifactKey: Guid(67753992ff336a94c92eec338d184de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/1door/1Room_1.prefab using Guid(67753992ff336a94c92eec338d184de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf73eda9f9c09516b395b31346a62b6') in 0.066989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1414
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/1door/1Room_4.prefab
+  artifactKey: Guid(a68512feb585b874dbca10f41d735132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/1door/1Room_4.prefab using Guid(a68512feb585b874dbca10f41d735132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ecf524aa64902dbfadd3798b0945c5') in 0.053098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1417
+========================================================================
+Received Import Request.
+  Time since last request: 0.478630 seconds.
+  path: Assets/Prefabs/2rooms/2Room_1.prefab
+  artifactKey: Guid(0f8dc0ad2b496ce4dbe17a771d685efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2rooms/2Room_1.prefab using Guid(0f8dc0ad2b496ce4dbe17a771d685efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a10488f45fafb8a3a31402396fb27a6') in 0.067485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1668
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/2rooms/2Room_3.prefab
+  artifactKey: Guid(2a8fbc320888ee142b9d40033f15c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2rooms/2Room_3.prefab using Guid(2a8fbc320888ee142b9d40033f15c4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ede534173ddfb35ae3976a19eb807c') in 0.050694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1668
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Prefabs/2rooms/2Room_6.prefab
+  artifactKey: Guid(96fa38a5d048f464e92141033d2f91e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/2rooms/2Room_6.prefab using Guid(96fa38a5d048f464e92141033d2f91e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e390730073729db27cd151066c00ae88') in 0.055995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1661
+========================================================================
+Received Import Request.
+  Time since last request: 0.167742 seconds.
+  path: Assets/Prefabs/3doors/3Room_1.prefab
+  artifactKey: Guid(aadaa879c023e9649a1f6851aad4c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3doors/3Room_1.prefab using Guid(aadaa879c023e9649a1f6851aad4c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37249c5557796bbc7ff3f17f3f67a27e') in 0.057619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1922
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/3doors/3Room_3.prefab
+  artifactKey: Guid(860791f15156d9e4d91d838a04b3c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/3doors/3Room_3.prefab using Guid(860791f15156d9e4d91d838a04b3c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac5cf3e7fe4f5436c793d7858370095') in 0.059917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1922
+========================================================================
+Received Import Request.
+  Time since last request: 0.291497 seconds.
+  path: Assets/Prefabs/Start/FirstRoom.prefab
+  artifactKey: Guid(9495b42525aae494a9029168b16f17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Start/FirstRoom.prefab using Guid(9495b42525aae494a9029168b16f17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77570ce9384c82f6bc3a6abb4d571c50') in 0.069193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2254
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 3.07 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1577ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (218ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1015ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (426ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (31.6 KB). Loaded Objects now: 4197.
+Memory consumption went from 144.3 MB to 144.3 MB.
+Total: 6.152700 ms (FindLiveObjects: 0.556700 ms CreateObjectMapping: 0.143200 ms MarkObjects: 5.365000 ms  DeleteObjects: 0.085500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/WebHeaderCollection.cs: 9ec673d890734accf48fdc69c6e73b4c -> 
+  custom:scripting/monoscript/fileName/IFileSystem.cs: d0a5668d9c43d0a16eec8fa2a37aa20c -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTab.cs: af2f8b65a736cbc2c6197311f8f8caf3 -> 
+  custom:scripting/monoscript/fileName/DiagnosticsPayload.cs: 1ebb9cbc2393fe85aea7fcb0b196e8e6 -> 
+  custom:scripting/monoscript/fileName/IService.cs: afa2330a6d32be2e7a659227e3bf813e -> 
+  custom:scripting/monoscript/fileName/DiffSelection.cs: 1460aaba4240ef35322cb9c198487990 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeExceptions.cs: 8d717c8797566529cf594f9aab3c0409 -> 
+  custom:scripting/monoscript/fileName/IDiagnosticsComponentProvider.cs: dbeac349f8c5591a0ab13c5e6354061e -> 
+  custom:scripting/monoscript/fileName/INetworkHandler.cs: ff71e4526a605d13f8a248b2fb248467 -> 
+  custom:scripting/monoscript/fileName/Factories.Gen.cs: c9550e2a227c017a16a3e473be870754 -> 
+  custom:scripting/monoscript/fileName/CoreRegistration.cs: afa90de4a402b0848ad8b60755b1ca20 -> 
+  custom:scripting/monoscript/fileName/CloudProjectId.cs: 79896f5d7f4686775371eee2c8881849 -> 
+  custom:scripting/monoscript/fileName/DateFilter.cs: 85ed700e21fd471cc38c626cebe01d52 -> 
+  custom:scripting/monoscript/fileName/CloudCodeApiRequests.cs: b30053c2138de40609369a7da25d9b7c -> 
+  custom:scripting/monoscript/fileName/WebRequestException.cs: 8f71d19fe8e6461e910f7c70d945e342 -> 
+  custom:scripting/monoscript/fileName/IServiceRegistry.cs: 27b0be3a7d5fbabc2f8cff0f28316b4a -> 
+  custom:scripting/monoscript/fileName/ListIdProviderResponse.cs: 24d3cd8484902e66655a7c7adada04dc -> 
+  custom:scripting/monoscript/fileName/UpdateIdProviderRequest.cs: 90dca144cff885691d127e212281d94c -> 
+  custom:scripting/monoscript/fileName/SerializableProjectConfiguration.cs: 8d2aa3b56842beb1ee3e05f5a4e2f3c4 -> 
+  custom:scripting/monoscript/fileName/IVivox.cs: 6d92ea4b822d1fa7e4b8787c59760673 -> 
+  custom:scripting/monoscript/fileName/UnityCreateAddressRequest.cs: 231eb736f0a651a8ee21e6aa579173ae -> 
+  custom:scripting/monoscript/fileName/PerformInitialCheckin.cs: 8ef9a9f407b8b94b2b5fad9d24e61f79 -> 
+  custom:scripting/monoscript/fileName/UnityListOrganizationFavoriteProjects200Response.cs: 2acfbc626d621e368ef9190462157b7a -> 
+  custom:scripting/monoscript/fileName/IAuthenticationMetrics.cs: 6636a4c47815b677d1c99e55126851a2 -> 
+  custom:scripting/monoscript/fileName/ErrorStatus.cs: f13a789af72a01cd8032989472c3919c -> 
+  custom:scripting/monoscript/fileName/ConflictResolutionState.cs: f57afa30d8024722188e7d7755100885 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/IServiceComponent.cs: 56d2b4986149318278267c2a2e499b7e -> 
+  custom:scripting/monoscript/fileName/IPlayerId.cs: 8ec284f91dceb8f1818908be17c609b0 -> 
+  custom:scripting/monoscript/fileName/FindWorkspace.cs: 6af6c9e9382fef881c020ab184e6f7f5 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotifier.cs: 10fad815611441fb3a805150421ed991 -> 
+  custom:scripting/monoscript/fileName/AuthenticationErrorResponse.cs: 76f05213252f5363e53adf0a1ec22027 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/CommonErrorCodes.cs: 75f302fd69f29841b35f2306c97082ed -> 
+  custom:scripting/monoscript/fileName/AuthenticationIdentifier.cs: 6374db9872b89ce7919b9e96916b7540 -> 
+  custom:scripting/monoscript/fileName/AccessToken.cs: e7ce0a8acab470a7b99191c4ddcad1b8 -> 
+  custom:scripting/monoscript/fileName/IChannelTokenProvider.cs: d41d74d962184eab5928b0b3bdda1ee9 -> 
+  custom:scripting/monoscript/fileName/PlayerNamesApi.cs: ed0cc90b3fc5171261d879532c722c4c -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceRegistry.cs: 0265fd85a62bd33c32f256257ebc576f -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.External.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountIdentifier.cs: 609c541b251f3cd6dac437fd895ed501 -> 
+  custom:scripting/monoscript/fileName/CheckinConflictsDialog.cs: e13fa04a97fb675842c94586fc602871 -> 
+  custom:scripting/monoscript/fileName/ISubscriptionEvents.cs: 8ef361ac8f367253900e9953ac10bfad -> 
+  custom:scripting/monoscript/fileName/RunModuleArguments.cs: b0246fe196d5d21137368fd0544417b1 -> 
+  custom:scripting/monoscript/fileName/ProgressBar.Gen.cs: 09dcf9975c3de3bc94763c35db49d364 -> 
+  custom:scripting/monoscript/fileName/AuthToken.cs: 0fba7e8eb1ec8b699f274cdc956451b2 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForDialogs.cs: 7e6bd1727985204e3b64e1946e589b1c -> 
+  custom:scripting/monoscript/fileName/AssetStatusCache.cs: 260d5f85663ac58b2a7e9553c453bc3e -> 
+  custom:scripting/monoscript/fileName/PayloadData.cs: e3d6613b3be4d75e8e319c55b73202c8 -> 
+  custom:scripting/monoscript/fileName/EngineStateHelper.cs: fc3af0e3861170c1844ed988613ec634 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountEditorService.cs: 222e8258b7a745a4502c530fdb5a53b9 -> 
+  custom:scripting/monoscript/fileName/DrawIncomingChangesOverview.cs: 6d1aadb525661622ddc7d545c55841f2 -> 
+  custom:scripting/monoscript/fileName/BuildFormattedHelp.cs: f675844664504d88a0d8165e2b08a2bf -> 
+  custom:scripting/monoscript/fileName/UnlinkRequest.cs: 0f5e5b017856c9dd86dffeb71e8c4d5a -> 
+  custom:scripting/monoscript/fileName/EnvironmentProvider.cs: e6441984086d3ec4f02dd82b6dec6df1 -> 
+  custom:scripting/monoscript/fileName/PackageInitializationInfo.cs: 82c881c6d5f9d1b5f2eba332919bcd1c -> 
+  custom:scripting/monoscript/fileName/OrganizationPanel.cs: 57a57e6a345dbd536e91c348b70943a9 -> 
+  custom:scripting/monoscript/fileName/NetworkConfiguration.cs: e2bae49c2fc410abb400f06d057a575f -> 
+  custom:scripting/monoscript/fileName/MigrationProgressRender.cs: 94a7accb6b5be388f3abff6285d8f1af -> 
+  custom:scripting/monoscript/fileName/ChangeCategoryTreeViewItem.cs: 0575b62021687a93a7c01ce7b86e9645 -> 
+  custom:scripting/monoscript/fileName/CurrentUserAdminCheckResponse.cs: d57c2dcace740834acd59fdfbc5023b8 -> 
+  custom:scripting/monoscript/fileName/DisabledDiagnostics.cs: dca147f0ee6a8cbd3c40d0fb15b26062 -> 
+  custom:scripting/monoscript/fileName/LockedServiceRegistry.cs: ea77a1a45ffb4a9bcd250cb8233d16f9 -> 
+  custom:scripting/monoscript/fileName/JsonHelper.cs: 0b5759f67f92e2eb09febb2082aca955 -> 
+  custom:scripting/monoscript/fileName/ResponseHandler.cs: 90c835e3c7f27aa26b7e8fb12b9ba8c0 -> 
+  custom:scripting/monoscript/fileName/ChunkedRequestStream.cs: e1ab87746a8e5fb30d193ec5ffc3feff -> 
+  custom:scripting/monoscript/fileName/UIElementsExtensions.cs: 52e0d612ab032e4d22e9558b90396b99 -> 
+  custom:scripting/monoscript/fileName/RunScript400ResponseOneOf.cs: 8566284c8be2a697d64f91f53ce5197e -> 
+  custom:scripting/monoscript/fileName/ProfileEventArgs.cs: 1bd9f2f8f4e6a6917d01c1dcd6c8b351 -> 
+  custom:scripting/monoscript/fileName/CreateBranchDialog.cs: 9e0e6b5a64d0f65936f3d131216d7e07 -> 
+  custom:scripting/monoscript/fileName/MetricsFactory.cs: ff8596a1ccea2041a0c0cfe2841c8f74 -> 
+  custom:scripting/monoscript/fileName/HttpListenerRequest.cs: 695e4ceb2ee5e15138d78b550b02abff -> 
+  custom:scripting/monoscript/fileName/DrawCreateWorkspaceView.cs: c6039ac84d85ab3926aa94de163a9f7d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsClient.cs: 9c80a43488077f46562fa053df484911 -> 
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 2007f972d3a73eeb86dfe05e849c7f69 -> 
+  custom:scripting/monoscript/fileName/ExternalUserIdProperty.cs: e9524414c13dc2d0db279d48f3b164ab -> 
+  custom:scripting/monoscript/fileName/ReadOnlyObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: e140ede12a96f68f30062138385171c3 -> 
+  custom:scripting/monoscript/fileName/DisabledMetrics.cs: bbb9bc05cfe10f1818b0676306a0b1b1 -> 
+  custom:scripting/monoscript/fileName/CoreLogger.cs: 1639b74467b5a585128e7c7cefe73635 -> 
+  custom:scripting/monoscript/fileName/LinkWithAppleGameCenterRequest.cs: e0f7a0b7c8e104323b604274601d0766 -> 
+  custom:scripting/monoscript/fileName/CloseEventArgs.cs: 8e509637dae81a58a9b8b0eafe4db92d -> 
+  custom:scripting/monoscript/fileName/Environments.cs: 8edd577354349a066a7545f9433d7b49 -> 
+  custom:scripting/monoscript/fileName/AuthenticationExceptionHandler.cs: 1e494c22c604eb7b12380bc88616e91a -> 
+  custom:scripting/monoscript/fileName/UnsubscribeRequest.cs: 31ddee4627f37c9647eecf2cc407bda0 -> 
+  custom:scripting/monoscript/fileName/CacheExtensions.cs: f511fe0b9e1f588fd9d29383042c655c -> 
+  custom:scripting/monoscript/fileName/Ext.cs: 7b6a526a0e28691fad8a9202ae5c44fe -> 
+  custom:scripting/monoscript/fileName/DisabledMetricsFactory.cs: 7be501bd0f16d76131ffa436d7274447 -> 
+  custom:scripting/monoscript/fileName/User.cs: aa51edb813ed08e13a853606ff677e2f -> 
+  custom:scripting/monoscript/fileName/UnityAnalyticsIdentifier.cs: 40be8e11923159cf7c61c72c1a1b26dd -> 
+  custom:scripting/monoscript/fileName/SettingsCommonHeaderUiHelper.cs: 394582b395d6aebbb1e6e49abf6a1645 -> 
+  custom:scripting/monoscript/fileName/IEditorAnalyticsEventRegistrant.cs: c4a0f7089b5b21ceafb7834c915d762f -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab_Operations.cs: 15ae6787065f4af65778e981f418a60b -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.CodeLink.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/AsyncOperationBase.cs: adfca800027e0922d59797ee493a2672 -> 
+  custom:scripting/monoscript/fileName/IJsonSerializer.cs: 952e0b7cbb25051b8e0e85eda2a653c8 -> 
+  custom:scripting/monoscript/fileName/WebSocketSessionManager.cs: b7953813035a8a3a375d8ed2967cd365 -> 
+  custom:scripting/monoscript/fileName/HttpClientResponse.cs: 14191c39b66d03316f3b5121fe2855c4 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedEvent.cs: efe4e7e159b94963c650fb293df0f9ff -> 
+  custom:scripting/monoscript/fileName/IProfile.cs: 7bf226ffe53754da20516fbf8b709e9b -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewPendingChangeMenu.cs: dfa66c8d56a3b164a7407feb2b226d6c -> 
+  custom:scripting/monoscript/fileName/SignInPanel.cs: bac0318ce35e37bed3a2cc8137452435 -> 
+  custom:scripting/monoscript/fileName/UnityUserOrganizationsV1OrganizationsInner.cs: 440e6e939c241944b318429e561d5df2 -> 
+  custom:scripting/monoscript/fileName/PathUtils.Gen.cs: 5ddc0068a1cf521fafc42781cf03a3a9 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceRegistry.cs: 4894c70fd515017ae46efb4f44f8b3e2 -> 
+  custom:scripting/monoscript/fileName/DrawInspectorOperations.cs: 8c94fe642e98309082411f46db89106b -> 
+  custom:scripting/monoscript/fileName/ProfileComponent.cs: cea63e4f3546337287ea1c855ba2ff37 -> 
+  custom:scripting/monoscript/fileName/HttpServer.cs: a0d70929ae0c30e6f15bdf1a1e5d573b -> 
+  custom:scripting/monoscript/fileName/DrawDirectoryResolutionPanel.cs: cf0aec5984468cf0d37b103ac4851e17 -> 
+  custom:scripting/monoscript/fileName/AsyncOpRetry.cs: 966d746bbeec1b1d195ade6df39b23f9 -> 
+  custom:scripting/monoscript/fileName/RequestFailedException.cs: a9eaec06c59248353e0ced5cdc95723f -> 
+  custom:scripting/monoscript/fileName/CloseWindowIfOpened.cs: ce229ef3b7461ff17e2c1af0695a6657 -> 
+  custom:scripting/monoscript/fileName/SaveAssets.cs: 898e86402580d75dc56c5f25b325a28e -> 
+  custom:scripting/monoscript/fileName/IUserRoleRequest.cs: ccc5b229323b6e9c080254df6d4b51cb -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseResponse.cs: dfe943b72b80d79a10d425248df1e550 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeExtensions.cs: 63e3c71f0d430a351e6159f69f0a0682 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsErrorResponse.cs: 625aaa6e8381f311785ef14fd6a7f90f -> 
+  custom:scripting/monoscript/fileName/XmlLinkedModelsExtensions.cs: 9e8a2b9216079ba87ebfd084960b4ac0 -> 
+  custom:scripting/monoscript/fileName/CloudProjectIdProvider.cs: 2378bcc3b5bebbc672c1dacaff88b964 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListView.cs: 95287f65338ca0073ad04002a16eaaf7 -> 
+  custom:scripting/monoscript/fileName/IdProviderKeys.cs: 8479f7af99bd32669ce1b1cd06785a24 -> 
+  custom:scripting/monoscript/fileName/AssetOperations.cs: 638daf61300bf6ad727538516d4fa3e2 -> 
+  custom:scripting/monoscript/fileName/UnityThreadUtils.cs: 6f10d79f183f36877232e308ffa4d195 -> 
+  custom:scripting/monoscript/fileName/HandleMenuItem.cs: b4ad1ecc5243212c5967125ad5e41b1f -> 
+  custom:scripting/monoscript/fileName/Notifications.Gen.cs: 0b77852ac67d3ab84f489a2ddbdf8168 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceRemoteConfiguration.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/UnityUploadIconV1201Response.cs: a7cab146027c2f1549f57a603ca22560 -> 
+  custom:scripting/monoscript/fileName/ScreenResolution.cs: 7bb7bb5b955671820101b322f0a7bf3d -> 
+  custom:scripting/monoscript/fileName/TokenExchangeErrorResponse.cs: f6ae53171c98a8fffae49d38e43b1ec2 -> 
+  custom:scripting/monoscript/fileName/HttpListenerPrefix.cs: 9ad6c5f8bdd2370cec7e33d5c674b481 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsApi.cs: d5d1f45bf03abd7dd2f469acfd3b5bcb -> 
+  custom:scripting/monoscript/fileName/ApplicationDataPath.cs: 3e8c4ea8debfda8013fed860ac233d22 -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminNetworkClient.cs: 5dda6f84d83676b008ddf31b51deb70d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsOptionsExtensions.cs: 1e2776231b4e06a0e9b293a3623d643e -> 
+  custom:scripting/monoscript/fileName/DisabledDiagnosticsFactory.cs: 92ef54fd2e9d3765db37c6ce29121dc7 -> 
+  custom:scripting/monoscript/fileName/IServerEnvironmentId.cs: fff64b157cd649d3d948016718fba14e -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/BaseJwt.cs: 7e0494ab7ba3fec8428b5c217bce6e56 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSaveSystem.cs: 931610e413c03621f898c65e36f44fc6 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsExceptionHandler.cs: 6ea791fbfb7786b788d8d7d02654adff -> 
+  custom:scripting/monoscript/fileName/RepaintInspector.cs: f134606300316994850c28a68d0cb5a3 -> 
+  custom:scripting/monoscript/fileName/ComponentRegistry.cs: 2fefa8b1f349de188d35295b3042e694 -> 
+  custom:scripting/monoscript/fileName/LockStatusCache.cs: 269228dd067bbedc3c05baa15189195c -> 
+  custom:scripting/monoscript/fileName/ProjectStateRequest.cs: 6ba5b48af1466d2a4dbb6e908352d7c6 -> 
+  custom:scripting/monoscript/fileName/DiffTreeView.cs: 49f46fd2a65ea674a218eead75f27aac -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectPopupWindow.cs: 03988f1b5263bdfb55c00f001c224465 -> 
+  custom:scripting/monoscript/fileName/DependenciesDialog.cs: c8902186ab2f4e6471b5dd147afb01b6 -> 
+  custom:scripting/monoscript/fileName/ApiUtils.cs: 756c6ce1277e83c5eaba7d078dea9753 -> 
+  custom:scripting/monoscript/fileName/ChangesetListViewItem.cs: d742a4910e302777daa1ccb9c8e92cb9 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentSaveSystem.cs: 8319bf770542e6764e5512ea06d2b015 -> 
+  custom:scripting/monoscript/fileName/OrganizationProvider.cs: f2089b4351294d4815b134a51aba3d17 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesViewMenu.cs: c4d5b523d1f73ac4ebcbb338088b1600 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsClientFactory.cs: 325dec75592389c16ac743f438f24960 -> 
+  custom:scripting/monoscript/fileName/ConfigurationCollectionHelper.cs: cb4dac2b34c76624ca64d0ad91214a93 -> 
+  custom:scripting/monoscript/fileName/QueryVisualElementsExtensions.cs: a49740b6efbb934f55475cc70b864a4c -> 
+  custom:scripting/monoscript/fileName/DictionaryExtensions.cs: d37b3043b5339f13af7295850374111a -> 
+  custom:scripting/monoscript/fileName/AsyncOperationExtensions.cs: 1fabcad386c6a3966bbd7925c1ec32e2 -> 
+  custom:scripting/monoscript/fileName/BaseApiClient.cs: 7d79f6c50a3b41d3c546444e0e8f24be -> 
+  custom:scripting/monoscript/fileName/ProjectUnlinkBuildWarning.cs: c52465de41a758f7a3babb293254b52b -> 
+  custom:scripting/monoscript/fileName/IProjectStateHelper.cs: 3adea7eb7ff850864d22d07f530e0111 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.BYOI.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/ICloudProjectId.cs: 60ddc28b5a3880441601b503b311a533 -> 
+  custom:scripting/monoscript/fileName/TypeAlreadyRegisteredException.Gen.cs: f78f490406edcce398401642789c4f0d -> 
+  custom:scripting/monoscript/fileName/IAuthenticationEditorService.cs: 58e2d84aa3051f0695e248211048c819 -> 
+  custom:scripting/monoscript/fileName/IAsyncOperationAwaiter.cs: 4e390262389eabe5476a62852a905252 -> 
+  custom:scripting/monoscript/fileName/ProjectStateHelper.cs: a377430869822a008fcaab13302eb7b2 -> 
+  custom:scripting/monoscript/fileName/HttpRequestEventArgs.cs: c03c56170530687530832ccdb1d37b3d -> 
+  custom:scripting/monoscript/fileName/WriteLogConfiguration.cs: 1589212d1638ae91a029ea3ddf9999f2 -> 
+  custom:scripting/monoscript/fileName/UnityGetUserGuestProjects200Response.cs: 101aa8e271472b02f3ae37c6ca9da3cb -> 
+  custom:scripting/monoscript/fileName/IHttpClient.cs: 14e697ac190b27a69c1cc2e1f086eaf3 -> 
+  custom:scripting/monoscript/fileName/ICopyable.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DrawTextBlockWithEndLink.cs: 1cc3e67c46bd397f9508f124a3366994 -> 
+  custom:scripting/monoscript/fileName/FileSystemOperation.cs: f0ccbe91654279794a85bf6f1c034716 -> 
+  custom:scripting/monoscript/fileName/MigrateCollabProject.cs: 9f3487f03a783b35518405572f20ac9e -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestClient.cs: 171ccf79c76240837e46a8b79f973b6e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/IdProviderNames.cs: db80400c41aaf95d50509b8170aaab35 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForViews.cs: a8a18a90f46aa63848e1e45d8d7ff9af -> 
+  custom:scripting/monoscript/fileName/AbstractRuntimeServices.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DrawAssetOverlay.cs: 04a46044def089f0abcdafdd281e3646 -> 
+  custom:scripting/monoscript/fileName/CookieException.cs: b13e48c66ff20a5635024a3d74b40dbb -> 
+  custom:scripting/monoscript/fileName/SignInCodeInfo.cs: 5021c05477899faf20d892f4cf059942 -> 
+  custom:scripting/monoscript/fileName/NetworkCredential.cs: 903af78ee54833c80004215b7b26e6fc -> 
+  custom:scripting/monoscript/fileName/IMetrics.cs: cc4d6b26e54335130aeffb94ca489467 -> 
+  custom:scripting/monoscript/fileName/ProjectWindow.cs: c62567a3d71fd74636bc783de5162474 -> 
+  custom:scripting/monoscript/fileName/EnvironmentInfo.cs: 78a754ae7b45de5c0f5a2d3aef9c92f6 -> 
+  custom:scripting/monoscript/fileName/ApiResponse.cs: 0178253e68aead753e309ceab16a5b51 -> 
+  custom:scripting/monoscript/fileName/MergeLinksListView.cs: c9488671ae9b14523680d0c19097baa0 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentService.cs: d28a6fb640eb356196b9c1017c7a0d37 -> 
+  custom:scripting/monoscript/fileName/UnlinkResponse.cs: 5c3d6fd0bc8ad5a2b96081560c4e2afd -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsException.cs: f345195172d5e267745a144c3f1e950e -> 
+  custom:scripting/monoscript/fileName/MemoryConfigurationLoader.cs: e1621a8e05504bfbe89a438b0282bf97 -> 
+  custom:scripting/monoscript/fileName/StreamingAssetsConfigurationLoader.cs: 2f115cec9bfe6872856ee4ad61eb2c3f -> 
+  custom:scripting/monoscript/fileName/EditorProgressBar.cs: 08c2f2b90ef64df631d46389f0e22c8e -> 
+  custom:scripting/monoscript/fileName/SteamConfig.cs: bbd1cc7973d283bd45536d92d8a56d59 -> 
+  custom:scripting/monoscript/fileName/MeasureMaxWidth.cs: 1569e3f1dad91a9b01cba66ab6aa30b0 -> 
+  custom:scripting/monoscript/fileName/TokenExchangeRequest.cs: 84521e3f40e65f84d2324450cf06365e -> 
+  custom:scripting/monoscript/fileName/LinkOptions.cs: d980be51f14aa6893b870934669980d0 -> 
+  custom:scripting/monoscript/fileName/SignInWithOculusRequest.cs: 957099aa63a576a63c27a2432f359cc1 -> 
+  custom:scripting/monoscript/fileName/MessageReceivedEvent.cs: eceb4f74ca50b72fbca06879fb44dcde -> 
+  custom:scripting/monoscript/fileName/EndPointManager.cs: ec7dcb5be55c3c8cea12f937795a6bfc -> 
+  custom:scripting/monoscript/fileName/EnvironmentChangedParameters.cs: 0ad6f60cc0b0e0ea02aed10221f7c8a8 -> 
+  custom:scripting/monoscript/fileName/WireMessage.cs: f0d852fb210288c0f8b562a7c14ef304 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListHeaderState.cs: fe1392f9b135da83e13fe8a5e5f39fc2 -> 
+  custom:scripting/monoscript/fileName/StagingTokenExchangeUrls.cs: 7ddebca8557e1d6e23849e5e07df2296 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeHeaderState.cs: 5d7f70d142c9ac67864ec14950523d62 -> 
+  custom:scripting/monoscript/fileName/CoreDiagnostics.cs: 041dd565425b56b2b823902ba53cfe54 -> 
+  custom:scripting/monoscript/fileName/DeserializationSettings.cs: f61bf143c9b3d3d5ac393d71dbf9adf4 -> 
+  custom:scripting/monoscript/fileName/MissingEncryptionPasswordPromptHandler.cs: 5d7b9646eb14a39b6d3d5bab19d266ff -> 
+  custom:scripting/monoscript/fileName/ChangelistMenu.cs: c1bf5aeb760cc5eae584ea3944d6531b -> 
+  custom:scripting/monoscript/fileName/NotificationBar.cs: 0daf459fa0c4269b16bcc20cd072c021 -> 
+  custom:scripting/monoscript/fileName/UpdateNameRequest.cs: 7868adfcb83c183cb1a65b23e9ff1c1f -> 
+  custom:scripting/monoscript/fileName/UnityThreadWaiter.cs: 99333406d92d10003984b4d1920de2f9 -> 
+  custom:scripting/monoscript/fileName/IProjectConfiguration.cs: 9794b060b4360e9cc39456a13bf716cc -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectContentUI.cs: ea393b5b63051e326686665efb7ed1d2 -> 
+  custom:scripting/monoscript/fileName/CredentialsDialog.cs: c785d5e40f8d66b7ef7ba04ee7c324e0 -> 
+  custom:scripting/monoscript/fileName/CodeLinkInfoRequest.cs: 339ebe0dca40b55f92e751b1738593a4 -> 
+  custom:scripting/monoscript/fileName/IDiagnosticsFactory.cs: 8a3a37fd862b7581b4621716ed14b18e -> 
+  custom:scripting/monoscript/fileName/SubscribeResult.cs: 2804b7f4bdb6cb9df286f24f38e8ef68 -> 
+  custom:scripting/monoscript/fileName/GetRestorePathDialog.cs: 353d1126ca2d2063d5bdbd06806ffc08 -> 
+  custom:scripting/monoscript/fileName/HashExceptions.cs: 0c04f84e29310842caf31699037c2a6f -> 
+  custom:scripting/monoscript/fileName/UpdateReportListHeaderState.cs: d6cbe54be2898ed2c96c2e79572c2e08 -> 
+  custom:scripting/monoscript/fileName/DownloadAndInstallOperation.cs: 4f4065aeafda2af0ec272a3c228e27b2 -> 
+  custom:scripting/monoscript/fileName/MigrationDialog.cs: 1a69d399f9c8aa816a053d285dd8bc5d -> 
+  custom:scripting/monoscript/fileName/IServiceFlagRequest.cs: b3a0a6e65e5600f2006d43595e9e07b1 -> 
+  custom:scripting/monoscript/fileName/DiffTreeViewMenu.cs: 8039fc4ecf68b3e966e1f4822789e7fa -> 
+  custom:scripting/monoscript/fileName/UnityStyles.cs: e3f6ca40bb9f9c0fdc9402be5329fc1c -> 
+  custom:scripting/monoscript/fileName/IActionScheduler.cs: e5388884c9a263c0b7f149f53626af31 -> 
+  custom:scripting/monoscript/fileName/DiagnosticsFactory.cs: 3828493052568497f2ccdc68dea8b14c -> 
+  custom:scripting/monoscript/fileName/CloudCodeServiceProvider.cs: e90c1181f21953c0cf1b6e43383b5744 -> 
+  custom:scripting/monoscript/fileName/HistoryTab.cs: d57f000c65fde42a2228c7a105a836e5 -> 
+  custom:scripting/monoscript/fileName/ConfigurationEntry.cs: c1ed8586c7c9df05d945744b24303784 -> 
+  custom:scripting/monoscript/fileName/SerializerSettings.cs: 7a7577f480a32058e9496b2ffedf7472 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedProperty.cs: 29784440eed3b7889f0bfe76633cc000 -> 
+  custom:scripting/monoscript/fileName/UnityUserOrganizationsV1.cs: 73dafadd41de13ace6058db610522dcd -> 
+  custom:scripting/monoscript/fileName/HistorySelection.cs: 3d07a3d1241e204b5420d71f1137eba4 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspace.cs: 5256205b5cf0570b6f698c7abe518f5a -> 
+  custom:scripting/monoscript/fileName/ShowWindow.cs: a6bb1d20733c178256b38974418d7450 -> 
+  custom:scripting/monoscript/fileName/TaskAsyncOperation.cs: deaa3dfd455420a1f0dece4fa000e9b1 -> 
+  custom:scripting/monoscript/fileName/CreateRepositoryDialog.cs: 5cec3e66b09e0dbe1f805953c5c64af9 -> 
+  custom:scripting/monoscript/fileName/Singleton.Gen.cs: 66c389d1e92bc70efd18b5d3b46f6bca -> 
+  custom:scripting/monoscript/fileName/RenameBranchDialog.cs: a4999d46054383b4cef03a3dac804cd0 -> 
+  custom:scripting/monoscript/fileName/FileSystem.cs: ab92d4d8629b2af54c3a35102bd12cc4 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedMember.cs: 83ebbc44b07d4de0b62121c7811a18b1 -> 
+  custom:scripting/monoscript/fileName/AuthenticationMetrics.cs: db3eebb192edec43745ac2610c6eee30 -> 
+  custom:scripting/monoscript/fileName/ProgressControlsForMigration.cs: dafc8442bdd0dcb5e871e398f32473ec -> 
+  custom:scripting/monoscript/fileName/SubscriptionChannel.cs: ed280b4b2b28d187dfd1a9634953f928 -> 
+  custom:scripting/monoscript/fileName/EncryptionConfigurationDialog.cs: 19e9c54aff6ffc68d60fe11f80578947 -> 
+  custom:scripting/monoscript/fileName/UnityServicesExtensions.cs: f9ffd95f7e2a880622783a2a6570e5ae -> 
+  custom:scripting/monoscript/fileName/OrganizationHandler.cs: 8e4686813d139f7c9962131a6d917980 -> 
+  custom:scripting/monoscript/fileName/CheckinProgress.cs: 75b93dbc5ef307111f0647f735640420 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationService.cs: 31b1f8ca01e97ab63ffa37f9fac410be -> 
+  custom:scripting/monoscript/fileName/LinkResponse.cs: 72d0f4cdb2fd8b9de864adef4a668391 -> 
+  custom:scripting/monoscript/fileName/JsonWebToken.cs: 576840f242d675d41e4a3e0094ff62a5 -> 
+  custom:scripting/monoscript/fileName/UnityTransferProjectRequest.cs: 160aa9e78d67107dbad79b2602ea5baf -> 
+  custom:scripting/monoscript/fileName/PendingChangesSelection.cs: 1721ad72d074757364587c71b49d9382 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceIdentifier.cs: a0ceaf826ce6fd5a1bb279e1579a965f -> 
+  custom:scripting/monoscript/fileName/HttpConnection.cs: 606bfae8427368ee8f4f4a5a2452a9f4 -> 
+  custom:scripting/monoscript/fileName/ConfigurationBuilder.cs: bd1d62f2bf3afb62754531eee8a4e204 -> 
+  custom:scripting/monoscript/fileName/OfflineUiHelper.cs: 74f5179e6468b11d72cd60998e0c725b -> 
+  custom:scripting/monoscript/fileName/PingRequest.cs: 94a6676ebd5db34cb8cf6b1b45cb2c3c -> 
+  custom:scripting/monoscript/fileName/EnvironmentView.cs: eacb7d766ee45d9a07ea107dc0c80ac6 -> 
+  custom:scripting/monoscript/fileName/AccessTokens.cs: 7f3bd47a4ee3b608248d36969879b607 -> 
+  custom:scripting/monoscript/fileName/Unsubscribe.cs: cf2c7025be5f7f898c51675fd8bee866 -> 
+  custom:scripting/monoscript/fileName/ChunkStream.cs: c6f4628472ab81bfd1c00dfee5f972cd -> 
+  custom:scripting/monoscript/fileName/LoadAsset.cs: 5e4e082aa5b21c13b80eb237fe94d00b -> 
+  custom:scripting/monoscript/fileName/CloudCodeSettingsProvider.cs: 35c081e594e8adc34ce4094a8fb90419 -> 
+  custom:scripting/monoscript/fileName/Images.cs: fbdd1e600315d249327f3effde045c9d -> 
+  custom:scripting/monoscript/fileName/DrawProgressForOperations.cs: b544f18e6532ba53bbd1b691fa5cd571 -> 
+  custom:scripting/monoscript/fileName/ConcurrentDictSubscriptionRepository.cs: ac9bb950174fa243a517454e58dd25e7 -> 
+  custom:scripting/monoscript/fileName/AsyncOperationAwaiter.cs: ddd9d932eca2ff6dc550c174a68fdc5b -> 
+  custom:scripting/monoscript/fileName/HttpOptions.cs: 99f08410c8743651b2a8fdf6d32f10c4 -> 
+  custom:scripting/monoscript/fileName/ViewSwitcher.cs: 1700c042de8c16a5c0f6851d66df802a -> 
+  custom:scripting/monoscript/fileName/RepositoryListViewItem.cs: 3cabcd81911a2500dcd9e2b6ffae3f00 -> 
+  custom:scripting/monoscript/fileName/InspectorAssetSelection.cs: 4b3c1ae4c44d88205aef26229acfe022 -> 
+  custom:scripting/monoscript/fileName/WebSocketContext.cs: a3b61c189ab304e3e86a04102a9b6f50 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeHeaderState.cs: bbc50b5c00a8c3144702cee665e61374 -> 
+  custom:scripting/monoscript/fileName/UnityServicesInitializer.cs: fa9a608355e48120534d684af5f04612 -> 
+  custom:scripting/monoscript/fileName/LinkWithExternalTokenRequest.cs: 61c423aaf4de4e3ac498b3de2256f9ff -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestSender.cs: efa7f9e2c98b7025231b997019c6e6cb -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationWithAddressV1.cs: 0255bc6178742cff2a423de9eb51e6a2 -> 
+  custom:scripting/monoscript/fileName/WorkspaceOperationsMonitor.cs: 9241430734576b6454278a078113af4a -> 
+  custom:scripting/monoscript/fileName/PlayerAccountServiceInternal.cs: c5a61bec22849ac7e0c4d0d9bf307d98 -> 
+  custom:scripting/monoscript/fileName/EditorExample.cs: 5156b6c6967c9ff1dc962c0c2cebec80 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:scripting/monoscript/fileName/ActionSchedulerCleaner.cs: 1750f9737ba65c8b5f441e824f90784f -> 
+  custom:scripting/monoscript/fileName/ProjectConfiguration.cs: b6a00bb7bd3df2a451321f73e7cb7141 -> 
+  custom:scripting/monoscript/fileName/ThreadHelper.cs: f586b96ffafb66c899c0de14e65d9af0 -> 
+  custom:scripting/monoscript/fileName/MacOSConfigWorkaround.cs: 9fe61e763da506601651f6c451cecb0a -> 
+  custom:scripting/monoscript/fileName/IncomingChangesSelection.cs: eed38c75772f626c4d4a8e134774df1d -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsProvider.cs: 05b37aad70370d94336d7fc60906bf31 -> 
+  custom:scripting/monoscript/fileName/ICache.cs: b7e7e60b1aff49487213315bdd7dc2c0 -> 
+  custom:scripting/monoscript/fileName/MetricsPayload.cs: 7c52008966f8257f75f11aab3a038abe -> 
+  custom:scripting/monoscript/fileName/PlasticProjectSettingsProvider.cs: 8c1b35961a2f11b3260e58163808ae41 -> 
+  custom:scripting/monoscript/fileName/HttpVersion.cs: 92b8edcca9eb7a53b7a7ba2a581b699e -> 
+  custom:scripting/monoscript/fileName/AssetMenuItems.cs: 9ce81cedb8e568c6b7b646aa6263645b -> 
+  custom:scripting/monoscript/fileName/Sync.Gen.cs: ac834b133bcd24c6292144f8ec2fc479 -> 
+  custom:scripting/monoscript/fileName/ToolConstants.cs: 3b0d2490617bc7f94a0bdab65a399e1d -> 
+  custom:scripting/monoscript/fileName/Cookie.cs: e92760320850ad50ce59e74e7e7e118c -> 
+  custom:scripting/monoscript/fileName/UnityCreateOrganizationRequest.cs: 4cf5c8730ffaa3c5888d236ebc6475fc -> 
+  custom:scripting/monoscript/fileName/EnvironmentConfigProvider.cs: cadac2235852654a9596b0eac1628eac -> 
+  custom:scripting/monoscript/fileName/GetSelectedPaths.cs: be35dd49dddd53fc840b9febf21b4d0d -> 
+  custom:scripting/monoscript/fileName/TokenExchangeResponse.cs: 125c914b11f28208c041a27437fdb238 -> 
+  custom:scripting/monoscript/fileName/ChangesetsTab_Operations.cs: 3290c4c0cd248666e01a08ee6d621249 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceSettingsProvider.cs: 2cb6ae4d961883e67f3e282b18d40d94 -> 
+  custom:scripting/monoscript/fileName/DisabledCachePersister.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UsernameInfo.cs: 92ca3bb98d1a95bf68826fac029e33b2 -> 
+  custom:scripting/monoscript/fileName/OverlayRect.cs: 59d6887e4803f8a44ffaa0409470e410 -> 
+  custom:scripting/monoscript/fileName/ConfigurePartialWorkspace.cs: 10fcc6b6d43dd5ed36c43c6f7b5906c4 -> 
+  custom:scripting/monoscript/fileName/ValidRepositoryName.cs: 56bcf92a3678f6ad6215cae2e4914cfd -> 
+  custom:scripting/monoscript/fileName/NewtonsoftSerializer.cs: 455e87e74f7c4ce7bdb201550b0ccccf -> 
+  custom:scripting/monoscript/fileName/AbstractOpenAPISchema.cs: 4c96fa5e2670746d6ef16c9d02321248 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CoreRegistryInitializer.cs: e34ea8cde280e241aa2682bcb33aae4f -> 
+  custom:scripting/monoscript/fileName/AuthenticationService.cs: 9103bf36a2fa89f143ef4038aa46681a -> 
+  custom:scripting/monoscript/fileName/RunModule422ResponseOneOf.cs: 03b652583496626f6424c09d43795f04 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentProvider.cs: 3109b26c8523241ba567e094603484cc -> 
+  custom:scripting/monoscript/fileName/GetPlasticShortcut.cs: 5c2b7bf07ddd2284efc64b09ef0f1f72 -> 
+  custom:scripting/monoscript/fileName/AccessTokenErrorUiHelper.cs: 398831acfad9119e6105671c7f2d98b3 -> 
+  custom:scripting/monoscript/fileName/IdentityIOneOf.cs: 29de1876e6381d1376e3875f63eb04e7 -> 
+  custom:scripting/monoscript/fileName/GuiEnabled.cs: 7bb13fcc8d8cbd392e00f7232841f086 -> 
+  custom:scripting/monoscript/fileName/LockedPackageRegistry.cs: 99e3472ea654b46f01a9dea3a90719dd -> 
+  custom:scripting/monoscript/fileName/HttpResponse.cs: 1e42f38b2e81f79527ce1f7dc3b5a498 -> 
+  custom:scripting/monoscript/fileName/BuildPathDictionary.cs: 9fabc7cc73fcfc50b8a3307c6aa6ec4d -> 
+  custom:scripting/monoscript/fileName/JsonObjectConverter.cs: 806b524481be4d2fc965cf8c9a02003e -> 
+  custom:scripting/monoscript/fileName/FindEditorWindow.cs: 8c3c78bb7e82ac5008f8a2b8a0d68cff -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuildInjectorWithPlayerProcessor.cs: bfe4c2bc0cd0ee036e60e1bfa30dda8a -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestHelpers.cs: b603af1b4f84ed9458af61d335aa1c47 -> 
+  custom:scripting/monoscript/fileName/SignInWithSteamRequest.cs: 06488fadd4dcc724b8ffee3eabfbb74d -> 
+  custom:scripting/monoscript/fileName/LockedComponentRegistry.cs: ff7d4cf11049af0d186f2bffab21c5d3 -> 
+  custom:scripting/monoscript/fileName/IServiceFactory.Gen.cs: 5696ff4e8140aef57b36c4052f3bfc23 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForViews.cs: 068a172cb549ad77d9873d721698bd0d -> 
+  custom:scripting/monoscript/fileName/IdToken.cs: 09f3a195b38a097e948ca718629054d5 -> 
+  custom:scripting/monoscript/fileName/UpdateReportDialog.cs: 087837d8f73228f1a817d0de82c77260 -> 
+  custom:scripting/monoscript/fileName/IUserRoleHandler.cs: 33c258d1966d18e84a25c5d4701ea0a4 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentAnalytics.cs: c2ab3518cf2897a2ac4cf87258f13731 -> 
+  custom:scripting/monoscript/fileName/ReadBufferState.cs: 8b62278fe5d7b6bc8e709ffae007a4b4 -> 
+  custom:scripting/monoscript/fileName/HistoryListView.cs: 7b2d1d2c12ab43d9d244e35197127919 -> 
+  custom:scripting/monoscript/fileName/ChangeTreeViewItem.cs: 44dc318377de644a2594da095dc52ebc -> 
+  custom:scripting/monoscript/fileName/OpenAPIDateConverter.cs: a9a61217f5eb07483c8d3b54bbc3c853 -> 
+  custom:scripting/monoscript/fileName/LoggedOutUiHelper.cs: ded703f4d077a86b901d24f648f694ca -> 
+  custom:scripting/monoscript/fileName/DownloadPlasticExeWindow.cs: 2cf8d71648f8d0a7527ca76d9f6b13ef -> 
+  custom:scripting/monoscript/fileName/CloudCodeService.cs: d42dd5d058e92b32fcd83de6c7b174a7 -> 
+  custom:scripting/monoscript/fileName/BringWindowToFront.cs: a30c7c1ba746c6d277a5aedd3057d15e -> 
+  custom:scripting/monoscript/fileName/IDeserializable.cs: e406a452fbf7dbc3ced36cff3880fba9 -> 
+  custom:scripting/monoscript/fileName/CollectionBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MinimumBinaryHeap.cs: 58e2f67451a6dd12649c5819616167df -> 
+  custom:scripting/monoscript/fileName/LaunchCheckinConflictsDialog.cs: e2c1e3f8f4e14a62e4363fe6259adbc2 -> 
+  custom:scripting/monoscript/fileName/Diagnostics.cs: 310215ddbef3d1759d3801a8f9ab01fa -> 
+  custom:scripting/monoscript/fileName/ParseArguments.cs: ae915d9f5fe287ced40627c9ca8bfafd -> 
+  custom:scripting/monoscript/fileName/ExternalLink.cs: db32d0b66b06e7ca36597bed41619207 -> 
+  custom:scripting/monoscript/fileName/WaitingSignInPanel.cs: 7585e1c7111b6b900784e6d1c9454258 -> 
+  custom:scripting/monoscript/fileName/ModelBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ExceptionHelper.cs: 074ec3a4464566a6e9a1f4db3dfb905f -> 
+  custom:scripting/monoscript/fileName/DependencyNotFoundException.Gen.cs: b85b8fa51199029c7dffa67f92fbcb8c -> 
+  custom:scripting/monoscript/fileName/MergedObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TestingHelpData.cs: 0d1f98ae9b6fa0253523889fad413adb -> 
+  custom:scripting/monoscript/fileName/OperationProgressData.cs: 15f68712baaea535af36d9e0333c0a6e -> 
+  custom:scripting/monoscript/fileName/WireExceptions.cs: 7062a3840ea500c6463800f64f4340c7 -> 
+  custom:scripting/monoscript/fileName/AuthenticationTopMenu.cs: 9f71b566a5319c437d2334bdc1d62870 -> 
+  custom:scripting/monoscript/fileName/IInitializablePackageV2.cs: aa06fccc5712784ca17e5e7b41810911 -> 
+  custom:scripting/monoscript/fileName/AuthenticationNetworkClient.cs: 03de7749d9d501955d18d6a6716d33e0 -> 
+  custom:scripting/monoscript/fileName/RepositoriesListHeaderState.cs: fb71b961ab7c924511a6b0e8680b60ee -> 
+  custom:scripting/monoscript/fileName/StatusCodePolicyConfig.cs: 623bf1222b38a745629b285d46fc953b -> 
+  custom:scripting/monoscript/fileName/IAuthenticationNetworkClient.cs: af8aa88762b234b64c685d0921cf3250 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectProjectSettingsUi.cs: 07a51e74c57a4053931e01d14a91288e -> 
+  custom:scripting/monoscript/fileName/ClientDiffTreeViewItem.cs: 43bdd7aa5bf1aa039a5b572c119c38d0 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspaceView.cs: 04b4ce6556541af6541e1f1c2ea97052 -> 
+  custom:scripting/monoscript/fileName/CommandLineArguments.cs: 48a62ad3f817c0269ea7fc4a53799594 -> 
+  custom:scripting/monoscript/fileName/DownloadRepository.cs: 5bad8d3f76a3fcb41a94637e37c11ab0 -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseDetails.cs: 33c70629134632ba13eac6d037ba9cfd -> 
+  custom:scripting/monoscript/fileName/ParentWindow.cs: d6aa079e592e01701c5baa3ab98898bc -> 
+  custom:scripting/monoscript/fileName/OperationParams.cs: 3312c7a4424a66ffbf2f88f056f329aa -> 
+  custom:scripting/monoscript/fileName/IProjectInfo.cs: 2c81b6190195adf1450efd9b8f54de95 -> 
+  custom:scripting/monoscript/fileName/StreamingAssetsUtils.cs: 4a501e19e96ab989552681f7cfe95d3b -> 
+  custom:scripting/monoscript/fileName/AdminApiHeaders.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ErrorEventArgs.cs: 221e230d06ac49232b3a42e520f5e0c4 -> 
+  custom:scripting/monoscript/fileName/TokenProvider.cs: c468f4c2282dc27aa90e7e62019c98d0 -> 
+  custom:scripting/monoscript/fileName/PackageInfoNameComparer.cs: ea0f38f3a3ddb0faa351ccba3098624f -> 
+  custom:scripting/monoscript/fileName/UnityThreadUtilsInternal.cs: db907031b91c05c00109dd0308888529 -> 
+  custom:scripting/monoscript/fileName/IBrowserUtils.cs: 853495efd7e1b5a70805e51aec3e9226 -> 
+  custom:scripting/monoscript/fileName/HttpListenerResponse.cs: 37e72ad6a9083eff3bf3167426c900b4 -> 
+  custom:scripting/monoscript/fileName/HttpClient.cs: dc29cafb5cb8d3d5dc8bffc9e322b78b -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestHelper.cs: 2e5cbc5c38937ccdc5de3700aaa6f529 -> 
+  custom:scripting/monoscript/fileName/CloudCodeInitializer.cs: e65a98eff5c5630ec3db974a71594883 -> 
+  custom:scripting/monoscript/fileName/SignInWithEmailPanel.cs: 6e8957c0ed7609303e68389067e72d72 -> 
+  custom:scripting/monoscript/fileName/HttpHeaderInfo.cs: f7db7e6ce9753efde3d62f81bc95a063 -> 
+  custom:scripting/monoscript/fileName/CloudCodeIOneOf.cs: 2dd47f38a0deab3248493457a421d79b -> 
+  custom:scripting/monoscript/fileName/EndPointListener.cs: b3d228deb0985ab293183b149f8d9285 -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorServiceInternal.cs: aaa3f524b48c1551d4758f999dcca411 -> 
+  custom:scripting/monoscript/fileName/HttpListenerWebSocketContext.cs: c49a30af7ce9c0b7c4d7584e3049a498 -> 
+  custom:scripting/monoscript/fileName/Utilities.cs: 3b7f3ca8a797f5aa000bca2637e43e42 -> 
+  custom:scripting/monoscript/fileName/Client.cs: 109ae89a2db24eb9b728f29b9cbeb445 -> 
+  custom:scripting/monoscript/fileName/RetryPolicy.cs: ca301aac2da8bb6a28dba1c3cbcada93 -> 
+  custom:scripting/monoscript/fileName/GenerateSignInCodeRequest.cs: e818f692ab11651f000e46b49e30a806 -> 
+  custom:scripting/monoscript/fileName/LaunchInstaller.cs: b75efdf5909b501e06cacd9c66f75981 -> 
+  custom:scripting/monoscript/fileName/AvatarImages.cs: 3aa8c25a350843151ec4070c820c411a -> 
+  custom:scripting/monoscript/fileName/DrawHelpPanel.cs: 58c832ce9ea1a11e2724de5dd46ca0cb -> 
+  custom:scripting/monoscript/fileName/UnityPatchProjectV1Request.cs: c6a39576d362d5719b8c0057b54f465b -> 
+  custom:scripting/monoscript/fileName/DrawUserIcon.cs: 7d5385bf780ae84e648a8b49f8fe0825 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationExceptionHandler.cs: a5a827897245ef0664917e622072fb94 -> 
+  custom:scripting/monoscript/fileName/InvocationErrorResponseDetails.cs: 1de687e6d99deaf5d22b5327c220a427 -> 
+  custom:scripting/monoscript/fileName/IAnalyticsSender.cs: 27ac0f3c61390701fdd3b82b17bedf22 -> 
+  custom:scripting/monoscript/fileName/AssetStatus.cs: e017010009bdb28bcb0d7d8ef05e7dd9 -> 
+  custom:scripting/monoscript/fileName/BranchesListView.cs: 3f5ed9fe5a1bca512014ae1600ee1666 -> 
+  custom:scripting/monoscript/fileName/DrawGuiModeSwitcher.cs: d3be34a3134d3fe80ef6b14d0d519128 -> 
+  custom:scripting/monoscript/fileName/HttpListenerAsyncResult.cs: d7bb712b713a9643cbaf3f016a442a19 -> 
+  custom:scripting/monoscript/fileName/UriHelper.cs: 5693437e96f9b2541b50594b4077e2f1 -> 
+  custom:scripting/monoscript/fileName/ServicesCreationException.cs: 40142800771fcc1f5855193d741c129e -> 
+  custom:scripting/monoscript/fileName/UserRoleHandler.cs: a42f5e4f9979e28831240d76ea709864 -> 
+  custom:scripting/monoscript/fileName/UnityMenuItem.cs: 73f3c859f1b5092ad362c09e23b3a922 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentFetcher.cs: 4324c744baa655843f8a2db18e322b79 -> 
+  custom:scripting/monoscript/fileName/WebRestApiClient.cs: f22d79858ba8f66f3182a7150707169f -> 
+  custom:scripting/monoscript/fileName/ITokenExchangeUrls.cs: f529e59149e9ccc31fc5b827b34c33db -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.PlayerNames.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/CodeLinkInfoResponse.cs: f42814b0d3e8b943e22c128e599697da -> 
+  custom:scripting/monoscript/fileName/IEnvironmentValidator.cs: bdc1089a446560e3518f7ac97786d874 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesTreeView.cs: 40644aa022c4bbfe306cd8de59a1bae6 -> 
+  custom:scripting/monoscript/fileName/GenericProgress.cs: 8492ec26f01fc248d3eb3c2f5b3b6c0f -> 
+  custom:scripting/monoscript/fileName/MergeCategoryTreeViewItem.cs: 6bd59fcbfeafe06987a54631991d755b -> 
+  custom:scripting/monoscript/fileName/CheckinDialog.cs: 702fdb8d0a3b4bfcb9ba109e71325cad -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsPackageInitializer.cs: 0aa273791167a3c61ca4dbddee86ffe7 -> 
+  custom:scripting/monoscript/fileName/UnityUserGuestProjectV1.cs: 58ac7a8966d050da82ebd9946d7ad9a7 -> 
+  custom:scripting/monoscript/fileName/ProcessCommand.cs: 2cc3b6e2a763c7f353b474b6904b45a6 -> 
+  custom:scripting/monoscript/fileName/ITelemetryPayload.cs: 5c76f6f6a7e7464e6b1a068207b03ef0 -> 
+  custom:scripting/monoscript/fileName/SortOrderComparer.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceManager.cs: a0785e56309d635081364818f2bc7bed -> 
+  custom:scripting/monoscript/fileName/ReadOnlyHttpRequest.cs: 8ed1e96527aeaf3049f26baaeff0902d -> 
+  custom:scripting/monoscript/fileName/GUIActionRunner.cs: 4a0608de635b0d82868d57923d68eff7 -> 
+  custom:scripting/monoscript/fileName/UnityPlayerAccountSettings.cs: 551cf47427967de94d87a6b04fcae5a1 -> 
+  custom:scripting/monoscript/fileName/PlasticMenuItem.cs: 30c3a785b4c2607e2ae9aad693d5f604 -> 
+  custom:scripting/monoscript/fileName/IdProvider.cs: 49213a4cdd38d4ac4c21545c7141b8cd -> 
+  custom:scripting/monoscript/fileName/UpdatePasswordRequest.cs: c3e07ff5663bd6613440bb9ff3d74c5c -> 
+  custom:scripting/monoscript/fileName/Chunk.cs: 6a66223a858c37cac555005eb414f283 -> 
+  custom:scripting/monoscript/fileName/IdProviderOptions.cs: 2237ecb3f519b0161181bd3bf31fe9ea -> 
+  custom:scripting/monoscript/fileName/IsolatedJsonConvert.cs: 99286d917aaf90776c1018ab0b759287 -> 
+  custom:scripting/monoscript/fileName/MappedObservableCollection.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IUserIdentifierProvider.cs: dc5eeac839d4cf332ea648a7fdcd39d6 -> 
+  custom:scripting/monoscript/fileName/PendingChangesTreeView.cs: 17142d220a0a50a3f3d184c4718a0da7 -> 
+  custom:scripting/monoscript/fileName/VCSPlugin.cs: 69c1b7249af35f35848ae707bd5e7113 -> 
+  custom:scripting/monoscript/fileName/UnityGetOrganizationMembers200Response.cs: 2a3745ba3cf60a91cc07f675b5cfe7f0 -> 
+  custom:scripting/monoscript/fileName/SignInOptions.cs: 3dfcf5fdd65ccf1bb05a3e4c3cb52e74 -> 
+  custom:scripting/monoscript/fileName/GetClientDiffInfos.cs: f8db8e637ded2d5e935a953a13b85ebe -> 
+  custom:scripting/monoscript/fileName/ErrorListViewItem.cs: 8d377b020cd4efc9739abf6e8e730437 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/CloudEnvironmentConfigProvider.cs: 0d9357504beb82cf1f27ae6c7b6ddec2 -> 
+  custom:scripting/monoscript/fileName/EditorProgressControls.cs: 2e606eb01a6e6a567f3de9a0379ed3ae -> 
+  custom:scripting/monoscript/fileName/BranchesListHeaderState.cs: 82eab21603f4efc696334ee80641c2c9 -> 
+  custom:scripting/monoscript/fileName/DrawSearchField.cs: 3de70beba9f4447205d50241d95b066a -> 
+  custom:scripting/monoscript/fileName/PendingChangesTab.cs: 15ae6787065f4af65778e981f418a60b -> 
+  custom:scripting/monoscript/fileName/HelpPanel.cs: 625fbcc6029d5fe5cf4aa833f68adb0c -> 
+  custom:scripting/monoscript/fileName/IServerAccessToken.cs: 5dfd5eddfcd0cafe1db05f4c334820f7 -> 
+  custom:scripting/monoscript/fileName/BasicErrorResponse.cs: 9357a5416d7d76bfc42b62b0339bd9ca -> 
+  custom:scripting/monoscript/fileName/AuthenticationException.cs: 775db05fab80900d1212050035caf081 -> 
+  custom:scripting/monoscript/fileName/ActionScheduler.cs: 26f8b078a6af33e9402a5cc996644a79 -> 
+  custom:scripting/monoscript/fileName/ProjectInfo.cs: d289d5cd3d7bbcf9a82d73b4aa756d36 -> 
+  custom:scripting/monoscript/fileName/SignInWithCodeRequest.cs: 7bf44437e8b421175d4f702d049e1a42 -> 
+  custom:scripting/monoscript/fileName/SubscriptionTokenResponse.cs: 01fffafca805dac0ded7e4b50404c220 -> 
+  custom:scripting/monoscript/fileName/UnityCreateProjectRequest.cs: 553b660d315929e3419e6a209f9bb6ab -> 
+  custom:scripting/monoscript/fileName/RunScript400Response.cs: 811916a0f119535dcd08a9d093efff91 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/WelcomeView.cs: b6f5ad03828f3d0b6465c52959e1ee5e -> 
+  custom:scripting/monoscript/fileName/IAuthenticationAdminNetworkClient.cs: a08c9abb22f07232b2d3b329d0c23e91 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSettingsProvider.cs: 237263cbc2f115c0b90b2c3fc83a1110 -> 
+  custom:scripting/monoscript/fileName/HelpFormat.cs: 92b36f6584b3d7ccdc99b0ae4e152c53 -> 
+  custom:scripting/monoscript/fileName/WebSocketBehavior.cs: f284026a45cbf3cd4215c2ffedb1cd34 -> 
+  custom:scripting/monoscript/fileName/UnityUpdateOrganizationRequest.cs: c81a99780bba7daac8cc2c5dac469fe1 -> 
+  custom:scripting/monoscript/fileName/Metric.cs: 38b96fe3c7f9144ab95fdd6dcd3d8cbf -> 
+  custom:scripting/monoscript/fileName/PlasticApp.cs: c57de230d90beac7b586f10b9c7c6cb5 -> 
+  custom:scripting/monoscript/fileName/ChangesetsTab.cs: 46dde8f7856048792ad2e75490bb8c5e -> 
+  custom:scripting/monoscript/fileName/DrawProgressForMigration.cs: 0390721ecd322e9ab47db03bd0f98a12 -> 
+  custom:scripting/monoscript/fileName/IncomingChangesNotification.cs: f039cd7fb6b53e16030c9431c0e3a656 -> 
+  custom:scripting/monoscript/fileName/UnityAdsIdentifier.cs: 6666e4d931c1a681dcee861ce8dc56a2 -> 
+  custom:scripting/monoscript/fileName/RetryPolicyConfig.cs: 48dc0b2850e71439e7b516a0a61ca492 -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewEmptyState.cs: d4c16fd6aad8161eda7d99fd74cbb08e -> 
+  custom:scripting/monoscript/fileName/ErrorsListView.cs: 897fb5fb66de4298630458ed4a966790 -> 
+  custom:scripting/monoscript/fileName/UnityPendingChangesTree.cs: f391d9a00dc9e202cee4d4ebcf6d21c0 -> 
+  custom:scripting/monoscript/fileName/MessageEventArgs.cs: b381848b28954876be382416f98e2090 -> 528473bbcee3623fe954627c6bfadd2e
+  custom:scripting/monoscript/fileName/EnvironmentValidator.cs: 08b5a9dc48dd22c719e1975ef1db1683 -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuilder.cs: 3a77bc00f860533701242ca98886ca86 -> 
+  custom:scripting/monoscript/fileName/IAccessTokens.cs: 3e3094814f4dba04dfbc3053655e6598 -> 
+  custom:scripting/monoscript/fileName/UnityEnvironmentV1.cs: 1eea8ffdfb5010d89d3ba557b2d50eab -> 
+  custom:scripting/monoscript/fileName/AuthenticationApiClient.cs: 2cc37a8bf9374ef76d2364c0e211cdbf -> 
+  custom:scripting/monoscript/fileName/UtcTimeProvider.cs: 34e00235b689057dfe7c5f53347158ea -> 
+  custom:scripting/monoscript/fileName/UserRoleRequestUiHelper.cs: a99a899edbebc06ce30ec51f79ff566a -> 
+  custom:scripting/monoscript/fileName/ServiceCollection.Gen.cs: ee70a277f1bc1e6641d018ca44380804 -> 
+  custom:scripting/monoscript/fileName/OculusConfig.cs: 4fa906ecdd5ca17f3543698999715035 -> 
+  custom:scripting/monoscript/fileName/EmptyCheckinMessageDialog.cs: e95636a2119dec4d0c1f323f7ba65603 -> 
+  custom:scripting/monoscript/fileName/HttpStreamAsyncResult.cs: c6eafafc093b159371f2f736660adbaf -> 
+  custom:scripting/monoscript/fileName/PlasticDialog.cs: 03ca55081079b8fc452d8bd4d604d8d1 -> 
+  custom:scripting/monoscript/fileName/HttpListener.cs: c5f4f6e9e9fe63f77afe3aa2c9088567 -> 
+  custom:scripting/monoscript/fileName/ClientSslConfiguration.cs: efbd6751eb6cfc9a88d708563045da0a -> 
+  custom:scripting/monoscript/fileName/PlayerNameComponent.cs: 616524ede11d4f33e8b32eb57711208b -> 
+  custom:scripting/monoscript/fileName/QueryStringCollection.cs: 038e7c211245900ea0436c9f104c73b2 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/AutoRefresh.cs: 0a8afde180a876655ad16caa14493409 -> 
+  custom:scripting/monoscript/fileName/PlasticPluginIsEnabledPreference.cs: 7953272c37f4a828a3d1096e7479f346 -> 
+  custom:scripting/monoscript/fileName/Logger.cs: 36016664f0c3fb942bdfe59d2e95d7de -> 
+  custom:scripting/monoscript/fileName/GatewayTokens.cs: 53270745929a7034c3268a07c13af48c -> 
+  custom:scripting/monoscript/fileName/HelpData.cs: 9293e68e835820b452391937547d1531 -> 
+  custom:scripting/monoscript/fileName/SystemEnvironmentPathUtils.Gen.cs: 9f60a7d4b8edfd5e67c66c89eee984df -> 
+  custom:scripting/monoscript/fileName/GetRelativePath.cs: ab04ae5e0cafb93ebf5c96148bb52df0 -> 
+  custom:scripting/monoscript/fileName/UnityEvents.cs: 93e3e01e1fc330c62462aa41b286117b -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/DockEditorWindow.cs: a9e5e467234133af999283610b6e84e6 -> 
+  custom:scripting/monoscript/fileName/EnvironmentsApiInternal.cs: ddda38a23193b92419a4176f3ffd04a7 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsElement.cs: 5b1395a2175ac0d73823a2634fef8924 -> 
+  custom:scripting/monoscript/fileName/RunModule422Response.cs: 5433a321c02ebc0d0c0dbb7fa6c60c1a -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticData.cs: 0fc6f3bf04cc7c89fce9a2c7c7ab285b -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponseRequest.cs: 993b8dd7982f49e957b62a9a07de6ccb -> 
+  custom:scripting/monoscript/fileName/AuthenticationCache.cs: db62ddb3d660d03cbc330ce7e63333bf -> 
+  custom:scripting/monoscript/fileName/IWebSocketSession.cs: 4bc16cf426037bc4b899bb88059f0261 -> 
+  custom:scripting/monoscript/fileName/EnvironmentServiceRegistry.cs: 87c6dee4ea55850e884c48687d120061 -> 
+  custom:scripting/monoscript/fileName/AccessTokensSingleton.cs: ed21a5edcf5821a4e4c3f640d88a8890 -> 
+  custom:scripting/monoscript/fileName/ConstructorNotFoundException.Gen.cs: d5eeea08ebee99ae8f097d0f6c2b88b0 -> 
+  custom:scripting/monoscript/fileName/BranchesSelection.cs: 33b36e7b03910960966036894ec90c7c -> 
+  custom:scripting/monoscript/fileName/AuthenticationChallenge.cs: 5bbf8a1770fb95532d3ba76d3655bf0e -> 
+  custom:scripting/monoscript/fileName/IoUtils.cs: 407719a7637f4a4931cf4ba6f0c431e9 -> 
+  custom:scripting/monoscript/fileName/PlayerInfoResponse.cs: 7091c573bda774a29831316b5a3262da -> 
+  custom:scripting/monoscript/fileName/SaveAction.cs: 27c387bb58f3a69b0c9ff60d2209e18f -> 
+  custom:scripting/monoscript/fileName/TagKeys.cs: 8d04446a1607acebe6b7c0e00a856d18 -> 
+  custom:scripting/monoscript/fileName/AutoConfig.cs: 3bedd8010c31a7b520fc04c0955e3f17 -> 
+  custom:scripting/monoscript/fileName/MetricsHandler.cs: 16fbc9d05cd308d58a4cb300087a14ec -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceHost.cs: cb11ec4cf20ebf4cab5372f006d0c784 -> 
+  custom:scripting/monoscript/fileName/LogData.cs: 37091904d8f0192f718506569a7efcf3 -> 
+  custom:scripting/monoscript/fileName/DiffPanel.cs: 210366dab3631628227b9406f87a9b7f -> 
+  custom:scripting/monoscript/fileName/XmlLinkedMethod.cs: 0832a872e8f410f9dbd4e4797775d14c -> 
+  custom:scripting/monoscript/fileName/MethodNotFoundException.Gen.cs: 0dccde8d1181b58956dff819eeec312c -> 
+  custom:scripting/monoscript/fileName/SignInWithExternalTokenRequest.cs: 933831e25b9ab6f0c7b50393e3efd13d -> 
+  custom:scripting/monoscript/fileName/PlasticAssetsProcessor.cs: ff731c8aacf4a537dc74c7cf9eaeaed0 -> 
+  custom:scripting/monoscript/fileName/DrawDialogIcon.cs: 2a1cc28b64afd474736eb8a39b842af8 -> 
+  custom:scripting/monoscript/fileName/DrawActionToolbar.cs: e05748a99799f26304c1bbafd90f703b -> 
+  custom:scripting/monoscript/fileName/TreeViewItemIds.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorVersion.cs: 698aba075b19a52a056d67a7b809d179 -> 
+  custom:scripting/monoscript/fileName/TeamEditionConfigurationWindow.cs: e53b1ca5561894aaeff930afb696d001 -> 
+  custom:scripting/monoscript/fileName/SubscribeRequest.cs: 80d734c4992804ef07d87a5d769efca6 -> 
+  custom:scripting/monoscript/fileName/ProgressOperationHandler.cs: ec62666c0ca1649dd33cc6bc6834c6f7 -> 
+  custom:scripting/monoscript/fileName/UnityPlasticTimer.cs: 6c887e722e951c2964523825cad70c4c -> 
+  custom:scripting/monoscript/fileName/TreeHeaderColumns.cs: 316e5ea62e66b20fd6e687a6b9e5958e -> 
+  custom:scripting/monoscript/fileName/CachedPayload.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ITimeProvider.cs: ddd25bd8e3c8be311aae000881753524 -> 
+  custom:scripting/monoscript/fileName/IJwtDecoder.cs: 3a95ca7907a61e805e59af6219546685 -> 
+  custom:scripting/monoscript/fileName/CloudCodeEditorGameService.cs: 253fd57b1d6eea38b5abe0dccaffaf23 -> 
+  custom:scripting/monoscript/fileName/AxiosInvocationErrorResponse.cs: f57b5d707fe389a23e0ef34c19c4e476 -> 
+  custom:scripting/monoscript/fileName/PlayerIdComponent.cs: 245335b122408666ab23433f05124501 -> 
+  custom:scripting/monoscript/fileName/AssetFilesFilterPatternsMenuBuilder.cs: 0d99e7514c6a33cda8314deed8f34bc5 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationAdminClient.cs: dd3bd69da7b023dd8c81266be3f38afd -> 
+  custom:scripting/monoscript/fileName/IProjectEditorDrawerFactory.cs: 18c5020e4a357b0471f706a6144cefa8 -> 
+  custom:scripting/monoscript/fileName/PlasticNotification.cs: 3629fdff9f054b2013702f5b131b2c47 -> 
+  custom:scripting/monoscript/fileName/MissingComponent.cs: 6fcd30b84d1ca630662778f50cedadd3 -> 
+  custom:scripting/monoscript/fileName/ConfirmContinueWithPendingChangesDialog.cs: 77462b1904ad8f6fee2f8da4523d59fe -> 
+  custom:scripting/monoscript/fileName/Transient.Gen.cs: fb508b42c100a2c07b866a44f9ab3ed0 -> 
+  custom:scripting/monoscript/fileName/Responses.cs: ce8a587e98a8b5448237508bd3773589 -> 
+  custom:scripting/monoscript/fileName/CorePackageRegistry.cs: 3f8b8a1a754bcbf32e1631fc6067b47f -> 
+  custom:scripting/monoscript/fileName/CloudCode.deprecated.cs: a4bd074c3e01cba588b5957881bf362d -> 
+  custom:scripting/monoscript/fileName/Detail.cs: 953e1f571ffb3df953e2da9da0e20459 -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationV1.cs: 202fa32fa70a6d9b0b74b5c00b1b741c -> 
+  custom:scripting/monoscript/fileName/ChangelistTreeViewItem.cs: 87f69636be8bd1a264ec4eac1bffa701 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsProvider.cs: 57a71491b92571e0738c385166d69374 -> 
+  custom:scripting/monoscript/fileName/IQosResults.cs: b6881487c0f26ab46e2124c1d0e04307 -> 
+  custom:scripting/monoscript/fileName/CollabPlugin.cs: ca276d65e7cd77c5c99d9f119ffdb215 -> 
+  custom:scripting/monoscript/fileName/TabButton.cs: 757146b89ed597b1d75c77241e5d5f63 -> 
+  custom:scripting/monoscript/fileName/LaunchTool.cs: 60773d78646dc188d4b2caca77f20b17 -> 
+  custom:scripting/monoscript/fileName/IAccessTokenObserver.cs: b63bda9cbc64f15f0d3427f52571574c -> 
+  custom:scripting/monoscript/fileName/RunModal.cs: c83ee2ef642c5d8b8dfd32f033bfc438 -> 
+  custom:scripting/monoscript/fileName/IInstallationId.cs: f04e3188def2f4af24969a3d446782a7 -> 
+  custom:scripting/monoscript/fileName/RunScriptResponse.cs: 84a537f264adce7c5dbe22cba3a5ea28 -> 
+  custom:scripting/monoscript/fileName/BranchListViewItem.cs: 55028f4aef24d6227589aaa95582b2ff -> 
+  custom:scripting/monoscript/fileName/IExternalUserId.cs: e86cbc4ee2ec705a01d2d8184f1aa316 -> 
+  custom:scripting/monoscript/fileName/Identity.cs: 2640f586bfcf9285892659a9f70878c1 -> 
+  custom:scripting/monoscript/fileName/AssetUtils.cs: f2faf7ad4b4b5b06d49e576afa8ccb42 -> 
+  custom:scripting/monoscript/fileName/InvocationErrorResponse.cs: 3c324d804bc8d79c58faf719cb02cccc -> 
+  custom:scripting/monoscript/fileName/GetAvatar.cs: 04ffae2a9e5a4c32a119f93144f558d2 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceAnalyticsSender.cs: 16523e3d16356ae30addab5eaf4685a1 -> 
+  custom:scripting/monoscript/fileName/EnvironmentIdComponent.cs: 78e2c5c1c372ba12a0cd62129f564266 -> 
+  custom:scripting/monoscript/fileName/FindTool.cs: 2f9d82566cfb01fb68fc30111fb47624 -> 
+  custom:scripting/monoscript/fileName/BatchMessagesUtil.cs: 8ad963e28401c823babe96b754a768c9 -> 
+  custom:scripting/monoscript/fileName/ChannelCertificateUiImpl.cs: cefccf1e13b7bcf15e3c9f2dd4cd2fc8 -> 
+  custom:scripting/monoscript/fileName/ApplyCircleMask.cs: b955b378d261fdcbd6272fe8711d1e4f -> 
+  custom:scripting/monoscript/fileName/PlayerAccountSettingsEditor.cs: a957405097defdb9901105c5240fcac2 -> 
+  custom:scripting/monoscript/fileName/AssetMenuOperations.cs: 812472213e516c8053ec016784212aff -> 
+  custom:scripting/monoscript/fileName/IGenesisTokenProvider.cs: 50bfadb838bad71e7f4f13ffd5046639 -> 
+  custom:scripting/monoscript/fileName/Subscription.cs: edbb6df9fabf1163fa21c55aff4042d4 -> 
+  custom:scripting/monoscript/fileName/VisualElementExtensions.cs: 28d3e288ea1cf459fc3cca96347c70bf -> 92be01d6bc40011647c1fd4950fd61ac
+  custom:scripting/monoscript/fileName/ConnectResult.cs: 7338310c26cf6008160faea5871f95d5 -> 
+  custom:scripting/monoscript/fileName/IEnvironmentId.cs: 26e3448d664cf5b5e38101bfbead1ab4 -> 
+  custom:scripting/monoscript/fileName/Push.cs: 4d986cd7eda4e2090fd17f6706ef8326 -> 
+  custom:scripting/monoscript/fileName/IDiagnostics.cs: 57266d83136060880a8bc854151a2f08 -> 
+  custom:scripting/monoscript/fileName/IUnityServices.cs: abc5b758eed1a2c05dfbb253b9cdf1d6 -> 
+  custom:scripting/monoscript/fileName/TelemetrySender.cs: 00928578ce46ae3da857d3d4ea626399 -> 
+  custom:scripting/monoscript/fileName/HttpListenerContext.cs: e949ba85d35be623f0e2292d29cc98b0 -> 
+  custom:scripting/monoscript/fileName/ListViewItemIds.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/SessionTokenComponent.cs: 848c4b939917c1ea9cdbfbdb84502080 -> 
+  custom:scripting/monoscript/fileName/CreateWorkspaceViewState.cs: 0fe23b7cca9336b31a27790c714de652 -> 
+  custom:scripting/monoscript/fileName/MergeLinkListViewItem.cs: 3fa407d29597803190dd374d88ed170d -> 
+  custom:scripting/monoscript/fileName/InitializationOptions.cs: a3b098c01b711d197eb5be831c1fe3cb -> 
+  custom:scripting/monoscript/fileName/AuthenticationPackageInitializer.cs: a27d296699afa0fb86730c702633be0c -> 
+  custom:scripting/monoscript/fileName/PlasticQuestionAlert.cs: 822b3ee0570c5b12e5690df1874da369 -> 
+  custom:scripting/monoscript/fileName/DrawCommentTextArea.cs: c58c26552f95f108a8d9610eaf001fbc -> 
+  custom:scripting/monoscript/fileName/ApiConfiguration.cs: 93b9d3a154a066b218838bce56ab52ef -> 
+  custom:scripting/monoscript/fileName/ErrorsListHeaderState.cs: ccfb08b895a719829a3302b7c4d26a5d -> 
+  custom:scripting/monoscript/fileName/ResponseDeserializationException.cs: a74d75633434a9e560898fbc0c24523d -> 
+  custom:scripting/monoscript/fileName/RefreshAsset.cs: 21c806d59a337a83fcab56230df298f8 -> 
+  custom:scripting/monoscript/fileName/ConnectRequest.cs: 9d8b1bc759663103ee8c68765298e727 -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminClientManager.cs: 42f19b750641a1bec4304433b128a9d2 -> 
+  custom:scripting/monoscript/fileName/IScopedServiceProvider.Gen.cs: a3e3117c2208173e411da686f8072dfc -> 
+  custom:scripting/monoscript/fileName/PackageRegistry.cs: 084618e5fb4441b39eee335cbd095e50 -> 
+  custom:scripting/monoscript/fileName/AuthenticationExtensions.cs: 5f32c775217f6226c59bc30a889f96fc -> 
+  custom:scripting/monoscript/fileName/XmlLinkedAssembly.cs: 997f803bab31374df714b0d6f004c82e -> 
+  custom:scripting/monoscript/fileName/BoolSetting.cs: 6866476ee3db529747ee7a560b4298d4 -> 
+  custom:scripting/monoscript/fileName/ApiRequestPathBuilder.cs: 1d485eb48ac34b38a0c7ae2a3f2918ee -> 
+  custom:scripting/monoscript/fileName/IdProviderResponse.cs: 1ffce30252e1799b812e9515c5e2162e -> 
+  custom:scripting/monoscript/fileName/WireServiceProvider.cs: de8d0c08ba34bf23b29a60355afd4a4d -> 
+  custom:scripting/monoscript/fileName/SignInWithAppleGameCenterRequest.cs: bf5e53eec533a47bf68ac4b24c859ebe -> 
+  custom:scripting/monoscript/fileName/IEnvironments.cs: c0584c08a0bd557b383eebd7f6ddb36a -> 
+  custom:scripting/monoscript/fileName/DefaultApiRequests.cs: 0c40f474d191c79755786a315c4d3837 -> 
+  custom:scripting/monoscript/fileName/CreateChangelistDialog.cs: 386b03e27c951c5f1d63daf7aae486ca -> 
+  custom:scripting/monoscript/fileName/HistoryListViewMenu.cs: 29770348599c8d5473b78d72e5741b40 -> 
+  custom:scripting/monoscript/fileName/NetworkHandler.cs: 31714251feae50ccd176b841dbb4f84e -> 
+  custom:scripting/monoscript/fileName/CoreMetrics.cs: ba96eafc8557f10e49a5a2dab28be8c2 -> 
+  custom:scripting/monoscript/fileName/FilterRulesConfirmationDialog.cs: 9c91c6c91f20e6d013a753f32343b327 -> 
+  custom:scripting/monoscript/fileName/PlatformSupportUiHelper.cs: c2fb091feeb92fc6d04201e72415cd6f -> 
+  custom:scripting/monoscript/fileName/ChangesetsSelection.cs: 8b9d539af9f7e269bac4e3d79e9ffab8 -> 
+  custom:scripting/monoscript/fileName/CommandManager.cs: ab1c0ec3b83395eb173333cc7705c10a -> 
+  custom:scripting/monoscript/fileName/SessionTokenRequest.cs: e551110361ae2242296355e5b4792233 -> 
+  custom:scripting/monoscript/fileName/HttpBase.cs: d0198ca3c3839eec17c409a3b9a43a72 -> 
+  custom:scripting/monoscript/fileName/IConfigurationProvider.cs: af9003c2ff2e581cf6d2023a9420f4ca -> 
+  custom:scripting/monoscript/fileName/AssetPostprocessor.cs: 96208057b904410715a8df295ba4f8f4 -> 
+  custom:scripting/monoscript/fileName/IMetricsFactory.cs: fde5d2b8b6a1babbe7e5508a35a60c95 -> 
+  custom:scripting/monoscript/fileName/GenerateCodeResponse.cs: c9de36e937d50b48b49fe23f5b73dab0 -> 
+  custom:scripting/monoscript/fileName/AppleGameCenterConfig.cs: 3fc356fc865be691659b07b088a01464 -> 
+  custom:scripting/monoscript/fileName/ChannelToken.cs: 749f097d0aecdba9e5864aa66e7c548d -> 
+  custom:scripting/monoscript/fileName/CommandID.cs: 61d42dcb5cbd38a88116d0d0042b4056 -> 
+  custom:scripting/monoscript/fileName/IsResolved.cs: 9de9e3ff6e27370b261e01506de8b191 -> 
+  custom:scripting/monoscript/fileName/SettingsUtils.cs: 1786d4712156319820f2e77b6b75c753 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectUiConstants.cs: 1d3bd9a52471c7a484b82396440177cc -> 
+  custom:scripting/monoscript/fileName/ValidationErrorBody.cs: ff4ea4112ff8dbb64cb491709634c040 -> 
+  custom:scripting/monoscript/fileName/LocalStatusCache.cs: 30974ea30517fbfd1b93153f6c849a76 -> 
+  custom:scripting/monoscript/fileName/ServiceFlagRequest.cs: 81cbfe44ade2ec4f46d5579d02db90c8 -> 
+  custom:scripting/monoscript/fileName/RepositoryExplorerDialog.cs: eea34924da79ad7254f3e141a891c78d -> 
+  custom:scripting/monoscript/fileName/HttpRequest.cs: 3508ab991551d932212a8756f1c3b863 -> 
+  custom:scripting/monoscript/fileName/ValidationResult.cs: 12d4a9b1790e80408d1518f479a1a01f -> 
+  custom:scripting/monoscript/fileName/Diagnostic.cs: 503142f1f611f7271fbef4493b0ca75d -> 
+  custom:scripting/monoscript/fileName/HttpListenerPrefixCollection.cs: 5e6d557b97701fc1742981a5be6e225f -> 
+  custom:scripting/monoscript/fileName/IAuthenticationSettings.cs: 664eebda2433df53de4e77c436d403f6 -> 
+  custom:scripting/monoscript/fileName/HttpServiceConfig.cs: a19e8b39679e0da2413fb1719624f1f2 -> 
+  custom:scripting/monoscript/fileName/HelpLinkData.cs: 298f428470bd6f0a46823cad390bf0d6 -> 
+  custom:scripting/monoscript/fileName/WorkspaceWindow.cs: b042f06133312d3bfed176231d97d77c -> 
+  custom:scripting/monoscript/fileName/EditorValueTracker.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceFlagEnabler.cs: ed4b01161596daf6c007c5cb985797df -> 
+  custom:scripting/monoscript/fileName/UnityProjectV1.cs: 33ee54c3546ae8cbce557ab2aca1756e -> 
+  custom:scripting/monoscript/fileName/ProjectConfigurationBuilderHelper.cs: f79e2dec68c2a8a55186a3fd4274546b -> 
+  custom:scripting/monoscript/fileName/ProjectState.cs: 5da9c4bc1768108d8af5cc6cbfdc9de1 -> 
+  custom:scripting/monoscript/fileName/FilesFilterPatternsMenuBuilder.cs: cf716a8d336c8113475a9ca67a799ec1 -> 
+  custom:scripting/monoscript/fileName/UnityServicesInternal.cs: 5ea85354f5b78172e34fac25411fe7cf -> 
+  custom:scripting/monoscript/fileName/PreserveDependencyAttribute.cs: 7b33b3b969409f6a38fb0affb51f2db7 -> 
+  custom:scripting/monoscript/fileName/IUnityThreadUtils.cs: 09e8ec6b5955782b75f75b287fbd41f1 -> 
+  custom:scripting/monoscript/fileName/ExponentialBackOffRetryPolicy.cs: 51ccc73866dbb9c2cd00659c0688b549 -> 
+  custom:scripting/monoscript/fileName/ValidationErrorResponse.cs: 7d498620e218ea7d08c6acc5721d419d -> 
+  custom:scripting/monoscript/fileName/RunScriptArguments.cs: 14128d9ba707dba082d34c11d474d304 -> 
+  custom:scripting/monoscript/fileName/IConfigurationLoader.cs: 2906069c8520611bdd1356369b0a29f4 -> 
+  custom:scripting/monoscript/fileName/IWire.cs: 30c1d87985bae6279501282a5e19ad84 -> 
+  custom:scripting/monoscript/fileName/PlayerInfo.cs: fe010831bf2eea394cc23e762c8b1ca9 -> 
+  custom:scripting/monoscript/fileName/HttpUtilities.cs: ccb29552bcf392fd78f8c10c82be7f1f -> 
+  custom:scripting/monoscript/fileName/HistoryListViewItem.cs: 96f2b67ec620b83e35d13f11877e1ac1 -> 
+  custom:scripting/monoscript/fileName/UnityGetEnvironments200Response.cs: 337f99d16b0b96efb2206d69acad4db0 -> 
+  custom:scripting/monoscript/fileName/UnityListProjects200Response.cs: 428e859b4396ae3112aa4ecacae32fbf -> 
+  custom:scripting/monoscript/fileName/RemoteStatusCache.cs: 402d5663f3675e9324c129274b0c00f2 -> 
+  custom:scripting/monoscript/fileName/HttpUtility.cs: 06a7b1431cfcb1d650b802a7c042c48d -> 
+  custom:scripting/monoscript/fileName/EditorWindowFocus.cs: f258b0cf85078a7435d001e522d5e8e3 -> 
+  custom:scripting/monoscript/fileName/CorePackageInitializer.cs: 829d217bce271cb9c1fa63d564b476ec -> 
+  custom:scripting/monoscript/fileName/IPlayerName.cs: ba66ec6098d77e1400c48b4442573e06 -> 
+  custom:scripting/monoscript/fileName/EnumExtensions.cs: 872fcb89b813d64606e680211dede528 -> 
+  custom:scripting/monoscript/fileName/OperatePackageVersionConfigProvider.cs: 67b4bf8d5d449d0353b963ad0e103a72 -> 
+  custom:scripting/monoscript/fileName/EnvironmentNotFoundException.cs: 8f8ecf9219a7a93736afa67d923d561a -> 
+  custom:scripting/monoscript/fileName/NewIncomingChanges.cs: fc48261878ef7e4b956e7172f5803aee -> 
+  custom:scripting/monoscript/fileName/IEnvironmentsApi.cs: 10309d62b29707db950e5d0457e82d84 -> 
+  custom:scripting/monoscript/fileName/AuthenticationErrorCodes.cs: d35b659cb68ad1aa80617a2680988fe5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/DependencyTreeInitializeOrderSorter.cs: 398a0f081d411379f31bc2eb52bbbd21 -> 
+  custom:scripting/monoscript/fileName/UnityIncomingChangesTree.cs: 5fc1be06a74c9c81fa2ac48c398d9be3 -> 
+  custom:scripting/monoscript/fileName/UnityDiffTree.cs: 1029ffd567bc0e646e6b119719dcb2ff -> 
+  custom:scripting/monoscript/fileName/UserRoleRequest.cs: ec15cd6950c1f795ee59736c71998788 -> 
+  custom:scripting/monoscript/fileName/TreeHeaderSettings.cs: 662b1714c0fce36da72bbfe60201987a -> 
+  custom:scripting/monoscript/fileName/SearchLocks.cs: f40ae73b301d84efae1a6385552c43ff -> 
+  custom:scripting/monoscript/fileName/UnityConstants.cs: 0c04c1eb6edefcf789dce2e0ce87bda9 -> 
+  custom:scripting/monoscript/fileName/IApiClient.cs: ab8bee823793f486a21c09059465c539 -> 
+  custom:scripting/monoscript/fileName/IsExeAvailable.cs: 4a3dbc5ded94087064afd97407f26631 -> 
+  custom:scripting/monoscript/fileName/TokenExchange.cs: bbd1ed03e8e3970b0887123f043469e1 -> 
+  custom:scripting/monoscript/fileName/HttpRequestExtensions.cs: 35b1178ed1fd55cb1029b0abb50d01fc -> 
+  custom:scripting/monoscript/fileName/IdProviderRegistry.cs: f5d455ad317e9aeccad9932dd9666130 -> 
+  custom:scripting/monoscript/fileName/ApiRequestOptions.cs: 9a118c2bc1ecd9fc1d354a37ab0a64e4 -> 
+  custom:scripting/monoscript/fileName/UnityGetUserPermissions200Response.cs: 7fdf29503cc5301312d984f2af06eb45 -> 
+  custom:scripting/monoscript/fileName/BackoffStrategy.cs: 32c3ef9b4af98620a93e5c82ba2327d5 -> 
+  custom:scripting/monoscript/fileName/EnvironmentIdentifier.cs: 39ee00a0ac13884055f18f6371bacd6d -> 
+  custom:scripting/monoscript/fileName/EnvironmentsConstants.cs: 24e9760363ef695978ba684e5d610a82 -> 
+  custom:scripting/monoscript/fileName/CircularDependencyException.cs: d18ff671dcc1259992ffc320a2699238 -> 
+  custom:scripting/monoscript/fileName/IReadOnlyObservable.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AutoLogin.cs: cac363a2d5471994de278e71f937b032 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/UpdateReportLineListViewItem.cs: 9f63395e1ea590dbbab4d59cd0032ac4 -> 
+  custom:scripting/monoscript/fileName/DrawSplitter.cs: d2f114a8e8e4167f7762d835a83b2f55 -> 
+  custom:scripting/monoscript/fileName/ProjectBindRedirectPopupUI.cs: e3fb92bd3ee82c9407053c4d3860bb4f -> 
+  custom:scripting/monoscript/fileName/LaunchDependenciesDialog.cs: 2cabf22eb95430074b6c730a84e03493 -> 
+  custom:scripting/monoscript/fileName/TelemetryConfig.cs: 34986dd8a09f1cdee5ec6f840e0360ec -> 
+  custom:scripting/monoscript/fileName/CredentialsResponse.cs: 3dd2507693e56dac75ee7783f598cbb9 -> 
+  custom:scripting/monoscript/fileName/AccessTokenComponent.cs: d4d4c661bc66fd2b56646e47d869d7cb -> 
+  custom:scripting/monoscript/fileName/CloudEnvironmentConfigProvider.Gen.cs: 5a0c9bc3528e508605862cace6052ab9 -> 
+  custom:scripting/monoscript/fileName/WebSocketFrame.cs: 368e30db4f4d181d88cc629b6e1f9672 -> 
+  custom:scripting/monoscript/fileName/ScheduledInvocationComparer.cs: 83106d0c8c6b049feeaa7bc89351f333 -> 
+  custom:scripting/monoscript/fileName/LaunchDiffOperations.cs: 20e85a96a5926a180bb53a2abca68aa4 -> 
+  custom:scripting/monoscript/fileName/ExternalUserId.cs: 838ec18be418bafff07b93f14174c00c -> 
+  custom:scripting/monoscript/fileName/AuthenticationAdminClient.cs: 530dbc976b0a511266667fec46709199 -> 
+  custom:scripting/monoscript/fileName/LinkFileGenerator.cs: 51b5323d52299fec9236d04721b91f22 -> 
+  custom:scripting/monoscript/fileName/ExternalIdentity.cs: e65ed5083b38f434db0732cf65b27f0d -> 
+  custom:scripting/monoscript/fileName/PlasticSplitterGUILayout.cs: 111849f67dfbfea65ad2a9298ad1654d -> 
+  custom:scripting/monoscript/fileName/DefaultApi.cs: 1d4ada5f7be42c3459105e8a4ff7befa -> 
+  custom:scripting/monoscript/fileName/TelemetryUtils.cs: d398f29a6d6023dcca33df6296fb5095 -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorAnalytics.cs: d815f95387a4ffed4472fec2c8db79af -> 
+  custom:scripting/monoscript/fileName/EnvironmentAnalytics.cs: df86ce352df40dfa102b41458fb9f770 -> 
+  custom:scripting/monoscript/fileName/WebSocketException.cs: edcd3fa0b9a7ec8763c45351c868a994 -> 
+  custom:scripting/monoscript/fileName/CheckinDialogOperations.cs: d032d69e8060311c06b88286e8f22ddd -> 
+  custom:scripting/monoscript/fileName/ServiceRegistry.cs: 9f2f77edf09fc4d5ffdc5ae250d852d2 -> 
+  custom:scripting/monoscript/fileName/EnvironmentAnalyticsSender.cs: 8bcdd72c4f4f7ba6fed9617ecb7e992f -> 
+  custom:scripting/monoscript/fileName/ReadOnlyHttpResponse.cs: cb67b795f50400334c6da0e8ef76361d -> 
+  custom:scripting/monoscript/fileName/ScheduledInvocation.cs: 6dd46403260fc3e01309ae7e636c0e8a -> 
+  custom:scripting/monoscript/fileName/UnityProjectNotLinkedException.cs: fffb6126e50500c8c570125732d06308 -> 
+  custom:scripting/monoscript/fileName/CookieCollection.cs: 11c5ce8fb7bc8bb2ab0fc03f2602ca3b -> 
+  custom:scripting/monoscript/fileName/LinkWithSteamRequest.cs: be69ace4f698ae4fd64bfe0d6df06705 -> 
+  custom:scripting/monoscript/fileName/Error.cs: d23f2105b39d563ffe3df04b62877a7d -> 
+  custom:scripting/monoscript/fileName/IPlayerAccountService.cs: 6c6700fe321ef49076fb1c9df0aa1a53 -> 
+  custom:scripting/monoscript/fileName/LinkWithOculusRequest.cs: 0097546a65d45b69945f7cde6df6f6f6 -> 
+  custom:scripting/monoscript/fileName/PendingChangesViewMenu.cs: 9b0019b6df6bb14eb3a2dbafa53fb54b -> 
+  custom:scripting/monoscript/fileName/ServicesInitializationException.cs: 905c414eaf6bb9e99e87b7be57e80385 -> 
+  custom:scripting/monoscript/fileName/DateTimeWrapper.cs: 1718203501f270a020e6b6f60ad1f61a -> 
+  custom:scripting/monoscript/fileName/PingResult.cs: e2b48c05b94838e02e431e521b9474b7 -> 
+  custom:scripting/monoscript/fileName/CoreRegistry.cs: f8cefd7d8b5109f3c61c0ba5ed06a2ed -> 
+  custom:scripting/monoscript/fileName/AssetsSelection.cs: 0227d7ff4d5687932d10967a945a9b06 -> 
+  custom:scripting/monoscript/fileName/Configuration.cs: b46a1fd5a0233571c444c3fa97be0fb3 -> 
+  custom:scripting/monoscript/fileName/ProductionTokenExchangeUrls.cs: d51f7b5f35d9e0171f3c69e63ce67736 -> 
+  custom:scripting/monoscript/fileName/EnumPopupSetting.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/InvalidJwtException.cs: 44c6d327479bc7179514ecd464e65b5b -> 
+  custom:scripting/monoscript/fileName/PlasticConnectionMonitor.cs: 920e8e381bfc94da8bb69d336dda57ca -> 
+  custom:scripting/monoscript/fileName/IProjectStateRequest.cs: 27b27df4e3b68078a5908d7df6fce95f -> 
+  custom:scripting/monoscript/fileName/HistoryListHeaderState.cs: a87e0364d14866c369ad50d669bdfa85 -> 
+  custom:scripting/monoscript/fileName/IEditorGameServiceEnabler.cs: 9ba91e68464ed1031653bae083d9cbd8 -> 
+  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: b1721e471183956468462f6b64901640 -> 
+  custom:scripting/monoscript/fileName/AssetsPath.cs: e0e986124adc46d913f0683c34b88c9f -> 
+  custom:scripting/monoscript/fileName/MetaPath.cs: 417a84eb354831f828a6752b26c8592d -> 
+  custom:scripting/monoscript/fileName/AuthenticationWebRequestUtils.cs: ccbc2518c41f11c6950ec9367145e63d -> 
+  custom:scripting/monoscript/fileName/AuthenticationResponse.cs: 37acbaa43f939ab6f3d5d88f07a6a588 -> 
+  custom:scripting/monoscript/fileName/XmlLinkedType.cs: 879123e42892f87010bef78e341312d0 -> 
+  custom:scripting/monoscript/fileName/CredentialsUIImpl.cs: dbacf67c37819fd95562fe169e706732 -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettings.cs: 647b269b730301254a80170cfe4643c8 -> 
+  custom:scripting/monoscript/fileName/HttpBasicIdentity.cs: 2d55f63864e47e6b0d9179b3630d5794 -> 
+  custom:scripting/monoscript/fileName/ChangesetsViewMenu.cs: 7d1a2de81910b5990e71a0bfff26fdca -> 
+  custom:scripting/monoscript/fileName/UnityPlasticGuiMessage.cs: 24eef0792e3802809607a7f9d04b8f1d -> 
+  custom:scripting/monoscript/fileName/EnvironmentService.cs: 22bbc46856bf7062678eb8e6e54cf9a2 -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceDashboardHelper.cs: ea8538090dcae2327f4c15e2ca056258 -> 
+  custom:scripting/monoscript/fileName/Command.cs: 45258c0f6b3b1d66ef953aec47e0d4cf -> 
+  custom:scripting/monoscript/fileName/OrganizationCredentials.cs: 0b123406cadd651e9adc01c85fab5124 -> 
+  custom:scripting/monoscript/fileName/AuthenticationServiceInternal.UsernamePassword.cs: f2320ad47adf55f9875741b342dc3b01 -> 
+  custom:scripting/monoscript/fileName/JwtDecoder.cs: 36240864bf4572a6304d2e9743fbf8d6 -> 
+  custom:scripting/monoscript/fileName/DeserializationException.cs: 7fca25bb80da1379de6583358da51038 -> 
+  custom:scripting/monoscript/fileName/StatusBar.cs: 392933116703b8e69a96dc0b873bf6f1 -> 
+  custom:scripting/monoscript/fileName/Models.cs: 4371e7ade6834e42bf19e294e843cde2 -> 
+  custom:scripting/monoscript/fileName/IsCurrent.cs: dd4e907908609852af07850d28334551 -> 
+  custom:scripting/monoscript/fileName/IdProviderCustomSettingsElement.cs: a830fa6a32d1235546e4f1ce1444a14b -> 
+  custom:scripting/monoscript/fileName/IApiAccessor.cs: eaf638af3f88c56eba1f2e7971ff620a -> 
+  custom:scripting/monoscript/fileName/JsonObject.cs: 78fbc085be5f5e740539f8b80ee8c6ff -> 
+  custom:scripting/monoscript/fileName/ApplyRevertChangeTracker.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AccessTokenExtraClaims.cs: 3553b8c5038ae1b47b855d63b5fa3f50 -> 
+  custom:scripting/monoscript/fileName/CreateIdProviderRequest.cs: e2061cfc81eaadab048d08158b09db81 -> 
+  custom:scripting/monoscript/fileName/CollectionExtensions.Gen.cs: aff9dee80b4292d09c09f3acd69a3289 -> 
+  custom:scripting/monoscript/fileName/TelemetryConfigKeys.cs: a7ad418808e89631b768f5591eaf63b6 -> 
+  custom:scripting/monoscript/fileName/ChangesetFromCollabCommitResponse.cs: ba336e4117e1b7ee28e4c17197bc3d0e -> 
+  custom:scripting/monoscript/fileName/IComponentRegistry.cs: 31dc7d917392108590a76b6f7b8e718f -> 
+  custom:scripting/monoscript/fileName/UsernamePasswordRequest.cs: 7e5780922b805971261793e5a1167fa3 -> 
+  custom:scripting/monoscript/fileName/IEditorGameService.cs: faa7656610bf6f8463e95c403d6c6e6c -> 
+  custom:scripting/monoscript/fileName/HttpDigestIdentity.cs: ee6705ed80bf5387988acdf013d61bf9 -> 
+  custom:scripting/monoscript/fileName/MoveToChangelistMenuBuilder.cs: a90b3e388d3e1316fa104d4c9a03e2d1 -> 
+  custom:scripting/monoscript/fileName/IAuthenticationCache.cs: 4d9ca89ba7e066e3a44a508b8eb66162 -> 
+  custom:scripting/monoscript/fileName/HttpException.cs: 6ebafe55504c5d3623def5ffdfba9939 -> 
+  custom:scripting/monoscript/fileName/LoadingSpinner.cs: 1c13cf7a9498073806920e71757dfeda -> 
+  custom:scripting/monoscript/fileName/ClientInfo.cs: 8bea7a6905ff2d4df3d13f724824089e -> 
+  custom:scripting/monoscript/fileName/IPackageRegistry.cs: 7ed9d4b5a0ae537ff629f057cfa10e76 -> 
+  custom:scripting/monoscript/fileName/Multimap.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/WebRequest.cs: 79c4b584cc33bcac064057434cba8d30 -> 
+  custom:scripting/monoscript/fileName/BranchesTab.cs: 57c33f76c527a5aba4d269245ffff188 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSettings.cs: e2b98ee836b42374bfa16506e47055ce -> 
+  custom:scripting/monoscript/fileName/HelpLink.cs: f129aa05dc3840d5bd4f2e0d111189db -> 
+  custom:scripting/monoscript/fileName/WebSocket.cs: 1a9044a27a563027f4d0bc83f3582947 -> 
+  custom:scripting/monoscript/fileName/ResponseStream.cs: 534effc52e6c1b92ac06938cf2845570 -> 
+  custom:scripting/monoscript/fileName/ToolConfig.cs: fcffc3165b047f54ed6ccafa4c8760dd -> 
+  custom:scripting/monoscript/fileName/DropDownTextField.cs: c8fc484ce140049ff31ebc2c6cbebf28 -> 
+  custom:scripting/monoscript/fileName/IAnalyticsStandardEventComponent.cs: cf50b12809cbeb8dcfefaee612a9c090 -> 
+  custom:scripting/monoscript/fileName/AssetsProcessor.cs: 18737889e95cd4088e8dfd4153fa8f40 -> 
+  custom:scripting/monoscript/fileName/IUnityWebRequestSender.cs: d9b4989e6dc6b90425bccd7306f59d0e -> 
+  custom:scripting/monoscript/fileName/DiagnosticsHandler.cs: 20c8b61d3e3e35194f4a9104f0435070 -> 
+  custom:scripting/monoscript/fileName/DrawActionButton.cs: 81e6708d2b8fa199354e53f85db731a8 -> 
+  custom:scripting/monoscript/fileName/ServiceProvider.Gen.cs: fb28411e62c1911933783faa92ae27e4 -> 
+  custom:scripting/monoscript/fileName/TableViewOperations.cs: bef3a31deb1fe794a90f767d16e4c868 -> 
+  custom:scripting/monoscript/fileName/TelemetryHandler.cs: 9485de402cf5fc3f5849fa4194bac5bd -> 
+  custom:scripting/monoscript/fileName/IChannel.cs: db8ed6536767d05dc3fe7251f4a4dcd3 -> 
+  custom:scripting/monoscript/fileName/IAsyncOperation.cs: f56289e88c7dcb628d7e5619c74e7538 -> 
+  custom:scripting/monoscript/fileName/CloudCodeRateLimitedException.cs: 0032ba0953788f374ea86b0f3f1adcf0 -> 
+  custom:scripting/monoscript/fileName/XmlLinkerModel.cs: d4c2817476b9b278a7b7808d61032596 -> 
+  custom:scripting/monoscript/fileName/UpdateProgress.cs: 281e1e05168d6a30be1d8d2f6200bef8 -> 
+  custom:scripting/monoscript/fileName/CodeLinkConfirmResponse.cs: b976c5903ee9629c4342ec286e462614 -> 
+  custom:scripting/monoscript/fileName/SignInResponse.cs: 58e2a52227b6e8e4b12586b59f28ce25 -> 
+  custom:scripting/monoscript/fileName/Player.cs: f9aa1d60167779cb609507b4121ab171 -> 
+  custom:scripting/monoscript/fileName/ApiException.cs: 02aa5ba039e149716ee5e83594a81068 -> 
+  custom:scripting/monoscript/fileName/SubscriptionDetailsResponse.cs: e5121cec860a6d1097cc809217b3d8fe -> 
+  custom:scripting/monoscript/fileName/EnvironmentServiceExtensions.cs: ac6a6c148393eb9a5f8fb75c98af0cdb -> 
+  custom:scripting/monoscript/fileName/IOrganizationHandler.cs: f8b346f72bb06934d5f47a4eb5bf2f52 -> 
+  custom:scripting/monoscript/fileName/Metrics.cs: ff969a3864869c6435b83c963d65cf34 -> 
+  custom:scripting/monoscript/fileName/DrawProgressForDialogs.cs: a5f2abd8875e7a6afbc171fabfbae81f -> 
+  custom:scripting/monoscript/fileName/ToolbarButton.cs: 47dc767626bbd94d66707af31ddc5eb6 -> 
+  custom:scripting/monoscript/fileName/IVivoxTokenProviderInternal.cs: 8f6eac73831e2d88349c636e0c8277cf -> 
+  custom:scripting/monoscript/fileName/XmlLinkedField.cs: 58331cd1e1b9bc9099ae07f125c40794 -> 
+  custom:scripting/monoscript/fileName/ProjectViewAssetSelection.cs: 2560eadaf6a13a74a46a4a207cd5a8b6 -> 
+  custom:scripting/monoscript/fileName/DrawTreeViewItem.cs: 0921a62a588ab864253743d1f07afb5a -> 
+  custom:scripting/monoscript/fileName/DrawSceneOperations.cs: d87f46f9fb97181a2f51490ea2e1efc3 -> 
+  custom:scripting/monoscript/fileName/IRetryPolicy.cs: 415b0eb656ee55b9a4daa9db657033c7 -> 
+  custom:scripting/monoscript/fileName/Publication.cs: 8584d3f95a753832a2297d339e40d3cb -> 
+  custom:scripting/monoscript/fileName/SubscriptionEventCallbacks.cs: 1f56b6cbcd839b867d8d827543f9bb59 -> 
+  custom:scripting/monoscript/fileName/InstallationId.cs: 5a83a3939f92e5bc55c8a90ccbe27d51 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DrawActionHelpBox.cs: c8f6be9dab1e6f8d71e0c63c29679186 -> 
+  custom:scripting/monoscript/fileName/CloudCodeApi.cs: b6ad0900aeb294f3f4c3363090c11b8d -> 
+  custom:scripting/monoscript/fileName/UnityWebRequestUtils.cs: f709ddaaeb44d62e1a53fe224983d54c -> 
+  custom:scripting/monoscript/fileName/FactoryUtils.cs: a362e0d1d8669d12721d8991317d81e6 -> 
+  custom:scripting/monoscript/fileName/DependencyTree.cs: 0bd2915409b5c0af8089da1663502e47 -> 
+  custom:scripting/monoscript/fileName/PendingChangesMultiColumnHeader.cs: 722de7d6e07a79981d750438e6febb8f -> 
+  custom:scripting/monoscript/fileName/EditorDispatcher.cs: 3c402eae57d73cc54863f3f6a13096ae -> 
+  custom:scripting/monoscript/fileName/WebSocketServer.cs: 2c846abea0f54d1f9e9e7a9fa2f4912e -> 
+  custom:scripting/monoscript/fileName/FileCachePersister.cs: 11e7c2e3490747e4f4381c78d3ff9512 -> 
+  custom:scripting/monoscript/fileName/AsyncOperation.cs: f23cc551eab7049146420a4196093425 -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/IIncomingChangesTab.cs: 9387215e0dc23a2ff26ebec61d0d9f7d -> 
+  custom:scripting/monoscript/fileName/CodeChallengeGenerator.cs: c1cbbc45173840c0311c73c8d8061303 -> 
+  custom:scripting/monoscript/fileName/RequestStream.cs: 4e38e4c6078810dc75812f2c7c694572 -> 
+  custom:scripting/monoscript/fileName/ICachePersister.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/StandaloneBrowserUtils.cs: 37fbe853d847990876bc55459b4afabd -> 
+  custom:scripting/monoscript/fileName/OpenIDConfig.cs: 5e9110ecc925180f61cbf9ac58b68d6f -> 
+  custom:scripting/monoscript/fileName/ServiceInstallationListener.cs: 4f550d886426ad05d9cb021f02f3b5c8 -> 
+  custom:scripting/monoscript/fileName/GetChangesOverlayIcon.cs: d599d6efdee28305661bc0cf6683858a -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsElement.cs: 8d3a16bad4c3a41a27e6331bc8afa6bc -> 
+  custom:scripting/monoscript/fileName/IdProviderElement.cs: 6536e40194fb7c282e118e312f164d27 -> 
+  custom:scripting/monoscript/fileName/UnityAddressV1.cs: 4d4ba30b341c7e72810f3c36b5914fa5 -> 
+  custom:scripting/monoscript/fileName/PlayerAccountService.cs: c965904e21cfc4eaef768e4a06448dc4 -> 
+  custom:scripting/monoscript/fileName/IGatewayTokens.cs: af8d58613a9fd459a444ee8b327072b0 -> 
+  custom:scripting/monoscript/fileName/ConfigurationUtils.cs: e57894058b136700ef3ea680c0b15031 -> 
+  custom:scripting/monoscript/fileName/HttpListenerException.cs: 7e01a211a67d8bff18ed62b622fd18f7 -> 
+  custom:scripting/monoscript/fileName/PackageConfig.cs: 6c65665380cc70d71f22e981e56d92cf -> 
+  custom:scripting/monoscript/fileName/PlayerAccountsErrorCodes.cs: 43b8194c378f655c352ca1eef4f8e9d8 -> 
+  custom:scripting/monoscript/fileName/ChangesetsListView.cs: 87b74e0d80cf59010f55e2baaeb6679d -> 
+  custom:scripting/monoscript/fileName/IInitializablePackage.cs: 7a2afaa327b6f2c8c3b73c00855d936d -> 
+  custom:scripting/monoscript/fileName/UpdateReportListView.cs: 08d26df1ab6c3a7628addc5e54e50b08 -> 
+  custom:scripting/monoscript/fileName/ServerSslConfiguration.cs: 2555ac0af72c276ccb5cc188831dd3c3 -> 
+  custom:scripting/monoscript/fileName/AnalyticsOptionsExtensions.cs: 61b53e23187fa8065622d09b0f304596 -> 
+  custom:scripting/monoscript/fileName/UnityOrganizationMemberV1.cs: 29203c4e087d3ba2203081bd2717405e -> 
+  custom:scripting/monoscript/fileName/UnityConfigurationChecker.cs: 874cd65cce0384fef4b60e71fb08a429 -> 
+  custom:scripting/monoscript/fileName/UnityServices.cs: 53288f4d4ff1211eb125ba005d646505 -> 
+  custom:scripting/monoscript/fileName/CloudCode.cs: 9407581678adf9712b2ad0d4d76dbade -> 
+  custom:scripting/monoscript/fileName/EditorGameServiceAnalyticsSender.cs: f578bf9cf78d5f56704a18cd36c88f9f -> 
+  custom:scripting/monoscript/fileName/IAccessToken.cs: 359704d6f9862ce7f7142f3c9f3827a0 -> 
+  custom:scripting/monoscript/fileName/VisualElementHelper.cs: 0b84949c228ae121ca9bc47ce2ce3ccc -> 
+  custom:scripting/monoscript/fileName/CheckWorkspaceTreeNodeStatus.cs: 1e1255b803bf7cbc935bb804bf0dbe7b -> 
+  custom:scripting/monoscript/fileName/TcpListenerWebSocketContext.cs: 540be559d7627c672b28a73c6796be37 -> 
+  custom:scripting/monoscript/fileName/CloudCodeException.cs: 9734cbe9f380184d0e942394ee079325 -> 
+  custom:scripting/monoscript/fileName/PlasticPlugin.cs: c64561980f26020cc3206ae8b1047268 -> 
+  custom:scripting/monoscript/fileName/ConfirmSignInCodeRequest.cs: 344f0c7918f5f3330e8a52917584f5c1 -> 
+  custom:scripting/monoscript/fileName/EnvironmentSelector.cs: c98b9a09bbd4b5a80fea1f579cd65362 -> 
+  custom:scripting/monoscript/fileName/SwitchModeConfirmationDialog.cs: 30cd71d0b3ee4b2689cde689908d301e -> 
+  custom:scripting/monoscript/fileName/IAnalyticsUserId.cs: c2cc7c28fd557b3f55cdf068b0502818 -> 
+  custom:scripting/monoscript/fileName/IMessageReceivedEvent.cs: 250e26c1f82b8653cae4034c40e103bf -> 
+  custom:scripting/monoscript/fileName/JsonHelpers.cs: 31dc36ee768acf9c93de81f2411f5ee2 -> 
+  custom:scripting/monoscript/fileName/WebSocketServiceHost`1.cs: cb11ec4cf20ebf4cab5372f006d0c784 -> 
+  custom:scripting/monoscript/fileName/UnityCreateEnvironmentRequest.cs: a9b0f13e8545f9920554463818374956 -> 
+  custom:scripting/monoscript/fileName/DefaultCdnConfiguredEndpoint.cs: 624837102d8bef2a2323b0b82727af95 -> 
+  custom:scripting/monoscript/fileName/Reply.cs: 5f2ebb8186a73da01bafd0e23f181be6 -> 
+  custom:scripting/monoscript/fileName/PlasticWindow.cs: fc467478941f610919bc69526ba2c215 -> 
+  custom:scripting/monoscript/fileName/RunModuleResponse.cs: 920d49b9a11202f51ad65c1d1015c18c -> 
+  custom:scripting/monoscript/fileName/ServiceFlagEndpoint.cs: 95ebbb4e72d70a377056cbf3d7a7020c -> 
+  custom:scripting/monoscript/fileName/GUISpace.cs: 8f50176adb72cb92a80e5c8eb8b79a13 -> 
+  custom:scripting/monoscript/fileName/INetworkConfiguration.cs: afb334c9e4c5cb335369ca0285868e02 -> 
+  custom:scripting/monoscript/fileName/EventBinding.Gen.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Scope.Gen.cs: 409412ebac5387d01283cada94af8d59 -> 
+  custom:scripting/monoscript/fileName/IApiConfiguration.cs: b353a4de4e3358ad7f085e6203139418 -> 
+  custom:scripting/monoscript/fileName/BranchesViewMenu.cs: 7bfc83e917c9b0b5aa423bb947ce2a38 -> 
+  custom:scripting/monoscript/fileName/BrowserUtils.cs: 6bc48370d7304756ca4f09b02d6cf80c -> 
+  custom:scripting/monoscript/fileName/CooldownWindowDelayer.cs: 4c95e39c8dd4cfa1bca106097fdb6524 -> 
+  custom:scripting/monoscript/fileName/UnsubscribeResult.cs: 6400b146f52de2fdcabae4f87c668311 -> 
+  custom:scripting/monoscript/fileName/SliderToggleUiHelper.cs: 297bb968c6a98e033483e5885bc5e941 -> 
+  custom:scripting/monoscript/fileName/GetInstallerTmpFileName.cs: d09e0b5c7a9af5874530e17ef23025f0 -> 
+  custom:scripting/monoscript/fileName/GenesisTokenProvider.cs: d987e55d05af32d01fe6f177ed2b74ce -> 
+  custom:scripting/monoscript/fileName/IsCollabProjectMigratedResponse.cs: af2b76c693935deee55cfcaed2aa7568 -> 
+  custom:scripting/monoscript/fileName/AssetModificationProcessor.cs: a602c9e59e7db185e3a0d68d986e6fef -> 
+  custom:scripting/monoscript/fileName/AuthenticationEditorService.cs: d501aef43505f0a38b4d655d6776d06e -> 
+  custom:scripting/monoscript/fileName/AuthenticationSettingsHelper.cs: a467d230cb8a062800440b1a6f1137cd -> 
+  custom:scripting/monoscript/fileName/ITelemetryEvent.cs: 1eb711296be42c74b8bf8ddc50c8fddc -> 
