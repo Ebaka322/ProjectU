@@ -1,0 +1,789 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programm\UNITY\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Playcreate/ProjectU/Level Creation
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50667
+Successfully changed project path to: D:/Playcreate/ProjectU/Level Creation
+D:/Playcreate/ProjectU/Level Creation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23468] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 12871018 [EditorId] 12871018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-745I0C4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23468] Host "[IP] 192.168.0.34 [Port] 0 [Flags] 2 [Guid] 12871018 [EditorId] 12871018 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-745I0C4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path D:/Programm/UNITY/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Playcreate/ProjectU/Level Creation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   NVIDIA
+    VRAM:     3943 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'D:/Programm/UNITY/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programm/UNITY/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programm/UNITY/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programm/UNITY/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005849 seconds.
+- Loaded All Assemblies, in  0.488 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 857ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (177ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.779 seconds
+Refreshing native plugins compatible for Editor in 5.80 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.796 seconds
+Domain Reload Profiling: 1574ms
+	BeginReloadAssembly (220ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (358ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (57.8 KB). Loaded Objects now: 4185.
+Memory consumption went from 137.8 MB to 137.8 MB.
+Total: 4.322600 ms (FindLiveObjects: 0.391900 ms CreateObjectMapping: 0.107600 ms MarkObjects: 3.605000 ms  DeleteObjects: 0.216100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65953.309424 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/blinding_light_spell.png
+  artifactKey: Guid(0b57ce9a1b42d0b40a4ddc51fd3cbb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/blinding_light_spell.png using Guid(0b57ce9a1b42d0b40a4ddc51fd3cbb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ed114d685a3b82e8c06369d7bb0fb9') in 0.107762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.022600 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/water_spell.png
+  artifactKey: Guid(bb03c0b35da54b64eb421f43e40bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/water_spell.png using Guid(bb03c0b35da54b64eb421f43e40bd172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55b75eae9e6e235426774222c87ed40') in 0.016345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007132 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/counterspell.png
+  artifactKey: Guid(71394f0dd5b45004393da1abe8c8c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/counterspell.png using Guid(71394f0dd5b45004393da1abe8c8c9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb19e3b1a61f53dcd8e90bdf4928fe6') in 0.016237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/mana_replenish.png
+  artifactKey: Guid(4669fe28bfcfc164c910cfa1e02a019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/mana_replenish.png using Guid(4669fe28bfcfc164c910cfa1e02a019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d76d5b581b7d7bf5813cba9d1bbface') in 0.021358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/lightning_spell.png
+  artifactKey: Guid(2a29c0cec774ffe43a7845133fecaa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/lightning_spell.png using Guid(2a29c0cec774ffe43a7845133fecaa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909ab1a36e18c1caeddc6391a3e95b99') in 0.017387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/summoning_spell.png
+  artifactKey: Guid(45b880b38d6b28342b22e6fdf88a3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/summoning_spell.png using Guid(45b880b38d6b28342b22e6fdf88a3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75312a51e58c779bb62d3fda5ba88dcf') in 0.019548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/AssetsFoGame/Spells/ice_spell.png
+  artifactKey: Guid(bcdea281f83cc164781ebc5bb33b9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Spells/ice_spell.png using Guid(bcdea281f83cc164781ebc5bb33b9a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56df3fda0efff910a0d14a1a7e7f3ae1') in 0.017397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.614897 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b1.png
+  artifactKey: Guid(17ea70c1dda6d794b85d3148273ba47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b1.png using Guid(17ea70c1dda6d794b85d3148273ba47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cdc41b7e276c4fe7fe8176af179cb2') in 0.039057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b3_black.png
+  artifactKey: Guid(b9e4d8727b206c54d858dca7b66c1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b3_black.png using Guid(b9e4d8727b206c54d858dca7b66c1112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8c77deb97afd55109875b37bd8a988') in 0.019706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b11_black.png
+  artifactKey: Guid(42532988504cfa841ba195d12d59264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b11_black.png using Guid(42532988504cfa841ba195d12d59264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b49ebd5019eec78d02b5e60134a708') in 0.020776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b9.png
+  artifactKey: Guid(9466642abd9c6b548861ffbce76df7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b9.png using Guid(9466642abd9c6b548861ffbce76df7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d77f4d13e059c4046f2736262aeffb0') in 0.021386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b10_16x16.png
+  artifactKey: Guid(fc51db9a1e7d08943b2b45fbc447767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b10_16x16.png using Guid(fc51db9a1e7d08943b2b45fbc447767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef887a648dd371a7402aa3084fe6767a') in 0.024313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b5_16x16.png
+  artifactKey: Guid(3570f05fff54382498564f94530b7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b5_16x16.png using Guid(3570f05fff54382498564f94530b7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75aae96271b4fc0a304e48a04f337b6a') in 0.021563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b7.png
+  artifactKey: Guid(27fa88bf1ba40cd44a8f9775b0008402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b7.png using Guid(27fa88bf1ba40cd44a8f9775b0008402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def14a8df4fd1dea079d896cf375df5b') in 0.021350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b8.png
+  artifactKey: Guid(286a02f6fd36ee044878af6c87885bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b8.png using Guid(286a02f6fd36ee044878af6c87885bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba20f1d03a7ae6c7d6d939bba1884ebf') in 0.020938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b6.png
+  artifactKey: Guid(499563476d6c9cc4497f3b1e0dc031b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b6.png using Guid(499563476d6c9cc4497f3b1e0dc031b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fc290c4fdb4faf9ed7b73c17457676') in 0.022544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b6_16x16.png
+  artifactKey: Guid(2541239eb597cbd4c917334a75078a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b6_16x16.png using Guid(2541239eb597cbd4c917334a75078a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4768833d0439aaf21c585c1e9c66402a') in 0.020185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b10_black.png
+  artifactKey: Guid(d9acb8b69d047ac43ad60dcc97bccdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b10_black.png using Guid(d9acb8b69d047ac43ad60dcc97bccdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69eb420e098d3c1df96cf425c0ac1a0a') in 0.019785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b13.png
+  artifactKey: Guid(ff303a87aadc46d48bb0bd7ce4c1732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b13.png using Guid(ff303a87aadc46d48bb0bd7ce4c1732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced65c0e83831070ce2141b137786bc') in 0.020068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b14_black.png
+  artifactKey: Guid(c8c8d6867ee66b94f95ffaaa10a959d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b14_black.png using Guid(c8c8d6867ee66b94f95ffaaa10a959d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02b355a67cb0debacad05e80a122e79') in 0.022087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b13_black.png
+  artifactKey: Guid(4f268757652bd7e4c995aa16a27a6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b13_black.png using Guid(4f268757652bd7e4c995aa16a27a6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6084a552f5ce2bf7524f7676828e10f') in 0.025661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b11_16x16_black.png
+  artifactKey: Guid(094dd208e1aef8544941ad01a0959499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b11_16x16_black.png using Guid(094dd208e1aef8544941ad01a0959499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164a42a79d02e0a5e1db9c89751435f5') in 0.027458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b14.png
+  artifactKey: Guid(694f6768eb60d9d44aed6ee526ad00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b14.png using Guid(694f6768eb60d9d44aed6ee526ad00f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4329ca15f3661820bea2e39d608a2d4a') in 0.020842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b2_black.png
+  artifactKey: Guid(b05894d0e81a2eb4099eb5832597b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b2_black.png using Guid(b05894d0e81a2eb4099eb5832597b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7509d0506cb5ad6999a1195b066383') in 0.019457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 39.240787 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/sheet.png
+  artifactKey: Guid(e26786560d06d7a409beb69f19bbf745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/sheet.png using Guid(e26786560d06d7a409beb69f19bbf745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f659ae0965d3e3a8f442e303b4cf39') in 0.015562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.019134 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b1.png
+  artifactKey: Guid(17ea70c1dda6d794b85d3148273ba47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b1.png using Guid(17ea70c1dda6d794b85d3148273ba47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389181e3ab76dd9b7ee286ec08dd8a16') in 0.017471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b4_black.png
+  artifactKey: Guid(f7c873e7339ce714683b618921292f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b4_black.png using Guid(f7c873e7339ce714683b618921292f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7955fa0494c65d0f6b8b52007727b71d') in 0.025118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b15_black.png
+  artifactKey: Guid(71a1dc3d44a305e4dae2417a11e01fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b15_black.png using Guid(71a1dc3d44a305e4dae2417a11e01fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf3fb97b9c21469f16d8993cdc8f44d') in 0.019718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b6_black.png
+  artifactKey: Guid(16035eb240771b344ab7fa66e5509510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b6_black.png using Guid(16035eb240771b344ab7fa66e5509510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5ec8ecb48a34ee97d26b2656ece90d') in 0.019325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b10_16x16.png
+  artifactKey: Guid(fc51db9a1e7d08943b2b45fbc447767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b10_16x16.png using Guid(fc51db9a1e7d08943b2b45fbc447767b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e25dc80bf7882c90c530153827589fc') in 0.025345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b5_16x16.png
+  artifactKey: Guid(3570f05fff54382498564f94530b7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b5_16x16.png using Guid(3570f05fff54382498564f94530b7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baf55e476a7809c25ac2b45c4a72379') in 0.021873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b7.png
+  artifactKey: Guid(27fa88bf1ba40cd44a8f9775b0008402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b7.png using Guid(27fa88bf1ba40cd44a8f9775b0008402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64090325653c0c59b3fcab18c6cca135') in 0.022476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b8.png
+  artifactKey: Guid(286a02f6fd36ee044878af6c87885bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b8.png using Guid(286a02f6fd36ee044878af6c87885bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a030154020d647d67d4b7409683be2') in 0.032823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b9_16x16_black.png
+  artifactKey: Guid(86c73ce0e1d0108458f758d34472b223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b9_16x16_black.png using Guid(86c73ce0e1d0108458f758d34472b223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45624fb42109619b3a4590617e5cd9bd') in 0.017007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b7_black.png
+  artifactKey: Guid(88d882c1912b5d0409976208e1a603ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b7_black.png using Guid(88d882c1912b5d0409976208e1a603ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282fa540b3a40ca59c9c499c6ce27dbf') in 0.019585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b13.png
+  artifactKey: Guid(ff303a87aadc46d48bb0bd7ce4c1732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b13.png using Guid(ff303a87aadc46d48bb0bd7ce4c1732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d942448e3364479b87f27db0e458c2') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b14_black.png
+  artifactKey: Guid(c8c8d6867ee66b94f95ffaaa10a959d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b14_black.png using Guid(c8c8d6867ee66b94f95ffaaa10a959d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd661d03220292519cc31915c328d236f') in 0.023132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b13_black.png
+  artifactKey: Guid(4f268757652bd7e4c995aa16a27a6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b13_black.png using Guid(4f268757652bd7e4c995aa16a27a6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec0b056b2755059228151e476e85356') in 0.018627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b11_16x16_black.png
+  artifactKey: Guid(094dd208e1aef8544941ad01a0959499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b11_16x16_black.png using Guid(094dd208e1aef8544941ad01a0959499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3253dfbf3bdce710779eff9a95227ec8') in 0.017677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b15_16x16.png
+  artifactKey: Guid(9e0abb6cf58a5e543b7b343dcd064852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b15_16x16.png using Guid(9e0abb6cf58a5e543b7b343dcd064852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84c2260ad54555c1e728317568c3498') in 0.018689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/AssetsFoGame/Separately/b2_black.png
+  artifactKey: Guid(b05894d0e81a2eb4099eb5832597b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Separately/b2_black.png using Guid(b05894d0e81a2eb4099eb5832597b41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779d30400a0fc37d4fec483d77e1218f') in 0.018931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 32.326551 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye
+  artifactKey: Guid(98a59551a5f867c43bca037bed157483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye using Guid(98a59551a5f867c43bca037bed157483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb9a1075a5fb30641b073f7c9e60f6d') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.423211 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+  artifactKey: Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png using Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e35dfacfce4f217af01367beb3a8c6') in 0.023322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 23.202606 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+  artifactKey: Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png using Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfd095f1af7a47176709e1e6bcfae93') in 0.016649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 50.439284 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png
+  artifactKey: Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png using Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5baa17ac5b43722bee0e4470244612') in 0.018765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 78.796028 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+  artifactKey: Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png using Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba048132f98653be9896425ae7964db') in 0.014774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 25.881788 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+  artifactKey: Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png using Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490e431004d56781285fcc772c277803') in 0.012729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 150.168159 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png
+  artifactKey: Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/Attack3.png using Guid(7e18c61034db14242b95d55b98884cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f456ab42692cb8179d69a1cc2eb84091') in 0.031370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 19.508416 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png
+  artifactKey: Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png using Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b073b13e15f7444c7045a076e0c455') in 0.013472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.298421 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png
+  artifactKey: Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png using Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d85867b5074492c7c6f5c4762ee0cc') in 0.076071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 52.192095 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png
+  artifactKey: Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png using Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9cc42a511f081ab1e381e2c514fce8') in 0.043633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 177.706278 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png
+  artifactKey: Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/projectile_sprite.png using Guid(3e9a02d34bd10094cba81d49b5a9e304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96aa022d5be7669b5809607332bc10c') in 0.031326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 71.123770 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Goblin/Attack3.png
+  artifactKey: Guid(94320bbff3bf413419ae143bed80506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Goblin/Attack3.png using Guid(94320bbff3bf413419ae143bed80506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea393170c0e41933f1dadcb63060b2af') in 0.021116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.417061 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png
+  artifactKey: Guid(b8912daa4a0ab02409eeee5593c27614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/Attack3.png using Guid(b8912daa4a0ab02409eeee5593c27614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e3eebdd8506fe9a0d1c8b0ea8c18a7') in 0.024098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.339245 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat
+  artifactKey: Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat using Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35746566a24163e15a701d1f1bb11847') in 0.190171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.364228 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Attack3.png
+  artifactKey: Guid(2f3598b5a61fb2540a786659fb314fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/Attack3.png using Guid(2f3598b5a61fb2540a786659fb314fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4be130a7db0596c46aad6f6ca0c923') in 0.021273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.745430 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye
+  artifactKey: Guid(93553e52b9de1e74cb72c24d449350e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye using Guid(93553e52b9de1e74cb72c24d449350e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8861d68c9c1f7b2bb2176738de86e264') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.177877 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png
+  artifactKey: Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png using Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c68e746224fa3ac93245fa45a41f50') in 0.018392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.762748 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Goblin/Attack2.png
+  artifactKey: Guid(15e99971b2e27844fbc88137f284c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Goblin/Attack2.png using Guid(15e99971b2e27844fbc88137f284c627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771d5364083fa6a8ffafb73adc66dffd') in 0.015416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.616900 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Skeleton/Attack2.png
+  artifactKey: Guid(9bb7406f6d3e8af428a8745d6ce84864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Skeleton/Attack2.png using Guid(9bb7406f6d3e8af428a8745d6ce84864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76316faa0d2c7b48cf2c69d278acf4df') in 0.017472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.328493 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Mushroom/Attack2.png
+  artifactKey: Guid(9cd1790177bcb61489fe93623b962d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Mushroom/Attack2.png using Guid(9cd1790177bcb61489fe93623b962d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba5baea5bbbb0607cdc12b30ba5161') in 0.018639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 24.184365 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png
+  artifactKey: Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png using Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312fb9054722754c5b413849a09b4ffb') in 0.014134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 63.259203 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png
+  artifactKey: Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.2)/Flying eye/Attack2.png using Guid(f90e396164b00bb42927e8a1c3ced744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f469f5f98567025c1abf359490000e03') in 0.035837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7.294891 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/All Characters.png
+  artifactKey: Guid(82f1dcb84d3918f419c987a18e67340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/All Characters.png using Guid(82f1dcb84d3918f419c987a18e67340f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e9bc4ec2f5b56281392a78065b792') in 0.021433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.962622 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Attack.png
+  artifactKey: Guid(57b8ab731a509454597f06ac87a4d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Attack.png using Guid(57b8ab731a509454597f06ac87a4d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de526d50e7ccf2f40335b73f4b0ccc08') in 0.033179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Flight.png
+  artifactKey: Guid(5efbecb83f2d15840962ac1d0339611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Flight.png using Guid(5efbecb83f2d15840962ac1d0339611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c37e52cbea03d4e04d8d578a102c328') in 0.020838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.281684 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Attack.png
+  artifactKey: Guid(0f70c4dfcccd45c40a991fa1d3787d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Attack.png using Guid(0f70c4dfcccd45c40a991fa1d3787d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9ad8192dcbaf04430c8e1439ca8cc5') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Take Hit.png
+  artifactKey: Guid(a2de7c6b443bfbf4a9dd98c28b5b3da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Take Hit.png using Guid(a2de7c6b443bfbf4a9dd98c28b5b3da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5ef7a4133331f3a067af61dc803cff') in 0.022177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Idle.png
+  artifactKey: Guid(fbfeb029151ba0f4b9602510b4f3adf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Goblin/Idle.png using Guid(fbfeb029151ba0f4b9602510b4f3adf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3353895a8a232fb20bde2a56f415ec') in 0.018904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.503446 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Mushroom/Attack.png
+  artifactKey: Guid(fb8417cd8b8b40f49a83a4fc576be1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Mushroom/Attack.png using Guid(fb8417cd8b8b40f49a83a4fc576be1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063ba74c9acb6288ec249b5277289dd0') in 0.017241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001148 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Attack.png
+  artifactKey: Guid(bad6699c1b9655740b7526d7eeb59129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Attack.png using Guid(bad6699c1b9655740b7526d7eeb59129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0354ab2aa54c301307d3e3bf48562b') in 0.020874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Walk.png
+  artifactKey: Guid(912fb9e3e8982164f8c2f43bc6805f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Walk.png using Guid(912fb9e3e8982164f8c2f43bc6805f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbca92402fbd10f8083d8777433e2e0') in 0.020171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Mushroom/Take Hit.png
+  artifactKey: Guid(ad9444099958d2c4c82bf7ab8440baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Mushroom/Take Hit.png using Guid(ad9444099958d2c4c82bf7ab8440baed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b0a925fb6725196140f4fb274de6a2') in 0.020860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Death.png
+  artifactKey: Guid(e8117ecb4daa9084d8bf4bfeaf173c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Death.png using Guid(e8117ecb4daa9084d8bf4bfeaf173c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5593d10df3e21190c84a8cabc12aec') in 0.019470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012592 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Take Hit.png
+  artifactKey: Guid(52ea275ae07d19e468e56580d128db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Skeleton/Take Hit.png using Guid(52ea275ae07d19e468e56580d128db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eb9928dbdfacf85503cfc593ea7708') in 0.019366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 17.144076 seconds.
+  path: Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Death.png
+  artifactKey: Guid(cc238f5c446c6d94b8ba293ad45b462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AssetsFoGame/Monster_Creatures_Fantasy(Version 1.1)/Flying eye/Death.png using Guid(cc238f5c446c6d94b8ba293ad45b462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d2d6fb13bd5dda02c9d9bfbc746439') in 0.016377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
